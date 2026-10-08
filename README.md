@@ -67,6 +67,7 @@ scripts/analyze_audio.py             timing marks: onset, peak, end
 scripts/make_review_page.py          local audition page for staged candidates
 scripts/apply_review.py              apply exported review decisions
 scripts/build_site.py                build the static browse site into _site/
+scripts/publish_github.sh            create the GitHub repo, push, enable Pages
 site/                                website source (HTML, CSS, JS, cached waveforms)
 planning/                            planned inventories and the regeneration backlog
 tests/                               unittest suite
@@ -92,10 +93,23 @@ Generation is optional and never needed by users.
 - Their `planning/sfx-inventory.json` status is `needs-regeneration`.
 - To fill one: regenerate the item, review it, and build it as above. Then remove it from the backlog.
 
-## Deploying the site
-1. Push to GitHub.
-2. Under **Settings → Pages**, set **Source** to **GitHub Actions**.
-3. Each push to `main` then rebuilds and deploys the site.
+## Publishing to GitHub
+`scripts/publish_github.sh` does the whole publish in one go. It needs the GitHub CLI (`gh auth login`) and a clean, committed `main` branch.
+
+1. Validates the catalogs and runs the tests.
+2. Creates the repository if it doesn't exist.
+3. Adds `origin` and pushes.
+4. Enables GitHub Pages with Source set to GitHub Actions.
+5. Waits for the deploy and prints the site URL.
+
+```bash
+scripts/publish_github.sh             # public repo <you>/SoundDirector
+scripts/publish_github.sh --dry-run   # checks only; shows what would happen
+scripts/publish_github.sh --private --repo my-sounds
+```
+Re-running it is safe, because finished steps are skipped. The full output is saved to `publish.log`.
+
+After that, each push to `main` rebuilds and deploys the site. To set it up by hand instead: push, then under **Settings → Pages** set **Source** to **GitHub Actions**.
 
 ## Contributing
 Code and catalog fixes are welcome on their own. Audio contributions need provenance (source, prompt or method), category, description, tags, a checksum, and a human listening review.

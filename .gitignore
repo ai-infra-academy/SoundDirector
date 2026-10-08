@@ -13,3 +13,6 @@ __pycache__/
 
 # Built static site (python3 scripts/build_site.py)
 _site/
+
+# Publish script log
+publish.log

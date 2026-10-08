@@ -48,6 +48,7 @@ scripts/
   make_review_page.py     # local audition page for staging/
   apply_review.py         # apply exported review decisions
   build_site.py           # static browse site -> _site/
+  publish_github.sh       # one-shot GitHub publish + Pages setup
 schemas/
   asset.schema.json
 planning/
