@@ -22,24 +22,35 @@ python3 -m http.server -d _site 8000       # then open http://localhost:8000
 
 ## Quick start
 ```bash
-git clone --depth 1 <this repo> SoundDirector && cd SoundDirector
+git clone --depth 1 https://github.com/pushkarkumar-dev/SoundDirector.git && cd SoundDirector
 python3 scripts/search_assets.py --skill sound-effects --query "gentle whoosh" --limit 5
 python3 scripts/search_assets.py --skill background-music --mood suspense --max-duration 40
 ```
-Then ask Claude Code something like *"add a soft click to each bullet reveal"* or *"find calm music for this tutorial video"*. It picks up the skills from `.claude/skills/`.
+Then ask Claude Code or OpenCode something like *"add a soft click to each bullet reveal"* or *"find calm music for this tutorial video"*. It picks up the skills from `.claude/skills/`.
 
 Requires Python 3.9+ and nothing else. `ffprobe` and `ffmpeg` are optional: they're used for duration checks on non-WAV files and for timing analysis.
 
 The audio is about 220 MB, so `--depth 1` keeps the clone small.
 
 ## Installation
-- **Project-scoped:** work inside this repo, or copy `.claude/skills/` into your project. Claude Code discovers `.claude/skills/*/SKILL.md` automatically.
-- **Global:** copy or symlink either skill directory into your personal skills folder (currently `~/.claude/skills/`):
-  ```bash
-  ln -s "$PWD/.claude/skills/sound-effects" ~/.claude/skills/sound-effects
-  ln -s "$PWD/.claude/skills/background-music" ~/.claude/skills/background-music
-  ```
-  Each skill works independently. Without `scripts/`, Claude reads the skill's `catalog.json` directly.
+Works with **Claude Code** and **OpenCode**. Both read skills from `~/.claude/skills/`.
+
+```bash
+git clone --depth 1 https://github.com/pushkarkumar-dev/SoundDirector.git
+cd SoundDirector && scripts/install_skills.sh
+```
+The script symlinks both skills into `~/.claude/skills/` and checks that search works from any directory. You can run it again safely. `git pull` updates the installed skills.
+
+Options:
+- `--uninstall`: removes the links.
+- `--dir ~/.config/opencode/skills`: installs into OpenCode's own folder instead.
+- `--copy`: copies the skills instead of linking them. Without the repo's `scripts/` folder, the agent reads `catalog.json` directly.
+
+To confirm the install:
+- **Claude Code:** start a new session and run `/skills`.
+- **OpenCode:** run `opencode debug skill`.
+
+**Project-scoped:** you can skip the install and work inside this repo, or copy `.claude/skills/` into your project. Both tools discover `.claude/skills/*/SKILL.md` automatically. Each skill works on its own.
 
 ## Search options
 `--query`, `--category`, `--tag` (all must match), `--mood` (any), `--min/--max-energy`, `--min/--max-intensity`, `--min/--max-duration`, `--instrumental`, `--loopable`, `--voiceover-friendly`, `--limit`, `--json`, `--catalog <path>`.
@@ -68,6 +79,7 @@ scripts/make_review_page.py          local audition page for staged candidates
 scripts/apply_review.py              apply exported review decisions
 scripts/build_site.py                build the static browse site into _site/
 scripts/publish_github.sh            create the GitHub repo, push, enable Pages
+scripts/install_skills.sh            install both skills for Claude Code / OpenCode
 site/                                website source (HTML, CSS, JS, cached waveforms)
 planning/                            planned inventories and the regeneration backlog
 tests/                               unittest suite

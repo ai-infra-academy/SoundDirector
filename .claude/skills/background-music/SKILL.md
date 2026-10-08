@@ -15,15 +15,17 @@ This skill only **finds and supplies** existing audio files. You (Claude) decide
 - Do not generate new music unless the user explicitly asks for library maintenance.
 
 ## Search
-From the repository root:
+From the repository root, or from any project when the skill is installed globally:
+
+`<skill-dir>` is this skill's directory, as shown when the skill is loaded. For example, it can be `.claude/skills/background-music` in the repo, or `~/.claude/skills/background-music` when the skill is installed globally as a symlink. The `../../..` path follows the symlink back to the cloned repository, so search works from any working directory.
 
 ```bash
-python3 scripts/search_assets.py --skill background-music --mood suspense --max-duration 40 --limit 5
-python3 scripts/search_assets.py --skill background-music --query "calm tutorial electronic" --max-energy 2
-python3 scripts/search_assets.py --skill background-music --category reels --min-energy 4 --json
+python3 <skill-dir>/../../../scripts/search_assets.py --skill background-music --mood suspense --max-duration 40 --limit 5
+python3 <skill-dir>/../../../scripts/search_assets.py --skill background-music --query "calm tutorial electronic" --max-energy 2
+python3 <skill-dir>/../../../scripts/search_assets.py --skill background-music --category reels --min-energy 4 --json
 ```
 
-If the `scripts/` folder is unavailable, read `catalog.json` in this directory directly and filter by `description`, `moods`, `tags`, `energy` and `preferred_content_types`. Check that the file exists before you use it.
+If that path doesn't exist, for example when only this skill directory was copied, read `catalog.json` in this directory directly and filter by `description`, `moods`, `tags`, `energy` and `preferred_content_types`. Check that the file exists before you use it.
 
 Filters: `--category`, `--mood` (repeatable, any), `--tag`, `--min/--max-energy`, `--min/--max-duration`, `--instrumental`, `--loopable`, `--voiceover-friendly`.
 

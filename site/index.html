@@ -97,10 +97,9 @@
     <ol class="steps">
       <li><strong>Get the library.</strong> Clone the repository, or copy its <code>.claude/skills/</code> folder into your project.
         <pre><code id="cloneCmd">git clone &lt;this repository&gt; SoundDirector</code></pre></li>
-      <li><strong>Optional: install globally.</strong> Symlink either skill into your personal skills folder so every project can use it.
-        <pre><code>ln -s "$PWD/SoundDirector/.claude/skills/sound-effects" ~/.claude/skills/sound-effects
-ln -s "$PWD/SoundDirector/.claude/skills/background-music" ~/.claude/skills/background-music</code></pre></li>
-      <li><strong>Ask in plain words.</strong> Claude Code finds the skills and searches by description.
+      <li><strong>Install for Claude Code and OpenCode.</strong> This links both skills into <code>~/.claude/skills</code>, which both tools read, so every project can use them.
+        <pre><code>cd SoundDirector && scripts/install_skills.sh</code></pre></li>
+      <li><strong>Ask in plain words.</strong> Your agent finds the skills and searches by description.
         <pre><code>"Add a soft click to each bullet reveal on these slides"
 "Find calm instrumental music for this 60-second tutorial"</code></pre></li>
       <li><strong>Or search yourself</strong>, with Python 3.9+ and nothing else:

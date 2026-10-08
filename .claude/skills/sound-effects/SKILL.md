@@ -15,15 +15,17 @@ This skill only **finds and supplies** existing audio files. You (Claude) decide
 - Do not generate new sounds unless the user explicitly asks for library maintenance.
 
 ## Search
-From the repository root (or wherever this skill's repo is cloned):
+From the repository root, or from any project when the skill is installed globally:
+
+`<skill-dir>` is this skill's directory, as shown when the skill is loaded. For example, it can be `.claude/skills/sound-effects` in the repo, or `~/.claude/skills/sound-effects` when the skill is installed globally as a symlink. The `../../..` path follows the symlink back to the cloned repository, so search works from any working directory.
 
 ```bash
-python3 scripts/search_assets.py --skill sound-effects --query "gentle whoosh" --limit 5
-python3 scripts/search_assets.py --skill sound-effects --category ui-clicks --max-intensity 2
-python3 scripts/search_assets.py --skill sound-effects --query "success chime" --json
+python3 <skill-dir>/../../../scripts/search_assets.py --skill sound-effects --query "gentle whoosh" --limit 5
+python3 <skill-dir>/../../../scripts/search_assets.py --skill sound-effects --category ui-clicks --max-intensity 2
+python3 <skill-dir>/../../../scripts/search_assets.py --skill sound-effects --query "success chime" --json
 ```
 
-If the `scripts/` folder is unavailable, for example when only this skill directory was installed, read `catalog.json` in this directory directly and filter by `description`, `tags`, `category`, `use_cases` and `intensity`. Check that the file exists before you use it.
+If that path doesn't exist, for example when only this skill directory was copied, read `catalog.json` in this directory directly and filter by `description`, `tags`, `category`, `use_cases` and `intensity`. Check that the file exists before you use it.
 
 Filters: `--category`, `--tag` (repeatable, all must match), `--min/--max-intensity`, `--min/--max-duration`.
 

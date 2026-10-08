@@ -49,6 +49,7 @@ scripts/
   apply_review.py         # apply exported review decisions
   build_site.py           # static browse site -> _site/
   publish_github.sh       # one-shot GitHub publish + Pages setup
+  install_skills.sh       # symlink skills into ~/.claude/skills (Claude Code + OpenCode)
 schemas/
   asset.schema.json
 planning/
