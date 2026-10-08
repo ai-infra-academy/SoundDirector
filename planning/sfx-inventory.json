@@ -1,0 +1,5007 @@
+{
+  "schema_version": "1.0",
+  "skill": "sound-effects",
+  "note": "Planning records only. These are generation candidates, not installed assets.",
+  "items": [
+    {
+      "id": "ui-click-soft-001",
+      "title": "Soft Click",
+      "category": "ui-clicks",
+      "description": "A gentle, muted plastic click for subtle button presses and slide element entrances.",
+      "tags": [
+        "click",
+        "soft",
+        "button",
+        "subtle",
+        "ui"
+      ],
+      "use_cases": [
+        "button press",
+        "slide element appear"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single soft, muted click of a small plastic button pressed lightly, close-miked, dry room, gentle transient, quick decay, mid-high pitch. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-click-wooden-002",
+      "title": "Wooden Click",
+      "category": "ui-clicks",
+      "description": "A warm, organic wooden click suited to calm, natural-feeling interfaces and tutorials.",
+      "tags": [
+        "click",
+        "wood",
+        "warm",
+        "organic",
+        "ui"
+      ],
+      "use_cases": [
+        "button press",
+        "menu select"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "One crisp tap of two small hardwood pieces knocking together, warm hollow resonance, dry close recording, very short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "ui-click-glass-003",
+      "title": "Glass Click",
+      "category": "ui-clicks",
+      "description": "A clean, bright glassy click for premium or modern interface interactions.",
+      "tags": [
+        "click",
+        "glass",
+        "bright",
+        "clean",
+        "ui"
+      ],
+      "use_cases": [
+        "button press",
+        "premium ui"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single delicate tap of a fingernail on a thin glass pane, bright clean transient with a faint high ringing tail, dry studio, no reverb. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "ui-click-tick-004",
+      "title": "Tiny Tick",
+      "category": "ui-clicks",
+      "description": "An extremely small, quiet tick for hover states, fine adjustments, or rapid sequential reveals.",
+      "tags": [
+        "tick",
+        "tiny",
+        "minimal",
+        "hover",
+        "ui"
+      ],
+      "use_cases": [
+        "hover feedback",
+        "fine adjustment"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A tiny, very quiet high-pitched tick like a miniature mechanical detent, extremely short, dry, no resonance. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-click-double-005",
+      "title": "Double Click",
+      "category": "ui-clicks",
+      "description": "Two quick soft clicks in succession for opening items or double-click demonstrations.",
+      "tags": [
+        "click",
+        "double",
+        "open",
+        "mouse",
+        "ui"
+      ],
+      "use_cases": [
+        "open file",
+        "double-click demo"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "Two quick soft plastic clicks in rapid succession about 120 milliseconds apart, identical tone, dry close recording. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-click-plastic-button-006",
+      "title": "Plastic Button Press",
+      "category": "ui-clicks",
+      "description": "A tactile press-and-release of a small plastic button for physical-feeling controls.",
+      "tags": [
+        "button",
+        "press",
+        "release",
+        "tactile",
+        "plastic"
+      ],
+      "use_cases": [
+        "physical control",
+        "device demo"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "dry",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A small plastic push button pressed down then released, two-part tactile click with a slight hollow body, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-click-mouse-007",
+      "title": "Mouse Click",
+      "category": "ui-clicks",
+      "description": "A realistic single computer mouse click for screen-recording tutorials.",
+      "tags": [
+        "mouse",
+        "click",
+        "computer",
+        "tutorial",
+        "screen-recording"
+      ],
+      "use_cases": [
+        "screen recording",
+        "software tutorial"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single realistic computer mouse left-button click, crisp micro-switch snap, close-miked on a desk, dry room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-toggle-on-008",
+      "title": "Toggle On",
+      "category": "ui-clicks",
+      "description": "A bright, upward two-part snap signaling a switch turning on.",
+      "tags": [
+        "toggle",
+        "on",
+        "enable",
+        "switch",
+        "ui"
+      ],
+      "use_cases": [
+        "enable setting",
+        "feature on"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A small digital toggle switching on, quick soft snap followed by a tiny rising high blip, clean, subtle, short decay. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-toggle-off-009",
+      "title": "Toggle Off",
+      "category": "ui-clicks",
+      "description": "A softer, downward snap signaling a switch turning off, paired with Toggle On.",
+      "tags": [
+        "toggle",
+        "off",
+        "disable",
+        "switch",
+        "ui"
+      ],
+      "use_cases": [
+        "disable setting",
+        "feature off"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A small digital toggle switching off, quick soft snap followed by a tiny falling low blip, clean, subtle, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-switch-flip-010",
+      "title": "Switch Flip",
+      "category": "ui-clicks",
+      "description": "A firm mechanical rocker-switch flip for physical on/off moments.",
+      "tags": [
+        "switch",
+        "mechanical",
+        "flip",
+        "rocker",
+        "power"
+      ],
+      "use_cases": [
+        "power on",
+        "physical switch"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single firm flip of a household rocker light switch, solid plastic clack with a slight spring, close-miked, dry room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "ui-key-tap-011",
+      "title": "Keyboard Tap",
+      "category": "ui-clicks",
+      "description": "A single soft keystroke for highlighting typed input or a key press.",
+      "tags": [
+        "keyboard",
+        "key",
+        "tap",
+        "typing",
+        "ui"
+      ],
+      "use_cases": [
+        "key press",
+        "typing highlight"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single keystroke on a quiet laptop keyboard, soft rubber-dome key press, close-miked, dry, no other keys. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-typing-burst-012",
+      "title": "Typing Burst",
+      "category": "ui-clicks",
+      "description": "A short natural burst of typing on a laptop keyboard for code or text-entry scenes.",
+      "tags": [
+        "typing",
+        "keyboard",
+        "burst",
+        "code",
+        "laptop"
+      ],
+      "use_cases": [
+        "code typing",
+        "text entry"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A short natural burst of about eight keystrokes typed on a quiet laptop keyboard at moderate speed, close-miked, dry office room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-key-enter-013",
+      "title": "Enter Key",
+      "category": "ui-clicks",
+      "description": "A slightly heavier keystroke for confirming a command or submitting input.",
+      "tags": [
+        "keyboard",
+        "enter",
+        "confirm",
+        "submit",
+        "key"
+      ],
+      "use_cases": [
+        "submit command",
+        "confirm input"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single slightly heavier press of a large enter key on a mechanical keyboard, solid thock with stabilizer rattle-free bottom-out, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-select-blip-014",
+      "title": "Selection Blip",
+      "category": "ui-clicks",
+      "description": "A short pleasant blip confirming an item has been selected.",
+      "tags": [
+        "select",
+        "blip",
+        "choose",
+        "highlight",
+        "ui"
+      ],
+      "use_cases": [
+        "item selected",
+        "highlight choice"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A very short soft sine-tone blip at a mid-high pitch with a rounded attack and quick decay, clean digital, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-deselect-blip-015",
+      "title": "Deselect Blip",
+      "category": "ui-clicks",
+      "description": "A lower, softer blip for deselecting or cancelling a selection.",
+      "tags": [
+        "deselect",
+        "cancel",
+        "blip",
+        "unselect",
+        "ui"
+      ],
+      "use_cases": [
+        "deselect item",
+        "clear selection"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A very short soft sine-tone blip at a slightly lower pitch with a gentle downward bend, rounded attack, quick decay, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-hover-air-016",
+      "title": "Hover Air Tick",
+      "category": "ui-clicks",
+      "description": "A faint airy tick for cursor hover states and focus highlights.",
+      "tags": [
+        "hover",
+        "focus",
+        "air",
+        "faint",
+        "ui"
+      ],
+      "use_cases": [
+        "hover state",
+        "focus highlight"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A faint airy tick combining a tiny breath of filtered noise with a soft high click, extremely subtle, very short, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-checkbox-check-017",
+      "title": "Checkbox Check",
+      "category": "ui-clicks",
+      "description": "A crisp little tick-and-pop for checking off an item in a list.",
+      "tags": [
+        "checkbox",
+        "check",
+        "list",
+        "done",
+        "ui"
+      ],
+      "use_cases": [
+        "checklist item",
+        "mark complete"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A crisp tiny click immediately followed by a soft rounded pop, like checking a box, clean, subtle, short tail. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-tab-switch-018",
+      "title": "Tab Switch",
+      "category": "ui-clicks",
+      "description": "A quick, light slide-click for switching between tabs or views.",
+      "tags": [
+        "tab",
+        "switch",
+        "view",
+        "navigation",
+        "ui"
+      ],
+      "use_cases": [
+        "switch tabs",
+        "change view"
+      ],
+      "intensity": 1,
+      "attack": "medium",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A quick light sliding click like a small plastic tab sliding into a detent, short swipe of texture ending in a soft click, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-menu-open-019",
+      "title": "Menu Open",
+      "category": "ui-clicks",
+      "description": "A soft upward swish-click for opening a dropdown or context menu.",
+      "tags": [
+        "menu",
+        "open",
+        "dropdown",
+        "expand",
+        "ui"
+      ],
+      "use_cases": [
+        "open menu",
+        "show options"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A soft short upward airy swish ending in a gentle click, like a panel unfolding, clean, subtle, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-menu-close-020",
+      "title": "Menu Close",
+      "category": "ui-clicks",
+      "description": "A soft downward swish-click for closing a dropdown or context menu.",
+      "tags": [
+        "menu",
+        "close",
+        "dropdown",
+        "dismiss",
+        "ui"
+      ],
+      "use_cases": [
+        "close menu",
+        "dismiss options"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A soft short downward airy swish ending in a gentle muted click, like a panel folding away, clean, subtle, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-drag-pickup-021",
+      "title": "Drag Pickup",
+      "category": "ui-clicks",
+      "description": "A light lift sound for picking up an element to drag it.",
+      "tags": [
+        "drag",
+        "pickup",
+        "lift",
+        "grab",
+        "ui"
+      ],
+      "use_cases": [
+        "drag start",
+        "grab element"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A light soft lifting sound, tiny rising airy rustle with a faint plastic tick, like picking up a small card from a table, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-drop-place-022",
+      "title": "Drop Place",
+      "category": "ui-clicks",
+      "description": "A soft settle sound for dropping an element into place.",
+      "tags": [
+        "drop",
+        "place",
+        "settle",
+        "snap",
+        "ui"
+      ],
+      "use_cases": [
+        "drag end",
+        "place element"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A small card or tile set down softly onto a felt surface, gentle low tap with a muted settle, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-slider-scrub-023",
+      "title": "Slider Scrub",
+      "category": "ui-clicks",
+      "description": "A series of fine ratchet ticks for dragging a slider or adjusting a value.",
+      "tags": [
+        "slider",
+        "ticks",
+        "adjust",
+        "value",
+        "ratchet"
+      ],
+      "use_cases": [
+        "adjust value",
+        "slider drag"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A smooth sequence of fine, evenly spaced tiny mechanical ratchet ticks speeding up then slowing, like dragging a precise slider, quiet, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-scroll-wheel-024",
+      "title": "Scroll Wheel",
+      "category": "ui-clicks",
+      "description": "Soft notched mouse-wheel scrolling for scrolling through pages in a tutorial.",
+      "tags": [
+        "scroll",
+        "wheel",
+        "mouse",
+        "notch",
+        "page"
+      ],
+      "use_cases": [
+        "scroll page",
+        "screen recording"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A computer mouse scroll wheel rolled through about ten soft notched clicks, quiet, close-miked, dry desk. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-button-press-deep-025",
+      "title": "Deep Button Press",
+      "category": "ui-clicks",
+      "description": "A deeper, more satisfying press for primary actions like Start or Submit.",
+      "tags": [
+        "button",
+        "deep",
+        "primary",
+        "press",
+        "satisfying"
+      ],
+      "use_cases": [
+        "primary action",
+        "start button"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A satisfying deep button press, soft rounded low thump layered with a clean click, short smooth decay, polished, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-touch-tap-026",
+      "title": "Touchscreen Tap",
+      "category": "ui-clicks",
+      "description": "A subtle glassy tap for mobile app demos and touchscreen interactions.",
+      "tags": [
+        "tap",
+        "touch",
+        "mobile",
+        "screen",
+        "finger"
+      ],
+      "use_cases": [
+        "mobile demo",
+        "app walkthrough"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A fingertip tapping a smartphone glass screen once, soft dull tap with a faint glassy tick, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-snap-align-027",
+      "title": "Snap Align",
+      "category": "ui-clicks",
+      "description": "A tiny magnetic snap for elements aligning to a grid or guide.",
+      "tags": [
+        "snap",
+        "align",
+        "magnet",
+        "grid",
+        "ui"
+      ],
+      "use_cases": [
+        "align element",
+        "grid snap"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A tiny magnetic snap, quick soft metallic click with a very short bright tail, like a small magnet meeting steel, clean, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-panel-expand-028",
+      "title": "Panel Expand",
+      "category": "ui-clicks",
+      "description": "A soft opening slide for expanding an accordion or details panel.",
+      "tags": [
+        "expand",
+        "panel",
+        "accordion",
+        "open",
+        "ui"
+      ],
+      "use_cases": [
+        "expand section",
+        "show details"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.7,
+      "loop_intended": false,
+      "generation_prompt": "A soft smooth sliding sound rising slightly in pitch, like a drawer gliding open on smooth rails, ending gently, clean, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-panel-collapse-029",
+      "title": "Panel Collapse",
+      "category": "ui-clicks",
+      "description": "A soft closing slide for collapsing an accordion or details panel.",
+      "tags": [
+        "collapse",
+        "panel",
+        "accordion",
+        "close",
+        "ui"
+      ],
+      "use_cases": [
+        "collapse section",
+        "hide details"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.7,
+      "loop_intended": false,
+      "generation_prompt": "A soft smooth sliding sound falling slightly in pitch, like a drawer gliding closed on smooth rails, ending with a muted touch, clean, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ui-stylus-tap-030",
+      "title": "Stylus Tap",
+      "category": "ui-clicks",
+      "description": "A light plastic stylus tap on a tablet for annotation and drawing demos.",
+      "tags": [
+        "stylus",
+        "pen",
+        "tablet",
+        "tap",
+        "annotate"
+      ],
+      "use_cases": [
+        "annotation",
+        "drawing demo"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A plastic stylus tip tapping a tablet screen once, small hard tick with a faint hollow body, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-whoosh-soft-001",
+      "title": "Soft Whoosh",
+      "category": "transitions",
+      "description": "A gentle, smooth whoosh for everyday slide transitions without distraction.",
+      "tags": [
+        "whoosh",
+        "soft",
+        "transition",
+        "smooth",
+        "slide"
+      ],
+      "use_cases": [
+        "slide transition",
+        "element fly-in"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A gentle smooth whoosh of air passing by at medium speed, soft rounded onset, filtered noise, subtle and clean, short natural decay. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-whoosh-short-002",
+      "title": "Short Whoosh",
+      "category": "transitions",
+      "description": "A quick, tight whoosh for fast cuts and snappy element entrances.",
+      "tags": [
+        "whoosh",
+        "short",
+        "quick",
+        "snappy",
+        "transition"
+      ],
+      "use_cases": [
+        "quick cut",
+        "snappy entrance"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A very quick tight whoosh of air, fast swell and immediate cut-off, clean filtered noise, no tail. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-whoosh-long-003",
+      "title": "Long Whoosh",
+      "category": "transitions",
+      "description": "An extended sweeping whoosh for slower, more deliberate scene changes.",
+      "tags": [
+        "whoosh",
+        "long",
+        "sweep",
+        "slow",
+        "transition"
+      ],
+      "use_cases": [
+        "section change",
+        "slow reveal"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 2.5,
+      "loop_intended": false,
+      "generation_prompt": "A long smooth whoosh of wind sweeping slowly past, gradual swell to a peak and gentle fade, wide stereo, clean, not loud. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-whoosh-airy-004",
+      "title": "Airy Whoosh",
+      "category": "transitions",
+      "description": "A light, breathy whoosh with a high airy texture for elegant transitions.",
+      "tags": [
+        "whoosh",
+        "airy",
+        "light",
+        "breathy",
+        "elegant"
+      ],
+      "use_cases": [
+        "elegant transition",
+        "title fade"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A light breathy airy whoosh with mostly high-frequency soft noise, like a gentle gust through thin fabric, delicate, smooth fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-whoosh-low-005",
+      "title": "Low Whoosh",
+      "category": "transitions",
+      "description": "A deeper, weightier whoosh for heavier transitions or larger moving elements.",
+      "tags": [
+        "whoosh",
+        "low",
+        "deep",
+        "heavy",
+        "transition"
+      ],
+      "use_cases": [
+        "large element move",
+        "heavy transition"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A deep low whoosh of a large object moving through air, warm low-mid rumble of air, smooth swell and fade, controlled low end, not boomy. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-swipe-fast-006",
+      "title": "Fast Swipe",
+      "category": "transitions",
+      "description": "A crisp, fast swipe for swiping cards, carousels, or slides sideways.",
+      "tags": [
+        "swipe",
+        "fast",
+        "crisp",
+        "carousel",
+        "gesture"
+      ],
+      "use_cases": [
+        "carousel swipe",
+        "card swipe"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A crisp fast swipe like a hand quickly brushing across a smooth surface, short bright swish, clean, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-slide-subtle-007",
+      "title": "Subtle Slide",
+      "category": "transitions",
+      "description": "A barely-there sliding sound for minimal slide-to-slide movement.",
+      "tags": [
+        "slide",
+        "subtle",
+        "minimal",
+        "move",
+        "transition"
+      ],
+      "use_cases": [
+        "minimal transition",
+        "text slide-in"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A very subtle soft slide of a sheet of paper across a smooth desk, quiet, close, smooth, gentle ending. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-sweep-clean-008",
+      "title": "Clean Sweep",
+      "category": "transitions",
+      "description": "A polished, clean sweep with a smooth tonal sheen for modern transitions.",
+      "tags": [
+        "sweep",
+        "clean",
+        "modern",
+        "polished",
+        "transition"
+      ],
+      "use_cases": [
+        "modern transition",
+        "section wipe"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A clean polished sweep of filtered noise with a faint smooth tonal sheen moving from left to right, modern, subtle, smooth decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-zoom-in-009",
+      "title": "Zoom In",
+      "category": "transitions",
+      "description": "A rising, approaching whoosh for zooming into a detail or focus area.",
+      "tags": [
+        "zoom",
+        "in",
+        "rising",
+        "approach",
+        "focus"
+      ],
+      "use_cases": [
+        "zoom into detail",
+        "focus area"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A rising whoosh that approaches and grows brighter and closer, pitch sweeping upward, ending cleanly, smooth, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-zoom-out-010",
+      "title": "Zoom Out",
+      "category": "transitions",
+      "description": "A receding, falling whoosh for zooming out to the big picture.",
+      "tags": [
+        "zoom",
+        "out",
+        "falling",
+        "recede",
+        "overview"
+      ],
+      "use_cases": [
+        "zoom out",
+        "show overview"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A falling whoosh that recedes and grows darker and farther away, pitch sweeping downward, smooth fade, clean. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-fabric-swish-011",
+      "title": "Fabric Swish",
+      "category": "transitions",
+      "description": "A soft cloth swish for organic, human-feeling transitions.",
+      "tags": [
+        "fabric",
+        "cloth",
+        "swish",
+        "organic",
+        "soft"
+      ],
+      "use_cases": [
+        "organic transition",
+        "lifestyle video"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.7,
+      "loop_intended": false,
+      "generation_prompt": "A soft swish of a cotton cloth flicked quickly through the air, natural texture, close-miked, dry room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-page-turn-012",
+      "title": "Page Turn",
+      "category": "transitions",
+      "description": "A single paper page turn for moving to the next section or chapter.",
+      "tags": [
+        "page",
+        "turn",
+        "paper",
+        "book",
+        "next"
+      ],
+      "use_cases": [
+        "next section",
+        "chapter change"
+      ],
+      "intensity": 1,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A single page of a paperback book turned at moderate speed, crisp paper rustle and soft flap, close-miked, quiet room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-card-flip-013",
+      "title": "Card Flip",
+      "category": "transitions",
+      "description": "A quick card flip for flipping flashcards or revealing the back of a tile.",
+      "tags": [
+        "card",
+        "flip",
+        "flashcard",
+        "reveal",
+        "paper"
+      ],
+      "use_cases": [
+        "flashcard flip",
+        "tile reveal"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single playing card flipped quickly over onto a table, quick papery flick and soft tap, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-reverse-swell-014",
+      "title": "Reverse Swell",
+      "category": "transitions",
+      "description": "A reversed swell that builds into the next moment for anticipation.",
+      "tags": [
+        "reverse",
+        "swell",
+        "build",
+        "anticipation",
+        "transition"
+      ],
+      "use_cases": [
+        "pre-reveal build",
+        "lead-in"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A reversed airy swell of soft noise and faint shimmer building smoothly to a sudden clean stop, no impact at the end, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "trans-riser-short-015",
+      "title": "Short Riser",
+      "category": "transitions",
+      "description": "A brief upward pitch riser for leading into a new section.",
+      "tags": [
+        "riser",
+        "rising",
+        "short",
+        "build",
+        "transition"
+      ],
+      "use_cases": [
+        "section lead-in",
+        "build up"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A short smooth riser of filtered noise and a soft rising sine sweep, pitch climbing steadily for two seconds and stopping cleanly, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-downer-short-016",
+      "title": "Short Downer",
+      "category": "transitions",
+      "description": "A brief downward sweep for winding down or exiting a section.",
+      "tags": [
+        "downer",
+        "falling",
+        "sweep",
+        "exit",
+        "transition"
+      ],
+      "use_cases": [
+        "section exit",
+        "wind down"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A short smooth downward sweep of filtered noise and a soft falling sine tone, gentle settling fade, clean, not boomy. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-whoosh-pan-017",
+      "title": "Panning Whoosh",
+      "category": "transitions",
+      "description": "A stereo whoosh that travels from left to right for directional motion.",
+      "tags": [
+        "whoosh",
+        "pan",
+        "stereo",
+        "directional",
+        "motion"
+      ],
+      "use_cases": [
+        "directional move",
+        "left-to-right"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A smooth whoosh that pans across the stereo field from left to right, clean filtered air, medium speed, gentle fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-shimmer-transition-018",
+      "title": "Shimmer Transition",
+      "category": "transitions",
+      "description": "A sparkling, glittery transition for light, positive scene changes.",
+      "tags": [
+        "shimmer",
+        "sparkle",
+        "glitter",
+        "bright",
+        "transition"
+      ],
+      "use_cases": [
+        "positive transition",
+        "highlight change"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A soft sparkling shimmer of tiny high bell-like glints swirling past with a light airy whoosh underneath, delicate, smooth fade, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-digital-wipe-019",
+      "title": "Digital Wipe",
+      "category": "transitions",
+      "description": "A clean digital sweep with fine data texture for tech-themed transitions.",
+      "tags": [
+        "digital",
+        "wipe",
+        "tech",
+        "sweep",
+        "transition"
+      ],
+      "use_cases": [
+        "tech transition",
+        "screen wipe"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A clean digital sweep of filtered noise with fine granular data-like crackle moving across, modern synthetic texture, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-glitch-cut-020",
+      "title": "Soft Glitch Cut",
+      "category": "transitions",
+      "description": "A subtle digital glitch stutter for tech or error-themed cuts, kept gentle.",
+      "tags": [
+        "glitch",
+        "digital",
+        "stutter",
+        "cut",
+        "tech"
+      ],
+      "use_cases": [
+        "tech cut",
+        "error transition"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A brief subtle digital glitch, short stuttering fragments of filtered noise and tiny bit-crushed blips, quiet, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-paper-slide-021",
+      "title": "Paper Slide",
+      "category": "transitions",
+      "description": "Paper sliding across a desk for handmade or document-style transitions.",
+      "tags": [
+        "paper",
+        "slide",
+        "document",
+        "desk",
+        "organic"
+      ],
+      "use_cases": [
+        "document transition",
+        "handmade style"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A sheet of thick paper slid quickly across a wooden desk, smooth papery friction, close-miked, quiet room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-swoosh-double-022",
+      "title": "Double Swoosh",
+      "category": "transitions",
+      "description": "Two quick swooshes for back-and-forth or paired element motion.",
+      "tags": [
+        "swoosh",
+        "double",
+        "back-and-forth",
+        "pair",
+        "motion"
+      ],
+      "use_cases": [
+        "paired motion",
+        "swap elements"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "Two quick clean swooshes of air in succession, the second slightly higher in pitch, smooth filtered noise, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-whoosh-tonal-023",
+      "title": "Tonal Whoosh",
+      "category": "transitions",
+      "description": "A whoosh with a soft pitched tone inside for polished, modern motion graphics.",
+      "tags": [
+        "whoosh",
+        "tonal",
+        "pitched",
+        "modern",
+        "motion-graphics"
+      ],
+      "use_cases": [
+        "motion graphics",
+        "logo-free title move"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A smooth whoosh of air blended with a soft sustained pitched tone that glides upward, clean, modern, gentle fade, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "trans-whip-pan-024",
+      "title": "Whip Pan",
+      "category": "transitions",
+      "description": "A fast whip-pan whoosh for quick camera-style moves between scenes.",
+      "tags": [
+        "whip",
+        "pan",
+        "fast",
+        "camera",
+        "transition"
+      ],
+      "use_cases": [
+        "camera whip",
+        "quick scene change"
+      ],
+      "intensity": 3,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A very fast whip whoosh like a stick swung sharply through air, quick bright swish, tight, clean short tail. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-air-puff-025",
+      "title": "Air Puff",
+      "category": "transitions",
+      "description": "A tiny puff of air for minimal fade-ins and small element appearances.",
+      "tags": [
+        "air",
+        "puff",
+        "minimal",
+        "soft",
+        "fade"
+      ],
+      "use_cases": [
+        "fade in",
+        "small appear"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A tiny soft puff of air, gentle short breath of filtered noise, very quiet, close, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "trans-drop-in-026",
+      "title": "Drop In",
+      "category": "transitions",
+      "description": "A short falling whoosh ending in a soft landing for elements dropping onto the slide.",
+      "tags": [
+        "drop",
+        "fall",
+        "land",
+        "whoosh",
+        "entrance"
+      ],
+      "use_cases": [
+        "element drop-in",
+        "title land"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A short falling whoosh that ends with a soft muted landing tap, like a small cushion dropping onto a sofa, clean, gentle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-pop-out-027",
+      "title": "Pop Out",
+      "category": "transitions",
+      "description": "A quick shrinking swish for elements scaling out or exiting.",
+      "tags": [
+        "pop",
+        "out",
+        "exit",
+        "shrink",
+        "disappear"
+      ],
+      "use_cases": [
+        "element exit",
+        "scale out"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A quick shrinking airy swish ending in a tiny soft pop, pitch falling slightly, clean, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-rise-up-028",
+      "title": "Rise Up",
+      "category": "transitions",
+      "description": "A smooth upward airy lift for elements floating upward or lifting off.",
+      "tags": [
+        "rise",
+        "up",
+        "lift",
+        "float",
+        "airy"
+      ],
+      "use_cases": [
+        "float up",
+        "lift off"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A smooth gentle upward airy lift, soft filtered noise rising in pitch with a faint shimmer, floating feeling, gentle fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-granular-dissolve-029",
+      "title": "Granular Dissolve",
+      "category": "transitions",
+      "description": "A soft grainy dissolve for fading one scene into another.",
+      "tags": [
+        "dissolve",
+        "granular",
+        "fade",
+        "texture",
+        "transition"
+      ],
+      "use_cases": [
+        "cross-dissolve",
+        "scene fade"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 2.5,
+      "loop_intended": false,
+      "generation_prompt": "A soft granular dissolve, fine sandy particles of sound scattering and thinning out into silence, smooth, airy, gentle long fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "trans-spin-whoosh-030",
+      "title": "Spin Whoosh",
+      "category": "transitions",
+      "description": "A rotating whoosh for spinning or rotating elements.",
+      "tags": [
+        "spin",
+        "rotate",
+        "whoosh",
+        "turn",
+        "motion"
+      ],
+      "use_cases": [
+        "rotate element",
+        "spin transition"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A rotating whoosh that circles around, air swirling with a gentle wobble in pitch and pan, like a light object spinning, clean, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-success-chime-001",
+      "title": "Success Chime",
+      "category": "notifications",
+      "description": "A warm, clean two-tone chime confirming success without being loud.",
+      "tags": [
+        "success",
+        "chime",
+        "confirm",
+        "positive",
+        "feedback"
+      ],
+      "use_cases": [
+        "task success",
+        "correct step"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A warm clean two-note rising chime, soft mallet on a small metal bar, gentle attack, smooth ringing decay, short and pleasant, no further melody. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-success-bright-002",
+      "title": "Bright Success",
+      "category": "notifications",
+      "description": "A brighter, sparkling success sound for celebrating a completed goal.",
+      "tags": [
+        "success",
+        "bright",
+        "sparkle",
+        "celebrate",
+        "feedback"
+      ],
+      "use_cases": [
+        "goal achieved",
+        "celebration"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A bright sparkling success sound, three quick rising crystalline tones with a light shimmer tail, clean, cheerful, not loud, no melody beyond the rising tones. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-success-marimba-003",
+      "title": "Marimba Success",
+      "category": "notifications",
+      "description": "A friendly wooden marimba two-note confirmation for approachable educational content.",
+      "tags": [
+        "success",
+        "marimba",
+        "wood",
+        "friendly",
+        "feedback"
+      ],
+      "use_cases": [
+        "quiz correct",
+        "friendly confirm"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "Two soft rising marimba notes struck gently with rubber mallets, warm wooden tone, short natural decay, close and clean. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-progress-finished-004",
+      "title": "Progress Finished",
+      "category": "notifications",
+      "description": "A smooth rising sweep resolving into a soft tone when a progress bar completes.",
+      "tags": [
+        "progress",
+        "complete",
+        "finished",
+        "loading",
+        "feedback"
+      ],
+      "use_cases": [
+        "progress complete",
+        "loading done"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A smooth short rising tonal sweep that resolves into a soft sustained round tone, clean digital, gentle fade, satisfying completion. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-alert-gentle-005",
+      "title": "Gentle Alert",
+      "category": "notifications",
+      "description": "A soft, non-alarming alert tone that draws attention politely.",
+      "tags": [
+        "alert",
+        "gentle",
+        "attention",
+        "soft",
+        "notification"
+      ],
+      "use_cases": [
+        "gentle reminder",
+        "soft attention"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A soft polite alert, a single rounded bell-like tone with a gentle attack and warm smooth decay, calm, not alarming. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-alert-attention-006",
+      "title": "Attention Alert",
+      "category": "notifications",
+      "description": "A clear two-tone alert for important information that needs focus.",
+      "tags": [
+        "alert",
+        "attention",
+        "important",
+        "two-tone",
+        "notification"
+      ],
+      "use_cases": [
+        "important note",
+        "call-out"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A clear two-tone alert, a higher tone then a lower tone, soft square-ish synth tones with rounded edges, clean, attention-getting but not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-error-invalid-007",
+      "title": "Invalid Input",
+      "category": "notifications",
+      "description": "A soft, short buzz for invalid input or a rejected action.",
+      "tags": [
+        "error",
+        "invalid",
+        "buzz",
+        "reject",
+        "feedback"
+      ],
+      "use_cases": [
+        "invalid input",
+        "rejected action"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "dry",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A short soft low buzz, two quick muted low tones, rounded and gentle, signaling invalid input, not harsh, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-error-descending-008",
+      "title": "Soft Error",
+      "category": "notifications",
+      "description": "A gentle descending tone pair indicating something went wrong.",
+      "tags": [
+        "error",
+        "descending",
+        "mistake",
+        "soft",
+        "feedback"
+      ],
+      "use_cases": [
+        "error message",
+        "failed step"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A gentle descending pair of soft rounded tones, mellow sine-like timbre, short smooth decay, signaling a mild error, calm. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-warning-pulse-009",
+      "title": "Warning Pulse",
+      "category": "notifications",
+      "description": "Three soft pulsing tones for caution or warning call-outs.",
+      "tags": [
+        "warning",
+        "caution",
+        "pulse",
+        "tones",
+        "notification"
+      ],
+      "use_cases": [
+        "caution note",
+        "warning call-out"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "Three evenly spaced soft pulsing mid-pitched tones with rounded attacks, cautionary feeling, clean, not alarming. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-message-ping-010",
+      "title": "Message Ping",
+      "category": "notifications",
+      "description": "A light, bubbly ping for a new message or chat notification.",
+      "tags": [
+        "message",
+        "ping",
+        "chat",
+        "new",
+        "notification"
+      ],
+      "use_cases": [
+        "new message",
+        "chat demo"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A light bubbly ping, single short rounded high tone with a tiny upward bend, clean, friendly, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-badge-pop-011",
+      "title": "Badge Pop",
+      "category": "notifications",
+      "description": "A cheerful little pop for a badge or counter appearing.",
+      "tags": [
+        "badge",
+        "pop",
+        "counter",
+        "appear",
+        "notification"
+      ],
+      "use_cases": [
+        "badge appear",
+        "counter update"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A cheerful little pop, soft rounded mouth-pop like transient with a tiny bright tonal tail, clean, short. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-reminder-bell-012",
+      "title": "Reminder Bell",
+      "category": "notifications",
+      "description": "A small desk-bell ding for reminders and scheduled moments.",
+      "tags": [
+        "reminder",
+        "bell",
+        "ding",
+        "desk",
+        "notification"
+      ],
+      "use_cases": [
+        "reminder",
+        "schedule note"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "long",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A single light tap on a small brass desk bell, clear bright ding with a natural ringing decay, close-miked, quiet room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-achievement-sparkle-013",
+      "title": "Achievement Sparkle",
+      "category": "notifications",
+      "description": "A magical sparkle burst for unlocking an achievement or milestone.",
+      "tags": [
+        "achievement",
+        "sparkle",
+        "unlock",
+        "milestone",
+        "reward"
+      ],
+      "use_cases": [
+        "milestone",
+        "achievement unlock"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.8,
+      "loop_intended": false,
+      "generation_prompt": "A magical sparkle burst of many tiny glittering high chimes with a soft airy swell, rising then twinkling away, cheerful, delicate. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-levelup-arpeggio-014",
+      "title": "Level Up Arpeggio",
+      "category": "notifications",
+      "description": "A short synth arpeggio for leveling up or advancing a stage.",
+      "tags": [
+        "levelup",
+        "arpeggio",
+        "advance",
+        "progress",
+        "reward"
+      ],
+      "use_cases": [
+        "level complete",
+        "stage advance"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A short quick rising four-note synth arpeggio with soft rounded tones, clean digital, bright but gentle, ends promptly. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-task-check-015",
+      "title": "Task Check",
+      "category": "notifications",
+      "description": "A satisfying tick-and-chime for checking off a completed task.",
+      "tags": [
+        "task",
+        "check",
+        "done",
+        "complete",
+        "feedback"
+      ],
+      "use_cases": [
+        "task done",
+        "to-do complete"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A crisp soft tick immediately followed by a small clean high chime, satisfying and brief, short ringing decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-upload-complete-016",
+      "title": "Upload Complete",
+      "category": "notifications",
+      "description": "A rising whoosh into a soft chime for completed uploads.",
+      "tags": [
+        "upload",
+        "complete",
+        "rising",
+        "chime",
+        "feedback"
+      ],
+      "use_cases": [
+        "upload done",
+        "file sent"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A short soft upward whoosh that resolves into a single gentle clean chime, smooth, modern, gentle fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-download-start-017",
+      "title": "Download Start",
+      "category": "notifications",
+      "description": "A soft descending blip sequence for starting a download.",
+      "tags": [
+        "download",
+        "start",
+        "descending",
+        "blip",
+        "feedback"
+      ],
+      "use_cases": [
+        "download begins",
+        "file receive"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A soft sequence of three quick descending rounded blips, clean digital, quiet, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-sync-done-018",
+      "title": "Sync Done",
+      "category": "notifications",
+      "description": "A soft circular swirl ending in a click for sync or refresh completion.",
+      "tags": [
+        "sync",
+        "refresh",
+        "done",
+        "swirl",
+        "feedback"
+      ],
+      "use_cases": [
+        "sync complete",
+        "refresh done"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A soft circular swirling whoosh that ends in a gentle confirming click, smooth, clean, modern, short tail. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-info-blip-019",
+      "title": "Info Blip",
+      "category": "notifications",
+      "description": "A neutral, short informational blip for tips and side notes.",
+      "tags": [
+        "info",
+        "tip",
+        "blip",
+        "neutral",
+        "notification"
+      ],
+      "use_cases": [
+        "tip call-out",
+        "side note"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A neutral short informational blip, single soft mid-pitched sine tone with rounded attack and quick fade, clean. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-timer-done-020",
+      "title": "Timer Done",
+      "category": "notifications",
+      "description": "A soft repeating beep pattern signaling a timer has finished.",
+      "tags": [
+        "timer",
+        "done",
+        "beep",
+        "countdown",
+        "notification"
+      ],
+      "use_cases": [
+        "timer end",
+        "time up"
+      ],
+      "intensity": 3,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A soft kitchen-timer style pattern of three pairs of gentle rounded beeps, mid pitch, clean, not shrill. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-countdown-beep-021",
+      "title": "Countdown Beep",
+      "category": "notifications",
+      "description": "A single short beep designed to be repeated for countdowns.",
+      "tags": [
+        "countdown",
+        "beep",
+        "tick",
+        "timer",
+        "sequence"
+      ],
+      "use_cases": [
+        "countdown",
+        "sequence timing"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single short clean beep, soft sine tone at mid pitch with a crisp start and clean stop, quiet, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-confirm-ok-022",
+      "title": "Confirm OK",
+      "category": "notifications",
+      "description": "A short, affirmative two-tone confirmation for OK and Accept actions.",
+      "tags": [
+        "confirm",
+        "ok",
+        "accept",
+        "affirm",
+        "feedback"
+      ],
+      "use_cases": [
+        "accept dialog",
+        "confirm action"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A short affirmative two-tone confirmation, low then higher rounded tone in quick succession, clean, gentle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-cancel-back-023",
+      "title": "Cancel Back",
+      "category": "notifications",
+      "description": "A short neutral downward tone pair for cancel or back actions.",
+      "tags": [
+        "cancel",
+        "back",
+        "dismiss",
+        "neutral",
+        "feedback"
+      ],
+      "use_cases": [
+        "cancel action",
+        "go back"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A short neutral confirmation, higher then lower rounded tone in quick succession, clean, gentle, subdued. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-quiz-correct-024",
+      "title": "Quiz Correct",
+      "category": "notifications",
+      "description": "A friendly bright ding for a correct quiz answer.",
+      "tags": [
+        "quiz",
+        "correct",
+        "answer",
+        "ding",
+        "education"
+      ],
+      "use_cases": [
+        "quiz correct",
+        "right answer"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "medium",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A friendly bright ding, single clear bell tone with a gentle sparkle overtone, clean, positive, smooth decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "notif-quiz-wrong-025",
+      "title": "Quiz Wrong",
+      "category": "notifications",
+      "description": "A soft, kind low tone for a wrong quiz answer without feeling punishing.",
+      "tags": [
+        "quiz",
+        "wrong",
+        "answer",
+        "incorrect",
+        "education"
+      ],
+      "use_cases": [
+        "quiz incorrect",
+        "try again"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A soft kind low double tone, mellow and rounded, gently signaling an incorrect answer, not harsh, not mocking. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-data-pulse-001",
+      "title": "Data Pulse",
+      "category": "tech-ai",
+      "description": "A soft digital pulse suggesting data moving or a signal being sent.",
+      "tags": [
+        "data",
+        "pulse",
+        "digital",
+        "signal",
+        "tech"
+      ],
+      "use_cases": [
+        "data flow",
+        "signal send"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A soft digital pulse, a rounded low-mid synthetic thump with a short bright filtered tail, clean, modern, subtle. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-packet-send-002",
+      "title": "Packet Send",
+      "category": "tech-ai",
+      "description": "A quick upward chirp for a network packet being sent.",
+      "tags": [
+        "network",
+        "packet",
+        "send",
+        "chirp",
+        "tech"
+      ],
+      "use_cases": [
+        "packet sent",
+        "request out"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A quick short upward digital chirp, tiny fast pitch sweep with a crisp start, clean synthetic, very brief. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-packet-receive-003",
+      "title": "Packet Receive",
+      "category": "tech-ai",
+      "description": "A quick downward chirp for a network packet being received.",
+      "tags": [
+        "network",
+        "packet",
+        "receive",
+        "chirp",
+        "tech"
+      ],
+      "use_cases": [
+        "packet received",
+        "response in"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A quick short downward digital chirp, tiny fast falling pitch sweep with a crisp start, clean synthetic, very brief. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-cache-hit-004",
+      "title": "Cache Hit",
+      "category": "tech-ai",
+      "description": "A bright instant blip suggesting a fast cache hit.",
+      "tags": [
+        "cache",
+        "hit",
+        "fast",
+        "blip",
+        "tech"
+      ],
+      "use_cases": [
+        "cache hit",
+        "fast lookup"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A bright instant digital blip, high clean tone with a tiny metallic sparkle, very short, satisfying, crisp. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-cache-miss-005",
+      "title": "Cache Miss",
+      "category": "tech-ai",
+      "description": "A dull, slightly delayed blip suggesting a cache miss and slower lookup.",
+      "tags": [
+        "cache",
+        "miss",
+        "slow",
+        "blip",
+        "tech"
+      ],
+      "use_cases": [
+        "cache miss",
+        "slow lookup"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A dull low digital blip followed by a short quiet searching flutter of tiny ticks, mellow, slightly hesitant feeling. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-startup-blip-006",
+      "title": "Startup Blip",
+      "category": "tech-ai",
+      "description": "A short, clean startup tone for systems booting or apps launching.",
+      "tags": [
+        "startup",
+        "boot",
+        "launch",
+        "power-on",
+        "tech"
+      ],
+      "use_cases": [
+        "app launch",
+        "system boot"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A short clean generic startup tone, soft rising synthetic swell resolving into a warm sustained tone, modern and calm, not resembling any known product sound. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-shutdown-blip-007",
+      "title": "Shutdown Blip",
+      "category": "tech-ai",
+      "description": "A short descending tone for systems powering down.",
+      "tags": [
+        "shutdown",
+        "power-off",
+        "descending",
+        "end",
+        "tech"
+      ],
+      "use_cases": [
+        "power off",
+        "session end"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A short clean generic power-down tone, soft synthetic tone gliding downward and fading out smoothly, calm, not resembling any known product sound. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-ai-thinking-008",
+      "title": "AI Thinking",
+      "category": "tech-ai",
+      "description": "A gentle shimmering computation texture for an AI model processing.",
+      "tags": [
+        "ai",
+        "thinking",
+        "processing",
+        "computation",
+        "shimmer"
+      ],
+      "use_cases": [
+        "ai processing",
+        "model thinking"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A gentle shimmering computation texture, soft cascading tiny digital blips and filtered sparkles swirling at low volume, calm, futuristic, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-ai-response-ready-009",
+      "title": "AI Response Ready",
+      "category": "tech-ai",
+      "description": "A soft resolved tone for an AI response appearing.",
+      "tags": [
+        "ai",
+        "response",
+        "ready",
+        "answer",
+        "tech"
+      ],
+      "use_cases": [
+        "ai answer appears",
+        "chatbot reply"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A soft resolved digital tone, two gentle layered sine tones blooming in with a faint shimmer, warm, clean, short decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-scan-sweep-010",
+      "title": "Scan Sweep",
+      "category": "tech-ai",
+      "description": "A smooth scanning beam sweep for scanning documents or analyzing content.",
+      "tags": [
+        "scan",
+        "sweep",
+        "beam",
+        "analyze",
+        "tech"
+      ],
+      "use_cases": [
+        "document scan",
+        "analysis"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A smooth scanning beam sweep, steady soft synthetic hum that moves across the stereo field with a gentle filter sweep, clean, futuristic. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-hologram-open-011",
+      "title": "Hologram Open",
+      "category": "tech-ai",
+      "description": "A shimmering materialize sound for holographic panels opening.",
+      "tags": [
+        "hologram",
+        "open",
+        "materialize",
+        "futuristic",
+        "ui"
+      ],
+      "use_cases": [
+        "hologram open",
+        "futuristic panel"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A shimmering materialize sound, soft rising digital sparkle with a gentle glassy swell, futuristic, clean, smooth fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-hologram-close-012",
+      "title": "Hologram Close",
+      "category": "tech-ai",
+      "description": "A shimmering dematerialize sound for holographic panels closing.",
+      "tags": [
+        "hologram",
+        "close",
+        "dematerialize",
+        "futuristic",
+        "ui"
+      ],
+      "use_cases": [
+        "hologram close",
+        "panel dismiss"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A shimmering dematerialize sound, soft falling digital sparkle collapsing inward into silence, futuristic, clean. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-glitch-blip-013",
+      "title": "Glitch Blip",
+      "category": "tech-ai",
+      "description": "A tiny, controlled digital glitch for errors or AI hallucination moments.",
+      "tags": [
+        "glitch",
+        "digital",
+        "error",
+        "blip",
+        "tech"
+      ],
+      "use_cases": [
+        "tech error",
+        "glitch effect"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A tiny controlled digital glitch, a few short stuttering bit-crushed blips and a micro burst of static, quiet, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-readout-beeps-014",
+      "title": "Computer Readout",
+      "category": "tech-ai",
+      "description": "A soft sequence of computer readout beeps for data being displayed.",
+      "tags": [
+        "computer",
+        "readout",
+        "beeps",
+        "data",
+        "display"
+      ],
+      "use_cases": [
+        "data display",
+        "stats appear"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A soft sequence of quick computer readout beeps at varied pitches, small clean sine blips at low volume, retro-futuristic, steady rhythm. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-server-spinup-015",
+      "title": "Server Spin Up",
+      "category": "tech-ai",
+      "description": "Server fans and drives spinning up for infrastructure or cloud explanations.",
+      "tags": [
+        "server",
+        "spinup",
+        "fans",
+        "hardware",
+        "cloud"
+      ],
+      "use_cases": [
+        "server start",
+        "infrastructure demo"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A computer server spinning up, cooling fans ramping up smoothly from silence to a steady soft whir with a faint electrical hum, close but not loud. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "tech-disk-seek-016",
+      "title": "Disk Seek",
+      "category": "tech-ai",
+      "description": "Faint hard-drive seek clicks for storage and disk-access explanations.",
+      "tags": [
+        "disk",
+        "storage",
+        "seek",
+        "hardware",
+        "clicks"
+      ],
+      "use_cases": [
+        "disk access",
+        "storage demo"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "Faint mechanical hard drive seek sounds, a few quiet irregular small clicks and a soft spinning whir, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-connection-established-017",
+      "title": "Connection Established",
+      "category": "tech-ai",
+      "description": "A rising two-step tone confirming a connection or link is established.",
+      "tags": [
+        "connection",
+        "connect",
+        "established",
+        "link",
+        "network"
+      ],
+      "use_cases": [
+        "connected",
+        "link established"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A clean rising two-step digital tone with a soft lock-in click at the end, confirming a connection, modern, gentle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-connection-lost-018",
+      "title": "Connection Lost",
+      "category": "tech-ai",
+      "description": "A falling, slightly broken tone for lost connections or offline states.",
+      "tags": [
+        "connection",
+        "lost",
+        "disconnect",
+        "offline",
+        "network"
+      ],
+      "use_cases": [
+        "disconnected",
+        "offline"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A falling digital tone that breaks up into a few soft stuttering fragments and fades, signaling disconnection, gentle, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-lock-secure-019",
+      "title": "Encrypt Lock",
+      "category": "tech-ai",
+      "description": "A solid digital lock sound for encryption or securing data.",
+      "tags": [
+        "lock",
+        "encrypt",
+        "secure",
+        "security",
+        "tech"
+      ],
+      "use_cases": [
+        "encrypt data",
+        "secure lock"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A solid digital lock sound, a crisp mechanical latch click layered with a short low synthetic tone, secure feeling, clean. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-unlock-access-020",
+      "title": "Decrypt Unlock",
+      "category": "tech-ai",
+      "description": "A bright digital unlock sound for decryption or granted access.",
+      "tags": [
+        "unlock",
+        "decrypt",
+        "access",
+        "granted",
+        "security"
+      ],
+      "use_cases": [
+        "access granted",
+        "decrypt"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A bright digital unlock sound, a crisp latch release click followed by a short rising synthetic tone, clean, positive. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-build-complete-021",
+      "title": "Build Complete",
+      "category": "tech-ai",
+      "description": "A crisp completion tone for a successful build or compile.",
+      "tags": [
+        "build",
+        "compile",
+        "complete",
+        "success",
+        "developer"
+      ],
+      "use_cases": [
+        "build success",
+        "compile done"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A crisp short digital completion tone, two soft clean synthetic tones stacked in a pleasant interval with a short shimmer, modern, gentle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-terminal-chars-022",
+      "title": "Terminal Characters",
+      "category": "tech-ai",
+      "description": "Tiny soft blips for text characters appearing in a terminal.",
+      "tags": [
+        "terminal",
+        "characters",
+        "text",
+        "command-line",
+        "typing"
+      ],
+      "use_cases": [
+        "terminal output",
+        "text typewriter"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A rapid stream of tiny soft digital ticks like characters printing on a terminal screen, quiet, even rhythm, dry, synthetic. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-loading-bits-023",
+      "title": "Loading Bits",
+      "category": "tech-ai",
+      "description": "A light, looping-style bubbling of bits for a loading or progress state.",
+      "tags": [
+        "loading",
+        "bits",
+        "progress",
+        "bubbling",
+        "tech"
+      ],
+      "use_cases": [
+        "loading state",
+        "progress bar"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A light steady bubbling of tiny digital bits, soft random high blips at low volume, gentle, unobtrusive, even texture. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-neural-activate-024",
+      "title": "Neural Activate",
+      "category": "tech-ai",
+      "description": "A glowing synthetic bloom for neural network nodes or AI features activating.",
+      "tags": [
+        "neural",
+        "activate",
+        "ai",
+        "network",
+        "glow"
+      ],
+      "use_cases": [
+        "neural network",
+        "ai feature on"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A glowing synthetic bloom, soft electric hum swelling up with a delicate crackle of tiny sparks and a warm sustained tone, futuristic, smooth fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-upload-stream-025",
+      "title": "Upload Stream",
+      "category": "tech-ai",
+      "description": "A rising data stream for uploading files or sending data to the cloud.",
+      "tags": [
+        "upload",
+        "stream",
+        "data",
+        "cloud",
+        "rising"
+      ],
+      "use_cases": [
+        "upload to cloud",
+        "send data"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A rising stream of fast tiny digital blips and filtered noise flowing upward in pitch, smooth, clean, futuristic, ends cleanly. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-download-stream-026",
+      "title": "Download Stream",
+      "category": "tech-ai",
+      "description": "A falling data stream for downloading files or receiving data.",
+      "tags": [
+        "download",
+        "stream",
+        "data",
+        "receive",
+        "falling"
+      ],
+      "use_cases": [
+        "download from cloud",
+        "receive data"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A falling stream of fast tiny digital blips and filtered noise flowing downward in pitch, smooth, clean, futuristic, ends cleanly. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-robot-servo-027",
+      "title": "Robot Servo",
+      "category": "tech-ai",
+      "description": "A small, precise servo motor movement for robotics and automation topics.",
+      "tags": [
+        "robot",
+        "servo",
+        "motor",
+        "mechanical",
+        "automation"
+      ],
+      "use_cases": [
+        "robot move",
+        "automation demo"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A small precise robotic servo motor movement, short smooth whirring motor sound rising then stopping with a tiny mechanical click, clean, close. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-electric-zap-028",
+      "title": "Soft Electric Zap",
+      "category": "tech-ai",
+      "description": "A gentle electric spark for power, energy, or circuit concepts.",
+      "tags": [
+        "electric",
+        "zap",
+        "spark",
+        "circuit",
+        "energy"
+      ],
+      "use_cases": [
+        "circuit demo",
+        "power concept"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A gentle small electric spark zap, short crackle of static with a faint buzzing tail, controlled, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "tech-insight-spark-029",
+      "title": "Insight Spark",
+      "category": "tech-ai",
+      "description": "A bright idea spark for AI insights, tips, or lightbulb moments.",
+      "tags": [
+        "insight",
+        "idea",
+        "spark",
+        "lightbulb",
+        "ai"
+      ],
+      "use_cases": [
+        "insight moment",
+        "key idea"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A bright soft idea spark, a tiny electric twinkle followed by a warm glassy tone blooming and fading, positive, clean. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "tech-biometric-scan-030",
+      "title": "Biometric Scan",
+      "category": "tech-ai",
+      "description": "A short scanning hum and confirm for fingerprint or face recognition demos.",
+      "tags": [
+        "biometric",
+        "scan",
+        "fingerprint",
+        "identity",
+        "security"
+      ],
+      "use_cases": [
+        "identity check",
+        "face scan demo"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A short futuristic scanning hum with a gentle rising filter sweep ending in a soft confirming double blip, clean, modern. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-pop-soft-001",
+      "title": "Soft Pop",
+      "category": "impacts",
+      "description": "A rounded, gentle pop for bubbles, icons, or bullet points appearing.",
+      "tags": [
+        "pop",
+        "soft",
+        "appear",
+        "icon",
+        "emphasis"
+      ],
+      "use_cases": [
+        "icon appear",
+        "bullet emphasis"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A soft rounded pop like a cork gently released from a small bottle, warm, clean, very short, dry. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-thud-low-002",
+      "title": "Low Thud",
+      "category": "impacts",
+      "description": "A soft, controlled low thud for grounding a heavy statement or title.",
+      "tags": [
+        "thud",
+        "low",
+        "heavy",
+        "ground",
+        "emphasis"
+      ],
+      "use_cases": [
+        "title land",
+        "key statement"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A soft controlled low thud like a heavy cushion dropped onto a carpeted floor, warm low-mid weight, tight, no rumble tail. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-accent-bright-003",
+      "title": "Bright Accent",
+      "category": "impacts",
+      "description": "A bright, crisp accent hit for highlighting a key word or number.",
+      "tags": [
+        "accent",
+        "bright",
+        "highlight",
+        "crisp",
+        "emphasis"
+      ],
+      "use_cases": [
+        "highlight keyword",
+        "key number"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A bright crisp accent hit, a short metallic tap layered with a soft high shimmer, clean, punchy but not loud. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-hit-cinematic-subtle-004",
+      "title": "Subtle Cinematic Hit",
+      "category": "impacts",
+      "description": "A restrained cinematic hit for dramatic emphasis in professional videos.",
+      "tags": [
+        "cinematic",
+        "hit",
+        "subtle",
+        "dramatic",
+        "emphasis"
+      ],
+      "use_cases": [
+        "dramatic emphasis",
+        "title card"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "medium",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A restrained cinematic hit, a soft deep drum-like impact with a smooth airy reverb tail, controlled low end, polished, not overwhelming. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-wood-block-005",
+      "title": "Wood Block Tap",
+      "category": "impacts",
+      "description": "A clean wood block tap for rhythmic or playful emphasis.",
+      "tags": [
+        "wood",
+        "block",
+        "tap",
+        "playful",
+        "percussion"
+      ],
+      "use_cases": [
+        "playful emphasis",
+        "rhythmic cue"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single clean tap on a small wooden block percussion instrument, hollow bright knock, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-table-knock-006",
+      "title": "Table Knock",
+      "category": "impacts",
+      "description": "A natural knuckle knock on a desk for grounded, human emphasis.",
+      "tags": [
+        "knock",
+        "table",
+        "knuckle",
+        "desk",
+        "natural"
+      ],
+      "use_cases": [
+        "grounded emphasis",
+        "attention knock"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "Two quick knuckle knocks on a solid wooden desk, natural woody tone, close-miked, dry room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-stamp-approve-007",
+      "title": "Rubber Stamp",
+      "category": "impacts",
+      "description": "A rubber stamp press for approvals, verified facts, or completed checklists.",
+      "tags": [
+        "stamp",
+        "approve",
+        "verified",
+        "rubber",
+        "emphasis"
+      ],
+      "use_cases": [
+        "approved",
+        "verified fact"
+      ],
+      "intensity": 3,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A rubber stamp pressed firmly onto paper on a desk, solid thump with a slight papery slap, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-book-drop-008",
+      "title": "Soft Book Drop",
+      "category": "impacts",
+      "description": "A soft hardcover book set down for definitive points in educational content.",
+      "tags": [
+        "book",
+        "drop",
+        "set-down",
+        "education",
+        "emphasis"
+      ],
+      "use_cases": [
+        "definitive point",
+        "lesson start"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A hardcover book set down flat onto a wooden table from a short height, solid muted slap, close-miked, quiet room, not loud. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-hand-clap-009",
+      "title": "Single Clap",
+      "category": "impacts",
+      "description": "A single natural hand clap for punctuation or celebration.",
+      "tags": [
+        "clap",
+        "hand",
+        "single",
+        "punctuate",
+        "celebrate"
+      ],
+      "use_cases": [
+        "punctuation",
+        "small celebration"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single natural hand clap in a small room, crisp skin transient with a short natural room tail, not loud. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-felt-thump-010",
+      "title": "Felt Thump",
+      "category": "impacts",
+      "description": "A soft felt-mallet thump for gentle, warm emphasis.",
+      "tags": [
+        "thump",
+        "felt",
+        "soft",
+        "warm",
+        "emphasis"
+      ],
+      "use_cases": [
+        "gentle emphasis",
+        "warm accent"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A soft felt mallet thump on a large padded drum, warm muffled low tone, short smooth decay, gentle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "impact-finger-snap-011",
+      "title": "Finger Snap",
+      "category": "impacts",
+      "description": "A crisp finger snap for quick changes or \"just like that\" moments.",
+      "tags": [
+        "snap",
+        "finger",
+        "quick",
+        "crisp",
+        "emphasis"
+      ],
+      "use_cases": [
+        "quick change",
+        "instant result"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single crisp finger snap, close-miked, dry room, clean transient. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-bell-tap-012",
+      "title": "Small Bell Tap",
+      "category": "impacts",
+      "description": "A small, clear bell tap for light emphasis on a point.",
+      "tags": [
+        "bell",
+        "tap",
+        "small",
+        "clear",
+        "emphasis"
+      ],
+      "use_cases": [
+        "light emphasis",
+        "point highlight"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A single light tap on a small clear bell with a soft mallet, bright pure tone, gentle natural decay, quiet room. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-boom-distant-013",
+      "title": "Distant Soft Boom",
+      "category": "impacts",
+      "description": "A distant, softened boom for big-picture moments without heavy low end.",
+      "tags": [
+        "boom",
+        "distant",
+        "soft",
+        "big",
+        "emphasis"
+      ],
+      "use_cases": [
+        "big moment",
+        "scale reveal"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A distant soft boom heard from far away, muffled low rumble with a smooth long natural fade, controlled, not overwhelming. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-text-slam-014",
+      "title": "Soft Text Slam",
+      "category": "impacts",
+      "description": "A tight, punchy slam for bold text appearing on screen, kept tasteful.",
+      "tags": [
+        "text",
+        "slam",
+        "punch",
+        "title",
+        "emphasis"
+      ],
+      "use_cases": [
+        "bold text appear",
+        "title punch"
+      ],
+      "intensity": 3,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A tight punchy slam, a short layered thump and crisp snap with a brief airy tail, polished, punchy but not harsh or distorted. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-metal-ping-015",
+      "title": "Metal Ping",
+      "category": "impacts",
+      "description": "A small, clean metallic ping for precise emphasis.",
+      "tags": [
+        "metal",
+        "ping",
+        "precise",
+        "clean",
+        "emphasis"
+      ],
+      "use_cases": [
+        "precise point",
+        "detail highlight"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "medium",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A small clean metallic ping, a light tap on a thin steel rod, bright clear tone with a smooth shimmering decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-glass-tink-016",
+      "title": "Glass Tink",
+      "category": "impacts",
+      "description": "A delicate glass tink for elegant, subtle emphasis.",
+      "tags": [
+        "glass",
+        "tink",
+        "delicate",
+        "elegant",
+        "emphasis"
+      ],
+      "use_cases": [
+        "elegant highlight",
+        "subtle accent"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A delicate tink of a spoon lightly touching a wine glass once, pure high tone, short gentle ring, quiet. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-bubble-pop-017",
+      "title": "Bubble Pop",
+      "category": "impacts",
+      "description": "A tiny, playful bubble pop for light-hearted reveals.",
+      "tags": [
+        "bubble",
+        "pop",
+        "playful",
+        "light",
+        "emphasis"
+      ],
+      "use_cases": [
+        "playful reveal",
+        "kids content"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A tiny playful bubble pop, a small wet blip with a quick upward pitch flick, clean, very short. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-tom-hit-018",
+      "title": "Soft Tom Hit",
+      "category": "impacts",
+      "description": "A single soft floor-tom hit for grounded rhythmic emphasis.",
+      "tags": [
+        "tom",
+        "drum",
+        "hit",
+        "soft",
+        "percussion"
+      ],
+      "use_cases": [
+        "rhythmic emphasis",
+        "beat accent"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A single soft hit on a floor tom drum with a felt mallet, warm round low tone, natural short decay, close-miked. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "impact-string-pluck-019",
+      "title": "String Pluck",
+      "category": "impacts",
+      "description": "A single plucked string note for warm, human emphasis.",
+      "tags": [
+        "pluck",
+        "string",
+        "warm",
+        "acoustic",
+        "emphasis"
+      ],
+      "use_cases": [
+        "warm accent",
+        "human moment"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A single plucked nylon guitar string, warm mid-pitched tone, soft attack, natural decay, close-miked, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-kalimba-accent-020",
+      "title": "Kalimba Accent",
+      "category": "impacts",
+      "description": "A soft kalimba note for friendly, gentle emphasis.",
+      "tags": [
+        "kalimba",
+        "accent",
+        "friendly",
+        "gentle",
+        "emphasis"
+      ],
+      "use_cases": [
+        "friendly accent",
+        "soft highlight"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A single soft kalimba tine note, gentle metallic-wood tone with a warm natural decay, close-miked, quiet, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-bass-drop-soft-021",
+      "title": "Soft Bass Drop",
+      "category": "impacts",
+      "description": "A gentle descending bass drop for emphasis, without overwhelming low end.",
+      "tags": [
+        "bass",
+        "drop",
+        "descending",
+        "low",
+        "emphasis"
+      ],
+      "use_cases": [
+        "emphasis drop",
+        "section punctuation"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A gentle descending bass drop, smooth low sine tone gliding downward and fading, controlled level, not boomy, clean. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-shaker-accent-022",
+      "title": "Shaker Accent",
+      "category": "impacts",
+      "description": "A single short shaker shake for light, rhythmic emphasis.",
+      "tags": [
+        "shaker",
+        "accent",
+        "rhythmic",
+        "light",
+        "percussion"
+      ],
+      "use_cases": [
+        "light accent",
+        "rhythmic cue"
+      ],
+      "intensity": 1,
+      "attack": "medium",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A single short shake of a small seed shaker, crisp granular rattle, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-whoosh-hit-023",
+      "title": "Whoosh Hit",
+      "category": "impacts",
+      "description": "A short whoosh that lands on a soft hit for animated elements landing with emphasis.",
+      "tags": [
+        "whoosh",
+        "hit",
+        "land",
+        "impact",
+        "emphasis"
+      ],
+      "use_cases": [
+        "element land",
+        "animated emphasis"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A short airy whoosh that lands on a soft punchy hit, clean filtered air into a rounded thump, polished, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-marker-tap-024",
+      "title": "Marker Tap",
+      "category": "impacts",
+      "description": "A marker tapping a whiteboard for pointing at a key idea.",
+      "tags": [
+        "marker",
+        "whiteboard",
+        "tap",
+        "point",
+        "education"
+      ],
+      "use_cases": [
+        "point at idea",
+        "whiteboard emphasis"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A marker capped tip tapping twice on a whiteboard, hollow plastic tap on a smooth board, close-miked, dry classroom. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "impact-sparkle-accent-025",
+      "title": "Sparkle Accent",
+      "category": "impacts",
+      "description": "A brief sparkle for highlighting something special or new.",
+      "tags": [
+        "sparkle",
+        "accent",
+        "highlight",
+        "new",
+        "special"
+      ],
+      "use_cases": [
+        "new feature",
+        "special highlight"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A brief sparkle accent, a quick cluster of tiny bright twinkling high chimes, delicate, clean, short fade, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-connector-draw-001",
+      "title": "Connector Draw",
+      "category": "edu-diagrams",
+      "description": "A smooth drawing sound for a line or connector being drawn between nodes.",
+      "tags": [
+        "connector",
+        "draw",
+        "line",
+        "diagram",
+        "link"
+      ],
+      "use_cases": [
+        "connect nodes",
+        "draw line"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A smooth soft drawing sound like a felt-tip pen gliding steadily across paper in one stroke, quiet, close, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-node-activate-002",
+      "title": "Node Activate",
+      "category": "edu-diagrams",
+      "description": "A soft glowing blip for a diagram node lighting up.",
+      "tags": [
+        "node",
+        "activate",
+        "glow",
+        "diagram",
+        "highlight"
+      ],
+      "use_cases": [
+        "node highlight",
+        "step activate"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A soft glowing blip, rounded mid-high synthetic tone blooming in with a faint shimmer, clean, short, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-diagram-reveal-003",
+      "title": "Diagram Reveal",
+      "category": "edu-diagrams",
+      "description": "A gentle unfolding reveal for showing a full diagram or chart.",
+      "tags": [
+        "diagram",
+        "reveal",
+        "unfold",
+        "show",
+        "education"
+      ],
+      "use_cases": [
+        "diagram reveal",
+        "chart show"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A gentle unfolding reveal, soft airy rising swell with a light shimmer and a quiet papery unfolding texture, smooth fade, clean. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-arrow-pass-004",
+      "title": "Arrow Pass",
+      "category": "edu-diagrams",
+      "description": "A quick light zip for an arrow moving along a flow.",
+      "tags": [
+        "arrow",
+        "pass",
+        "zip",
+        "flow",
+        "direction"
+      ],
+      "use_cases": [
+        "arrow motion",
+        "flow direction"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A quick light zip, a short thin whoosh with a tiny rising tone like a small dart passing by, clean, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-pencil-line-005",
+      "title": "Pencil Line",
+      "category": "edu-diagrams",
+      "description": "A graphite pencil drawing a line for sketch-style diagrams.",
+      "tags": [
+        "pencil",
+        "line",
+        "sketch",
+        "draw",
+        "graphite"
+      ],
+      "use_cases": [
+        "sketch diagram",
+        "hand-drawn line"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A graphite pencil drawing a single straight line on paper, fine scratchy texture, steady, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-chalk-write-006",
+      "title": "Chalk Write",
+      "category": "edu-diagrams",
+      "description": "Chalk writing on a chalkboard for classroom-style explanations.",
+      "tags": [
+        "chalk",
+        "chalkboard",
+        "write",
+        "classroom",
+        "education"
+      ],
+      "use_cases": [
+        "classroom style",
+        "equation writing"
+      ],
+      "intensity": 2,
+      "attack": "medium",
+      "tail": "dry",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "Chalk writing a short word on a chalkboard, dry tapping and dusty scratching strokes, no squeak, close-miked, quiet classroom. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "edu-marker-stroke-007",
+      "title": "Marker Stroke",
+      "category": "edu-diagrams",
+      "description": "A whiteboard marker stroke for writing or underlining.",
+      "tags": [
+        "marker",
+        "whiteboard",
+        "stroke",
+        "underline",
+        "write"
+      ],
+      "use_cases": [
+        "underline",
+        "whiteboard writing"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A whiteboard marker drawing one smooth underline stroke on a whiteboard, soft felt-tip glide, no squeak, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-highlighter-sweep-008",
+      "title": "Highlighter Sweep",
+      "category": "edu-diagrams",
+      "description": "A highlighter sweeping across text for emphasizing a phrase.",
+      "tags": [
+        "highlighter",
+        "sweep",
+        "text",
+        "emphasis",
+        "mark"
+      ],
+      "use_cases": [
+        "highlight phrase",
+        "mark text"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A highlighter pen sweeping once across printed paper, soft felt glide with faint paper texture, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-shape-appear-009",
+      "title": "Shape Appear",
+      "category": "edu-diagrams",
+      "description": "A soft, rounded pop-in for geometric shapes appearing.",
+      "tags": [
+        "shape",
+        "appear",
+        "geometric",
+        "pop-in",
+        "diagram"
+      ],
+      "use_cases": [
+        "shape appear",
+        "icon pop-in"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A soft rounded pop-in, a tiny airy swell into a gentle rounded blip, clean, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "edu-shape-morph-010",
+      "title": "Shape Morph",
+      "category": "edu-diagrams",
+      "description": "A smooth, liquid transformation for one shape morphing into another.",
+      "tags": [
+        "shape",
+        "morph",
+        "transform",
+        "liquid",
+        "animation"
+      ],
+      "use_cases": [
+        "shape morph",
+        "transform animation"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A smooth liquid morphing sound, a soft synthetic tone bending and warping in pitch with a gentle watery texture, clean, smooth fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-bullet-appear-011",
+      "title": "Bullet Point Appear",
+      "category": "edu-diagrams",
+      "description": "A minimal tick for each bullet point appearing on a slide.",
+      "tags": [
+        "bullet",
+        "point",
+        "list",
+        "appear",
+        "slide"
+      ],
+      "use_cases": [
+        "bullet reveal",
+        "list item"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A minimal soft tick, short rounded click with a tiny tonal tail, very quiet, clean, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-number-counter-012",
+      "title": "Number Counter",
+      "category": "edu-diagrams",
+      "description": "Rapid soft ticks for a number counting up in a statistic.",
+      "tags": [
+        "counter",
+        "number",
+        "count-up",
+        "statistic",
+        "ticks"
+      ],
+      "use_cases": [
+        "stat count-up",
+        "number animation"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A rapid series of soft clean ticks accelerating then ending with a slightly brighter final tick, like a digital counter counting up, quiet. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-bar-grow-013",
+      "title": "Bar Chart Grow",
+      "category": "edu-diagrams",
+      "description": "A rising tone for bars growing in a bar chart.",
+      "tags": [
+        "chart",
+        "bar",
+        "grow",
+        "rising",
+        "data"
+      ],
+      "use_cases": [
+        "bar chart animate",
+        "data growth"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A smooth rising soft synthetic tone with a gentle filtered swell, like something growing upward, ends cleanly, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-pie-fill-014",
+      "title": "Pie Chart Fill",
+      "category": "edu-diagrams",
+      "description": "A circular swirl for a pie or donut chart filling in.",
+      "tags": [
+        "chart",
+        "pie",
+        "donut",
+        "fill",
+        "circular"
+      ],
+      "use_cases": [
+        "pie chart animate",
+        "percentage fill"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "A soft circular swirling sound sweeping around once, gentle filtered air with a faint tonal glide, ending with a tiny soft click, clean. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "edu-plot-point-015",
+      "title": "Graph Plot Point",
+      "category": "edu-diagrams",
+      "description": "A tiny dot sound for plotting points on a graph.",
+      "tags": [
+        "graph",
+        "plot",
+        "point",
+        "dot",
+        "data"
+      ],
+      "use_cases": [
+        "plot points",
+        "scatter animate"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A tiny dot sound, a very short soft high blip with a crisp start, clean, quiet, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-step-advance-016",
+      "title": "Step Advance",
+      "category": "edu-diagrams",
+      "description": "A soft forward-motion tone for advancing to the next step in a process.",
+      "tags": [
+        "step",
+        "advance",
+        "next",
+        "process",
+        "sequence"
+      ],
+      "use_cases": [
+        "next step",
+        "process advance"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A soft forward-moving tone, a short rounded blip with a quick slight upward pitch slide, clean, gentle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-flowchart-branch-017",
+      "title": "Flowchart Branch",
+      "category": "edu-diagrams",
+      "description": "A split, two-way tone for a flowchart branching into paths.",
+      "tags": [
+        "flowchart",
+        "branch",
+        "split",
+        "decision",
+        "diagram"
+      ],
+      "use_cases": [
+        "decision branch",
+        "path split"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 1.0,
+      "loop_intended": false,
+      "generation_prompt": "A soft tone that splits into two diverging tones panning left and right, clean synthetic, short smooth decay. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-puzzle-fit-018",
+      "title": "Puzzle Piece Fit",
+      "category": "edu-diagrams",
+      "description": "A satisfying click for a puzzle piece or component fitting into place.",
+      "tags": [
+        "puzzle",
+        "fit",
+        "click",
+        "component",
+        "solution"
+      ],
+      "use_cases": [
+        "component fits",
+        "solution piece"
+      ],
+      "intensity": 2,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A satisfying snug click of a cardboard puzzle piece pressed into place on a table, small papery snap, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-magnify-focus-019",
+      "title": "Magnify Focus",
+      "category": "edu-diagrams",
+      "description": "A soft lens-focus sound for magnifying a detail.",
+      "tags": [
+        "magnify",
+        "focus",
+        "lens",
+        "zoom",
+        "detail"
+      ],
+      "use_cases": [
+        "magnify detail",
+        "focus zoom"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 0.8,
+      "loop_intended": false,
+      "generation_prompt": "A soft lens focusing sound, a smooth short mechanical twist with a faint rising airy tone, clean, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "edu-sticky-note-020",
+      "title": "Sticky Note Place",
+      "category": "edu-diagrams",
+      "description": "A paper sticky note pressed onto a board for annotations.",
+      "tags": [
+        "sticky-note",
+        "paper",
+        "annotate",
+        "place",
+        "board"
+      ],
+      "use_cases": [
+        "add annotation",
+        "brainstorm board"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A paper sticky note peeled and pressed onto a board, light papery peel and soft press tap, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-label-pin-021",
+      "title": "Label Pin",
+      "category": "edu-diagrams",
+      "description": "A small pin push for labels attaching to parts of a diagram.",
+      "tags": [
+        "label",
+        "pin",
+        "attach",
+        "annotate",
+        "diagram"
+      ],
+      "use_cases": [
+        "label diagram",
+        "pin note"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "dry",
+      "target_duration_seconds": 0.5,
+      "loop_intended": false,
+      "generation_prompt": "A small push pin pressed into a cork board, tiny sharp click with a soft cork thunk, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "edu-path-trace-022",
+      "title": "Path Trace",
+      "category": "edu-diagrams",
+      "description": "A traveling tone for a dot tracing a path through a diagram.",
+      "tags": [
+        "path",
+        "trace",
+        "travel",
+        "route",
+        "diagram"
+      ],
+      "use_cases": [
+        "trace path",
+        "route animation"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A soft continuous synthetic tone gliding smoothly up and down as if traveling along a winding path, gentle filter movement, clean, quiet. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-equation-resolve-023",
+      "title": "Equation Resolve",
+      "category": "edu-diagrams",
+      "description": "A gentle resolving shimmer for a formula or problem being solved.",
+      "tags": [
+        "equation",
+        "solve",
+        "resolve",
+        "math",
+        "shimmer"
+      ],
+      "use_cases": [
+        "solve formula",
+        "answer reveal"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A gentle resolving shimmer, a soft cluster of sparkles settling into a single warm clean sustained tone, satisfying, smooth fade. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-timeline-marker-024",
+      "title": "Timeline Marker",
+      "category": "edu-diagrams",
+      "description": "A clean tick-tone for placing a marker on a timeline.",
+      "tags": [
+        "timeline",
+        "marker",
+        "history",
+        "event",
+        "diagram"
+      ],
+      "use_cases": [
+        "timeline event",
+        "history marker"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 0.6,
+      "loop_intended": false,
+      "generation_prompt": "A clean small tick followed by a short soft woody tone, like placing a marker on a timeline, crisp, subtle. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "edu-layer-stack-025",
+      "title": "Layer Stack",
+      "category": "edu-diagrams",
+      "description": "Soft stacking taps for layers or blocks stacking up in an architecture diagram.",
+      "tags": [
+        "layer",
+        "stack",
+        "blocks",
+        "architecture",
+        "diagram"
+      ],
+      "use_cases": [
+        "stack layers",
+        "architecture build"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 1.2,
+      "loop_intended": false,
+      "generation_prompt": "Three soft stacking taps of small wooden blocks placed one on top of another in quick succession, each slightly higher in pitch, close-miked, dry. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-server-room-soft-001",
+      "title": "Soft Server Room",
+      "category": "ambience",
+      "description": "A gentle, steady server-room hum for tech and cloud tutorials.",
+      "tags": [
+        "server",
+        "room",
+        "hum",
+        "tech",
+        "ambience"
+      ],
+      "use_cases": [
+        "cloud tutorial",
+        "tech background"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A gentle steady server room ambience, soft even cooling fan whir and a low electrical hum, no beeps, steady and constant. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-tech-bed-atmospheric-002",
+      "title": "Atmospheric Tech Bed",
+      "category": "ambience",
+      "description": "A soft, airy futuristic atmosphere for AI and technology segments.",
+      "tags": [
+        "tech",
+        "atmospheric",
+        "futuristic",
+        "bed",
+        "ambience"
+      ],
+      "use_cases": [
+        "ai segment",
+        "tech intro"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A soft airy futuristic atmosphere, smooth evolving synthetic air texture with a faint distant hum and subtle shimmer, calm, no melody, no beat. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-rain-room-tone-003",
+      "title": "Rain Room Tone",
+      "category": "ambience",
+      "description": "Light rain outside a window with quiet interior tone for calm, focused content.",
+      "tags": [
+        "rain",
+        "room",
+        "window",
+        "calm",
+        "ambience"
+      ],
+      "use_cases": [
+        "calm tutorial",
+        "cozy vlog"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "Light steady rain heard from inside a quiet room through a window, soft even patter, no thunder, calm and constant. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-office-quiet-004",
+      "title": "Quiet Office",
+      "category": "ambience",
+      "description": "A quiet office room tone for workplace or productivity videos.",
+      "tags": [
+        "office",
+        "quiet",
+        "room-tone",
+        "workplace",
+        "ambience"
+      ],
+      "use_cases": [
+        "workplace video",
+        "productivity"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A quiet modern office room tone, soft air conditioning hiss and very faint distant keyboard activity, no voices, steady. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "amb-library-quiet-005",
+      "title": "Quiet Library",
+      "category": "ambience",
+      "description": "A hushed library ambience for study or reading-themed content.",
+      "tags": [
+        "library",
+        "quiet",
+        "study",
+        "reading",
+        "ambience"
+      ],
+      "use_cases": [
+        "study session",
+        "reading content"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A hushed library ambience, very quiet large room tone with occasional faint distant page rustle, no voices, calm and steady. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "amb-lab-hum-006",
+      "title": "Lab Hum",
+      "category": "ambience",
+      "description": "A clean laboratory hum with faint equipment for science content.",
+      "tags": [
+        "lab",
+        "science",
+        "equipment",
+        "hum",
+        "ambience"
+      ],
+      "use_cases": [
+        "science explainer",
+        "lab demo"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A clean laboratory ambience, steady soft equipment hum and faint ventilation, very subtle occasional soft mechanical tick, no voices, constant. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "amb-data-center-deep-007",
+      "title": "Deep Data Center",
+      "category": "ambience",
+      "description": "A deeper, wider data-center ambience for large-scale infrastructure topics.",
+      "tags": [
+        "data-center",
+        "deep",
+        "infrastructure",
+        "server",
+        "ambience"
+      ],
+      "use_cases": [
+        "infrastructure explainer",
+        "cloud scale"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A wide deep data center ambience, many distant server fans blending into a smooth broadband whir with a soft low hum, controlled low end, constant. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-spaceship-hum-008",
+      "title": "Soft Spaceship Hum",
+      "category": "ambience",
+      "description": "A soft sci-fi interior hum for futuristic or space-themed explanations.",
+      "tags": [
+        "spaceship",
+        "sci-fi",
+        "hum",
+        "interior",
+        "ambience"
+      ],
+      "use_cases": [
+        "space topic",
+        "futuristic scene"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A soft sci-fi spacecraft interior hum, smooth low engine drone with gentle airy ventilation, calm, steady, no alarms, no melody. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-forest-breeze-009",
+      "title": "Light Forest Breeze",
+      "category": "ambience",
+      "description": "A light forest breeze with soft leaves for nature and calm segments.",
+      "tags": [
+        "forest",
+        "breeze",
+        "nature",
+        "leaves",
+        "ambience"
+      ],
+      "use_cases": [
+        "nature segment",
+        "calm intro"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A light forest breeze, soft rustling leaves and gentle wind, very sparse distant birds, calm and steady, no voices. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "amb-ocean-distant-010",
+      "title": "Distant Ocean",
+      "category": "ambience",
+      "description": "Distant ocean waves for relaxing or travel-themed backgrounds.",
+      "tags": [
+        "ocean",
+        "waves",
+        "distant",
+        "calm",
+        "ambience"
+      ],
+      "use_cases": [
+        "travel vlog",
+        "relaxing scene"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "Distant ocean waves gently rolling onto a beach heard from far away, soft even wash, calm and steady, no gulls, no voices. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-clock-room-011",
+      "title": "Ticking Clock Room",
+      "category": "ambience",
+      "description": "A clock ticking in a quiet room for time-related or reflective content.",
+      "tags": [
+        "clock",
+        "ticking",
+        "room",
+        "time",
+        "ambience"
+      ],
+      "use_cases": [
+        "time topic",
+        "reflective moment"
+      ],
+      "intensity": 1,
+      "attack": "sharp",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A wall clock ticking steadily once per second in a quiet room, soft wooden tick, light natural room tone, constant tempo. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-keyboard-office-012",
+      "title": "Distant Keyboard Office",
+      "category": "ambience",
+      "description": "Distant soft typing in an office for coding or work-in-progress scenes.",
+      "tags": [
+        "keyboard",
+        "typing",
+        "office",
+        "distant",
+        "ambience"
+      ],
+      "use_cases": [
+        "coding montage",
+        "work in progress"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "Distant soft keyboard typing from several desks in a quiet office, gentle irregular clicking blended with soft room tone, no voices, steady. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-wind-soft-013",
+      "title": "Soft Outdoor Wind",
+      "category": "ambience",
+      "description": "A soft, steady outdoor wind for open, spacious moments.",
+      "tags": [
+        "wind",
+        "outdoor",
+        "soft",
+        "open",
+        "ambience"
+      ],
+      "use_cases": [
+        "open landscape",
+        "spacious moment"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A soft steady outdoor wind blowing gently over an open field, smooth airy texture with slow gentle swells, no gusts, no voices. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-fireplace-crackle-014",
+      "title": "Fireplace Crackle",
+      "category": "ambience",
+      "description": "A cozy fireplace crackle for warm, story-like or reflective content.",
+      "tags": [
+        "fireplace",
+        "crackle",
+        "cozy",
+        "warm",
+        "ambience"
+      ],
+      "use_cases": [
+        "storytelling",
+        "cozy segment"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A cozy fireplace, soft steady wood fire crackle and gentle flame hiss, occasional small pops, warm, close but quiet. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "amb-hvac-tone-015",
+      "title": "HVAC Room Tone",
+      "category": "ambience",
+      "description": "A neutral air-conditioning room tone to fill silence under narration.",
+      "tags": [
+        "hvac",
+        "room-tone",
+        "air",
+        "neutral",
+        "ambience"
+      ],
+      "use_cases": [
+        "fill silence",
+        "narration bed"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A neutral air conditioning room tone, smooth steady soft broadband air hiss with a faint low hum, completely constant, no clicks. Seamless loop, steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "needs-regeneration"
+    },
+    {
+      "id": "cine-tension-rise-001",
+      "title": "Rising Tension",
+      "category": "cinematic",
+      "description": "A slowly building tension swell for suspenseful lead-ins.",
+      "tags": [
+        "tension",
+        "rise",
+        "suspense",
+        "build",
+        "cinematic"
+      ],
+      "use_cases": [
+        "suspense build",
+        "before reveal"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 5.0,
+      "loop_intended": false,
+      "generation_prompt": "A slowly building tension swell, layered low sustained synthetic tone and airy noise gradually rising in pitch and intensity over five seconds, ending cleanly, no melody, controlled. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-reveal-accent-002",
+      "title": "Reveal Accent",
+      "category": "cinematic",
+      "description": "A polished shimmering hit for revealing a key result or answer.",
+      "tags": [
+        "reveal",
+        "accent",
+        "shimmer",
+        "result",
+        "cinematic"
+      ],
+      "use_cases": [
+        "key result",
+        "answer reveal"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A polished reveal accent, a soft deep hit blooming into a bright airy shimmer with a smooth long reverb tail, uplifting, clean, not harsh. No music, no speech, no voices.",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-surprise-sting-003",
+      "title": "Surprise Sting",
+      "category": "cinematic",
+      "description": "A quick, bright surprise accent for unexpected facts.",
+      "tags": [
+        "surprise",
+        "sting",
+        "unexpected",
+        "fact",
+        "cinematic"
+      ],
+      "use_cases": [
+        "surprising fact",
+        "plot twist"
+      ],
+      "intensity": 3,
+      "attack": "sharp",
+      "tail": "medium",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A quick bright surprise accent, a sudden short swell of shimmering high tones with a soft pluck at the start, playful, clean, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-suspense-sting-004",
+      "title": "Suspense Sting",
+      "category": "cinematic",
+      "description": "A dark, short sting for mysterious or suspenseful beats.",
+      "tags": [
+        "suspense",
+        "sting",
+        "dark",
+        "mystery",
+        "cinematic"
+      ],
+      "use_cases": [
+        "mystery beat",
+        "cliffhanger"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "long",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A dark short suspense sting, a low soft bowed-metal tone with a dissonant airy shimmer, swelling briefly then fading into a long dark tail, restrained, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-deep-swell-005",
+      "title": "Deep Swell",
+      "category": "cinematic",
+      "description": "A deep, resonant swell for dramatic title moments without heavy distortion.",
+      "tags": [
+        "deep",
+        "swell",
+        "dramatic",
+        "title",
+        "cinematic"
+      ],
+      "use_cases": [
+        "dramatic title",
+        "opening moment"
+      ],
+      "intensity": 4,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 4.0,
+      "loop_intended": false,
+      "generation_prompt": "A deep resonant cinematic swell, a low brassy synthetic tone blooming slowly with a wide airy reverb, powerful but controlled, no distortion, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-riser-long-006",
+      "title": "Long Riser",
+      "category": "cinematic",
+      "description": "A long, smooth riser for building toward a big reveal.",
+      "tags": [
+        "riser",
+        "long",
+        "build",
+        "anticipation",
+        "cinematic"
+      ],
+      "use_cases": [
+        "big reveal build",
+        "countdown"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 5.0,
+      "loop_intended": false,
+      "generation_prompt": "A long smooth cinematic riser, filtered noise and layered synthetic tones climbing steadily in pitch for five seconds, ending with a clean cut, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-heartbeat-slow-007",
+      "title": "Slow Heartbeat",
+      "category": "cinematic",
+      "description": "A slow, soft heartbeat for tension, focus, or human-body topics.",
+      "tags": [
+        "heartbeat",
+        "slow",
+        "tension",
+        "body",
+        "cinematic"
+      ],
+      "use_cases": [
+        "tension moment",
+        "biology topic"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "short",
+      "target_duration_seconds": 5.0,
+      "loop_intended": false,
+      "generation_prompt": "A slow soft human heartbeat at about sixty beats per minute, muffled low double thumps, close and intimate, steady. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-drone-dark-008",
+      "title": "Dark Drone Bed",
+      "category": "cinematic",
+      "description": "A dark, low drone bed for mysterious or investigative segments.",
+      "tags": [
+        "drone",
+        "dark",
+        "bed",
+        "mystery",
+        "cinematic"
+      ],
+      "use_cases": [
+        "investigation segment",
+        "mystery bed"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A dark low cinematic drone bed, steady sustained low synthetic tone with slow subtle airy movement, restrained, constant, seamless loop, no melody, no beat. Steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-drone-hopeful-009",
+      "title": "Hopeful Drone Bed",
+      "category": "cinematic",
+      "description": "A warm, hopeful drone bed for reflective or inspiring moments.",
+      "tags": [
+        "drone",
+        "hopeful",
+        "warm",
+        "bed",
+        "cinematic"
+      ],
+      "use_cases": [
+        "inspiring moment",
+        "reflective bed"
+      ],
+      "intensity": 1,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 5.0,
+      "loop_intended": true,
+      "generation_prompt": "A warm hopeful cinematic drone bed, soft sustained bright synthetic pad tone with gentle shimmer, calm, constant, seamless loop, no melody, no beat. Steady level, no music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-impact-trailer-soft-010",
+      "title": "Soft Trailer Impact",
+      "category": "cinematic",
+      "description": "A wide, softened trailer-style impact for chapter titles.",
+      "tags": [
+        "impact",
+        "trailer",
+        "wide",
+        "chapter",
+        "cinematic"
+      ],
+      "use_cases": [
+        "chapter title",
+        "big statement"
+      ],
+      "intensity": 4,
+      "attack": "sharp",
+      "tail": "long",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A wide softened cinematic impact, a deep drum hit layered with a metallic shimmer and long airy reverb tail, big but controlled, no distortion. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-reverse-reveal-011",
+      "title": "Reverse Reveal",
+      "category": "cinematic",
+      "description": "A reversed cymbal-like swell leading straight into a reveal.",
+      "tags": [
+        "reverse",
+        "reveal",
+        "swell",
+        "lead-in",
+        "cinematic"
+      ],
+      "use_cases": [
+        "reveal lead-in",
+        "transition to answer"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 2.0,
+      "loop_intended": false,
+      "generation_prompt": "A reversed cymbal-like swell, bright airy metallic shimmer growing louder and ending with a sudden clean stop, smooth, not harsh. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-shimmer-reveal-012",
+      "title": "Shimmer Reveal",
+      "category": "cinematic",
+      "description": "A magical shimmering reveal for showing a beautiful result.",
+      "tags": [
+        "shimmer",
+        "reveal",
+        "magical",
+        "beautiful",
+        "cinematic"
+      ],
+      "use_cases": [
+        "result showcase",
+        "before-after"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A magical shimmering reveal, cascading delicate glassy sparkles swelling up and slowly drifting away with a long airy tail, elegant, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-sub-drop-013",
+      "title": "Sub Drop",
+      "category": "cinematic",
+      "description": "A smooth low sub drop for weighty transitions, kept controlled.",
+      "tags": [
+        "sub",
+        "drop",
+        "low",
+        "weight",
+        "cinematic"
+      ],
+      "use_cases": [
+        "weighty transition",
+        "impact follow"
+      ],
+      "intensity": 3,
+      "attack": "soft",
+      "tail": "medium",
+      "target_duration_seconds": 2.5,
+      "loop_intended": false,
+      "generation_prompt": "A smooth low sub drop, deep sine tone gliding downward and fading, controlled level, clean, no distortion. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-time-freeze-014",
+      "title": "Time Freeze",
+      "category": "cinematic",
+      "description": "A stretched, frozen-time effect for pausing on a key moment.",
+      "tags": [
+        "time",
+        "freeze",
+        "pause",
+        "stretch",
+        "cinematic"
+      ],
+      "use_cases": [
+        "freeze frame",
+        "pause moment"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "long",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A frozen time effect, a sudden soft whoosh that stretches into a suspended airy high tone with a gentle granular shimmer, slow fade, dreamy. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-clock-tension-015",
+      "title": "Clock Tension",
+      "category": "cinematic",
+      "description": "An insistent ticking with low tension for deadlines or countdowns.",
+      "tags": [
+        "clock",
+        "ticking",
+        "tension",
+        "deadline",
+        "cinematic"
+      ],
+      "use_cases": [
+        "deadline",
+        "time pressure"
+      ],
+      "intensity": 3,
+      "attack": "sharp",
+      "tail": "short",
+      "target_duration_seconds": 5.0,
+      "loop_intended": false,
+      "generation_prompt": "An insistent clock ticking at a steady fast pace layered with a soft low sustained tension tone, focused, restrained, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-discovery-swell-016",
+      "title": "Discovery Swell",
+      "category": "cinematic",
+      "description": "A rising, wondrous swell for discoveries and \"aha\" moments.",
+      "tags": [
+        "discovery",
+        "swell",
+        "wonder",
+        "aha",
+        "cinematic"
+      ],
+      "use_cases": [
+        "aha moment",
+        "discovery"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 4.0,
+      "loop_intended": false,
+      "generation_prompt": "A rising wondrous swell, soft airy synthetic tones and gentle sparkles building upward and opening into a bright sustained shimmer, hopeful, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-resolve-ending-017",
+      "title": "Resolve Ending",
+      "category": "cinematic",
+      "description": "A warm, settling tone for endings, conclusions, and summaries.",
+      "tags": [
+        "resolve",
+        "ending",
+        "conclusion",
+        "settle",
+        "cinematic"
+      ],
+      "use_cases": [
+        "conclusion",
+        "video ending"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 4.0,
+      "loop_intended": false,
+      "generation_prompt": "A warm settling resolve, a soft sustained consonant synthetic tone blooming gently and fading slowly into silence, peaceful, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-ominous-hit-018",
+      "title": "Ominous Low Hit",
+      "category": "cinematic",
+      "description": "A dark, restrained low hit for warnings or serious points.",
+      "tags": [
+        "ominous",
+        "low",
+        "hit",
+        "serious",
+        "cinematic"
+      ],
+      "use_cases": [
+        "serious point",
+        "risk warning"
+      ],
+      "intensity": 3,
+      "attack": "medium",
+      "tail": "long",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "A dark restrained low hit, a muffled deep drum impact with a low metallic resonance and a slow dark tail, serious, controlled low end. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-title-reveal-019",
+      "title": "Title Reveal Shimmer",
+      "category": "cinematic",
+      "description": "An elegant whoosh-and-shimmer for revealing a title or section heading.",
+      "tags": [
+        "title",
+        "reveal",
+        "whoosh",
+        "shimmer",
+        "cinematic"
+      ],
+      "use_cases": [
+        "title reveal",
+        "section heading"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "long",
+      "target_duration_seconds": 3.0,
+      "loop_intended": false,
+      "generation_prompt": "An elegant title reveal, a smooth airy whoosh landing on a soft glassy shimmer with a gentle long tail, polished, generic, no melody. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cine-air-suck-020",
+      "title": "Air Suck In",
+      "category": "cinematic",
+      "description": "A reversed air intake that builds a breath of anticipation right before a reveal.",
+      "tags": [
+        "air",
+        "suck",
+        "reverse",
+        "anticipation",
+        "cinematic"
+      ],
+      "use_cases": [
+        "pre-reveal",
+        "anticipation beat"
+      ],
+      "intensity": 2,
+      "attack": "soft",
+      "tail": "dry",
+      "target_duration_seconds": 1.5,
+      "loop_intended": false,
+      "generation_prompt": "A reversed air intake, soft filtered noise rushing inward and accelerating to a sudden clean stop, like a vacuum before a reveal, smooth. No music, no speech, no voices.",
+      "priority": "standard",
+      "status": "cataloged"
+    }
+  ]
+}

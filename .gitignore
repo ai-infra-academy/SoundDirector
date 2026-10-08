@@ -1,0 +1,15 @@
+# Generated candidates awaiting human review
+staging/
+
+# Secrets
+.env
+*.env
+auth.json
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+
+# Built static site (python3 scripts/build_site.py)
+_site/

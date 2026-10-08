@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sounddirector/schemas/asset.schema.json",
+  "title": "Audio skill catalog",
+  "description": "Catalog for the sound-effects and background-music skills. scripts/validate_catalog.py enforces this schema (stdlib-only) plus file-level checks.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "skill",
+    "assets"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "skill": {
+      "enum": [
+        "sound-effects",
+        "background-music"
+      ]
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "skill": {
+            "const": "sound-effects"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "assets": {
+            "items": {
+              "$ref": "#/$defs/sfx"
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "skill": {
+            "const": "background-music"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "assets": {
+            "items": {
+              "$ref": "#/$defs/music"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "description",
+        "category",
+        "tags",
+        "file",
+        "duration_seconds",
+        "format",
+        "source",
+        "generation_prompt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "file": {
+          "type": "string",
+          "pattern": "^assets/",
+          "description": "Path relative to the skill directory; must stay inside assets/."
+        },
+        "duration_seconds": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "format": {
+          "enum": [
+            "wav",
+            "mp3",
+            "ogg",
+            "flac"
+          ]
+        },
+        "sample_rate": {
+          "type": "integer"
+        },
+        "channels": {
+          "type": "integer"
+        },
+        "peak_dbfs": {
+          "type": "number"
+        },
+        "integrated_lufs": {
+          "type": "number"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "version": {
+          "type": "integer"
+        },
+        "source": {
+          "enum": [
+            "elevenlabs",
+            "suno",
+            "comfyui",
+            "original",
+            "other"
+          ]
+        },
+        "generation_prompt": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "object",
+          "properties": {
+            "provider": {
+              "type": "string"
+            },
+            "tool": {
+              "type": "string"
+            },
+            "model": {
+              "type": "string"
+            },
+            "generated_at": {
+              "type": "string"
+            },
+            "output_id": {
+              "type": "string"
+            }
+          }
+        },
+        "review": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "approved",
+                "pending",
+                "rejected"
+              ]
+            },
+            "reviewer": {
+              "type": "string"
+            },
+            "reviewed_at": {
+              "type": "string"
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
+        },
+        "timing": {
+          "type": "object",
+          "required": [
+            "onset_seconds",
+            "peak_seconds",
+            "end_seconds"
+          ],
+          "description": "Seconds from file start. Sync rule: place the clip at event_time - peak_seconds. 0 <= onset <= peak <= end <= duration.",
+          "properties": {
+            "onset_seconds": {
+              "type": "number",
+              "minimum": 0
+            },
+            "peak_seconds": {
+              "type": "number",
+              "minimum": 0
+            },
+            "end_seconds": {
+              "type": "number",
+              "minimum": 0
+            },
+            "method": {
+              "enum": [
+                "auto-envelope",
+                "manual-override"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "sfx": {
+      "type": "object",
+      "required": [
+        "intensity",
+        "attack",
+        "tail",
+        "use_cases"
+      ],
+      "properties": {
+        "category": {
+          "enum": [
+            "ui-clicks",
+            "transitions",
+            "notifications",
+            "tech-ai",
+            "impacts",
+            "edu-diagrams",
+            "ambience",
+            "cinematic"
+          ]
+        },
+        "intensity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "attack": {
+          "enum": [
+            "soft",
+            "medium",
+            "sharp"
+          ]
+        },
+        "tail": {
+          "enum": [
+            "dry",
+            "short",
+            "medium",
+            "long"
+          ]
+        },
+        "use_cases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "music": {
+      "type": "object",
+      "required": [
+        "moods",
+        "energy",
+        "instrumental",
+        "loopable",
+        "voiceover_friendly",
+        "preferred_content_types"
+      ],
+      "properties": {
+        "category": {
+          "enum": [
+            "education",
+            "technology",
+            "suspense",
+            "vlog",
+            "reels",
+            "cinematic",
+            "corporate",
+            "playful",
+            "ambient-focus"
+          ]
+        },
+        "moods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "energy": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "instrumental": {
+          "type": "boolean"
+        },
+        "bpm": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Only when measured."
+        },
+        "loopable": {
+          "type": "boolean",
+          "description": "True only after the loop seam was tested."
+        },
+        "voiceover_friendly": {
+          "type": "boolean",
+          "description": "True only after review under narration."
+        },
+        "preferred_content_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

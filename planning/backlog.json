@@ -1,0 +1,292 @@
+{
+  "schema_version": "1.0",
+  "note": "Planned assets that are not shipped yet. Regenerate these when provider credits are available, then review and build as usual.",
+  "updated": "2026-10-08",
+  "sound-effects": [
+    {
+      "id": "ui-click-wooden-002",
+      "title": "Wooden Click",
+      "category": "ui-clicks",
+      "description": "A warm, organic wooden click suited to calm, natural-feeling interfaces and tutorials.",
+      "target_duration_seconds": 0.5,
+      "intensity": 2,
+      "generation_prompt": "One crisp tap of two small hardwood pieces knocking together, warm hollow resonance, dry close recording, very short decay. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -38.0
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "ui-click-glass-003",
+      "title": "Glass Click",
+      "category": "ui-clicks",
+      "description": "A clean, bright glassy click for premium or modern interface interactions.",
+      "target_duration_seconds": 0.5,
+      "intensity": 2,
+      "generation_prompt": "A single delicate tap of a fingernail on a thin glass pane, bright clean transient with a faint high ringing tail, dry studio, no reverb. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -38.1
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "ui-switch-flip-010",
+      "title": "Switch Flip",
+      "category": "ui-clicks",
+      "description": "A firm mechanical rocker-switch flip for physical on/off moments.",
+      "target_duration_seconds": 0.5,
+      "intensity": 2,
+      "generation_prompt": "A single firm flip of a household rocker light switch, solid plastic clack with a slight spring, close-miked, dry room. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -53.2,
+        -44.6
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "trans-reverse-swell-014",
+      "title": "Reverse Swell",
+      "category": "transitions",
+      "description": "A reversed swell that builds into the next moment for anticipation.",
+      "target_duration_seconds": 1.5,
+      "intensity": 2,
+      "generation_prompt": "A reversed airy swell of soft noise and faint shimmer building smoothly to a sudden clean stop, no impact at the end, subtle. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -31.3
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "trans-whoosh-tonal-023",
+      "title": "Tonal Whoosh",
+      "category": "transitions",
+      "description": "A whoosh with a soft pitched tone inside for polished, modern motion graphics.",
+      "target_duration_seconds": 1.5,
+      "intensity": 2,
+      "generation_prompt": "A smooth whoosh of air blended with a soft sustained pitched tone that glides upward, clean, modern, gentle fade, no melody. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -38.9
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "trans-air-puff-025",
+      "title": "Air Puff",
+      "category": "transitions",
+      "description": "A tiny puff of air for minimal fade-ins and small element appearances.",
+      "target_duration_seconds": 0.5,
+      "intensity": 1,
+      "generation_prompt": "A tiny soft puff of air, gentle short breath of filtered noise, very quiet, close, dry. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -38.5
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "tech-server-spinup-015",
+      "title": "Server Spin Up",
+      "category": "tech-ai",
+      "description": "Server fans and drives spinning up for infrastructure or cloud explanations.",
+      "target_duration_seconds": 3.0,
+      "intensity": 2,
+      "generation_prompt": "A computer server spinning up, cooling fans ramping up smoothly from silence to a steady soft whir with a faint electrical hum, close but not loud. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -35.8
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "tech-electric-zap-028",
+      "title": "Soft Electric Zap",
+      "category": "tech-ai",
+      "description": "A gentle electric spark for power, energy, or circuit concepts.",
+      "target_duration_seconds": 0.6,
+      "intensity": 2,
+      "generation_prompt": "A gentle small electric spark zap, short crackle of static with a faint buzzing tail, controlled, not harsh. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -33.3
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "impact-felt-thump-010",
+      "title": "Felt Thump",
+      "category": "impacts",
+      "description": "A soft felt-mallet thump for gentle, warm emphasis.",
+      "target_duration_seconds": 0.6,
+      "intensity": 2,
+      "generation_prompt": "A soft felt mallet thump on a large padded drum, warm muffled low tone, short smooth decay, gentle. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -40.3,
+        -34.8
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "impact-tom-hit-018",
+      "title": "Soft Tom Hit",
+      "category": "impacts",
+      "description": "A single soft floor-tom hit for grounded rhythmic emphasis.",
+      "target_duration_seconds": 1.0,
+      "intensity": 3,
+      "generation_prompt": "A single soft hit on a floor tom drum with a felt mallet, warm round low tone, natural short decay, close-miked. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -37.4
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "edu-chalk-write-006",
+      "title": "Chalk Write",
+      "category": "edu-diagrams",
+      "description": "Chalk writing on a chalkboard for classroom-style explanations.",
+      "target_duration_seconds": 2.0,
+      "intensity": 2,
+      "generation_prompt": "Chalk writing a short word on a chalkboard, dry tapping and dusty scratching strokes, no squeak, close-miked, quiet classroom. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -31.9
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "edu-shape-appear-009",
+      "title": "Shape Appear",
+      "category": "edu-diagrams",
+      "description": "A soft, rounded pop-in for geometric shapes appearing.",
+      "target_duration_seconds": 0.5,
+      "intensity": 1,
+      "generation_prompt": "A soft rounded pop-in, a tiny airy swell into a gentle rounded blip, clean, subtle. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -32.8
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "edu-pie-fill-014",
+      "title": "Pie Chart Fill",
+      "category": "edu-diagrams",
+      "description": "A circular swirl for a pie or donut chart filling in.",
+      "target_duration_seconds": 1.2,
+      "intensity": 1,
+      "generation_prompt": "A soft circular swirling sound sweeping around once, gentle filtered air with a faint tonal glide, ending with a tiny soft click, clean. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -30.4
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "edu-magnify-focus-019",
+      "title": "Magnify Focus",
+      "category": "edu-diagrams",
+      "description": "A soft lens-focus sound for magnifying a detail.",
+      "target_duration_seconds": 0.8,
+      "intensity": 1,
+      "generation_prompt": "A soft lens focusing sound, a smooth short mechanical twist with a faint rising airy tone, clean, subtle. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -30.3
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "edu-label-pin-021",
+      "title": "Label Pin",
+      "category": "edu-diagrams",
+      "description": "A small pin push for labels attaching to parts of a diagram.",
+      "target_duration_seconds": 0.5,
+      "intensity": 1,
+      "generation_prompt": "A small push pin pressed into a cork board, tiny sharp click with a soft cork thunk, close-miked, dry. No music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -54.5,
+        -46.4
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "amb-office-quiet-004",
+      "title": "Quiet Office",
+      "category": "ambience",
+      "description": "A quiet office room tone for workplace or productivity videos.",
+      "target_duration_seconds": 5.0,
+      "intensity": 1,
+      "generation_prompt": "A quiet modern office room tone, soft air conditioning hiss and very faint distant keyboard activity, no voices, steady. Seamless loop, steady level, no music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -40.0
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "amb-library-quiet-005",
+      "title": "Quiet Library",
+      "category": "ambience",
+      "description": "A hushed library ambience for study or reading-themed content.",
+      "target_duration_seconds": 5.0,
+      "intensity": 1,
+      "generation_prompt": "A hushed library ambience, very quiet large room tone with occasional faint distant page rustle, no voices, calm and steady. Seamless loop, steady level, no music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -33.6
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "amb-lab-hum-006",
+      "title": "Lab Hum",
+      "category": "ambience",
+      "description": "A clean laboratory hum with faint equipment for science content.",
+      "target_duration_seconds": 5.0,
+      "intensity": 1,
+      "generation_prompt": "A clean laboratory ambience, steady soft equipment hum and faint ventilation, very subtle occasional soft mechanical tick, no voices, constant. Seamless loop, steady level, no music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -34.7
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "amb-forest-breeze-009",
+      "title": "Light Forest Breeze",
+      "category": "ambience",
+      "description": "A light forest breeze with soft leaves for nature and calm segments.",
+      "target_duration_seconds": 5.0,
+      "intensity": 1,
+      "generation_prompt": "A light forest breeze, soft rustling leaves and gentle wind, very sparse distant birds, calm and steady, no voices. Seamless loop, steady level, no music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -47.7,
+        -43.9
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    },
+    {
+      "id": "amb-hvac-tone-015",
+      "title": "HVAC Room Tone",
+      "category": "ambience",
+      "description": "A neutral air-conditioning room tone to fill silence under narration.",
+      "target_duration_seconds": 5.0,
+      "intensity": 1,
+      "generation_prompt": "A neutral air conditioning room tone, smooth steady soft broadband air hiss with a faint low hum, completely constant, no clicks. Seamless loop, steady level, no music, no speech, no voices.",
+      "reason": "too quiet to use: every generated take peaked far below a usable level",
+      "peak_dbfs_of_rejected_takes": [
+        -30.2
+      ],
+      "suggested_prompt_addition": "Close-miked, loud, punchy and clearly audible at full level; peak near 0 dBFS."
+    }
+  ],
+  "background-music": []
+}

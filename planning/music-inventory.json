@@ -1,0 +1,2489 @@
+{
+  "schema_version": "1.0",
+  "skill": "background-music",
+  "note": "Planning records only. These are generation candidates, not installed assets.",
+  "items": [
+    {
+      "id": "education-calm-001",
+      "title": "Quiet Chalkboard",
+      "category": "education",
+      "description": "Unobtrusive minimal electronic bed of warm pads and soft plucks that sits gently under narrated lessons and slide walkthroughs.",
+      "tags": [
+        "education",
+        "minimal",
+        "electronic",
+        "lesson",
+        "explainer"
+      ],
+      "moods": [
+        "calm",
+        "focused"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "slides-video",
+        "tutorial",
+        "explainer"
+      ],
+      "style_tags": "minimal electronic, warm pads, soft plucks, sparse brushed percussion, 90 bpm, major key, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, heavy drums, distorted bass, loud lead melody",
+      "generation_prompt": "A 150-second minimal electronic instrumental track. Open with a soft warm pad chord and a gentle plucked motif fading in over four bars. The body adds a light brushed shuffle and a muted sub bass, with the pluck pattern evolving slowly and no sudden changes in dynamics. End by thinning back to the pad and letting the last chord ring out naturally over a smooth fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-discovery-002",
+      "title": "First Light Of Curiosity",
+      "category": "education",
+      "description": "Gentle marimba and celesta motif with a light pulse that conveys calm discovery for science and how-it-works explainers.",
+      "tags": [
+        "education",
+        "discovery",
+        "marimba",
+        "science",
+        "curious"
+      ],
+      "moods": [
+        "curious",
+        "hopeful",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "tutorial",
+        "documentary"
+      ],
+      "style_tags": "light orchestral electronic, marimba, celesta, soft string pad, gentle pulse, 100 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, heavy drums, brass stabs, distorted guitar",
+      "generation_prompt": "A 60-second light orchestral electronic instrumental track. Begin with a solo marimba figure answered by a sparkling celesta. Soft strings enter beneath a gentle eighth-note pulse, building a sense of wonder while staying low in volume. Resolve on a bright major chord with the marimba playing the opening figure once more before a clean fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-focus-003",
+      "title": "Sustained Attention",
+      "category": "education",
+      "description": "Steady, low-key lo-fi piano loop with warm vinyl texture designed for sustained focus during long coding or study tutorials.",
+      "tags": [
+        "education",
+        "focus",
+        "lofi",
+        "piano",
+        "study"
+      ],
+      "moods": [
+        "focused",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 180,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "tutorial",
+        "livestream",
+        "slides-video"
+      ],
+      "style_tags": "lo-fi hip hop, mellow electric piano, soft vinyl crackle, laid-back drums, 75 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, sampled voices, heavy bass drops, bright synth leads",
+      "generation_prompt": "A 180-second lo-fi hip hop instrumental track. Start with a mellow electric piano chord progression and faint vinyl texture. A relaxed boom-bap beat with soft kick and snare joins, the progression repeating with subtle variations every eight bars. Drop the drums for the final phrase and let the piano finish on a sustained chord with a gentle fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-bright-004",
+      "title": "Lightbulb Moment",
+      "category": "education",
+      "description": "Bright ukulele and glockenspiel arrangement with handclaps that keeps beginner lessons cheerful without stealing attention.",
+      "tags": [
+        "education",
+        "ukulele",
+        "bright",
+        "beginner",
+        "cheerful"
+      ],
+      "moods": [
+        "upbeat",
+        "warm",
+        "playful"
+      ],
+      "energy": 3,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "tutorial",
+        "slides-video"
+      ],
+      "style_tags": "acoustic pop, ukulele, glockenspiel, soft handclaps, light bass, 110 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, electric guitar solo, heavy drums, whistling melody",
+      "generation_prompt": "A 60-second acoustic pop instrumental track. Open with strummed ukulele and a short glockenspiel phrase. Light handclaps and a round bass line join, keeping the arrangement airy with simple chord changes. Close with a final ukulele strum and a glockenspiel sparkle that rings out cleanly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-thoughtful-005",
+      "title": "Margin Notes",
+      "category": "education",
+      "description": "Thoughtful solo felt piano with sparse phrasing, ideal under reflective lectures, history lessons, and concept summaries.",
+      "tags": [
+        "education",
+        "piano",
+        "felt-piano",
+        "lecture",
+        "reflective"
+      ],
+      "moods": [
+        "reflective",
+        "calm"
+      ],
+      "energy": 1,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "documentary",
+        "slides-video"
+      ],
+      "style_tags": "modern classical, solo felt piano, soft room ambience, slow tempo, 70 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, strings swell, bright synths",
+      "generation_prompt": "A 150-second modern classical instrumental track. Begin with a single sustained felt piano note leading into a slow, open-voiced progression. Phrases stay sparse with plenty of space between notes, slowly introducing a soft left-hand ostinato. End with a quiet descending phrase and a final chord that decays naturally into silence. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-steady-006",
+      "title": "Step By Step",
+      "category": "education",
+      "description": "Clean mid-tempo electronic pulse with rounded synth bass and soft arpeggios that frames step-by-step software tutorials.",
+      "tags": [
+        "education",
+        "tutorial",
+        "arpeggio",
+        "synth",
+        "steady"
+      ],
+      "moods": [
+        "focused",
+        "confident"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "tutorial",
+        "product-demo",
+        "slides-video"
+      ],
+      "style_tags": "clean electronic, rounded synth bass, soft arpeggiator, light four-on-the-floor, 105 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, aggressive drops, distorted leads, heavy sidechain",
+      "generation_prompt": "A 120-second clean electronic instrumental track. Fade in a filtered arpeggio over a soft kick. The filter opens gradually as a rounded bass and closed hi-hats lock into a steady groove, with small textural changes every section. Filter the arpeggio back down and finish on a held bass note with a smooth fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-warm-007",
+      "title": "Kitchen Table Classroom",
+      "category": "education",
+      "description": "Warm acoustic guitar fingerpicking with soft cello that feels friendly and human for narrated how-to lessons.",
+      "tags": [
+        "education",
+        "acoustic",
+        "guitar",
+        "cello",
+        "friendly"
+      ],
+      "moods": [
+        "warm",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "tutorial",
+        "explainer",
+        "vlog"
+      ],
+      "style_tags": "acoustic folk, fingerpicked guitar, soft cello, light shaker, 85 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drum kit, electric guitar, banjo lead",
+      "generation_prompt": "A 60-second acoustic folk instrumental track. Start with gentle fingerpicked acoustic guitar in a major key. A soft cello line enters underneath with a light shaker, keeping the arrangement intimate and uncluttered. Slow slightly in the last bars and end on a ringing open guitar chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-wonder-008",
+      "title": "Map Of Small Stars",
+      "category": "education",
+      "description": "Glassy vibraphone and soft synth shimmer evoking quiet wonder for astronomy, nature, and big-picture explainers.",
+      "tags": [
+        "education",
+        "wonder",
+        "vibraphone",
+        "space",
+        "science"
+      ],
+      "moods": [
+        "mysterious",
+        "hopeful",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "style_tags": "ambient electronic, vibraphone, shimmering synth pad, soft sub bass, slow pulse, 80 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, aggressive bass, bright brass",
+      "generation_prompt": "A 150-second ambient electronic instrumental track. Open with a shimmering synth pad and a slow vibraphone motif with a touch of reverb. A soft sub bass pulse and gentle granular textures enter, the motif repeating with small harmonic shifts. Let the textures recede, leaving the vibraphone motif to finish alone with a long natural decay. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-recap-009",
+      "title": "Quick Recap",
+      "category": "education",
+      "description": "Short, tidy pizzicato strings and light woodblock cue for chapter recaps and end-of-lesson summaries.",
+      "tags": [
+        "education",
+        "recap",
+        "pizzicato",
+        "summary",
+        "short"
+      ],
+      "moods": [
+        "upbeat",
+        "focused"
+      ],
+      "energy": 3,
+      "length_class": "short",
+      "target_duration_seconds": 25,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "slides-video",
+        "explainer"
+      ],
+      "style_tags": "light chamber, pizzicato strings, woodblock, soft bassoon, 115 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drum kit, synth bass, vocal chops",
+      "generation_prompt": "A 25-second light chamber instrumental track. Open immediately with a crisp pizzicato figure and a woodblock tick. A soft bassoon line adds warmth while the pizzicato keeps a tidy forward motion. Finish with a neat cadence on a plucked chord, no lingering tail. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-gentle-pulse-010",
+      "title": "Patient Teacher",
+      "category": "education",
+      "description": "Gentle synth pulse with soft Rhodes chords that stays evenly balanced for long narrated explainer videos.",
+      "tags": [
+        "education",
+        "rhodes",
+        "pulse",
+        "explainer",
+        "balanced"
+      ],
+      "moods": [
+        "calm",
+        "focused",
+        "warm"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 180,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "slides-video",
+        "podcast-intro"
+      ],
+      "style_tags": "chill electronic, Rhodes electric piano, soft synth pulse, light rimshot percussion, 92 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, heavy drums, loud bass, lead melody",
+      "generation_prompt": "A 180-second chill electronic instrumental track. Begin with warm Rhodes chords and a quiet synth pulse. Light rimshots and a muted bass enter, keeping a gentle, unchanging energy across sections with minor chord-voicing changes. Remove the percussion and close on a soft Rhodes chord with a natural fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-optimistic-011",
+      "title": "Open Notebook",
+      "category": "education",
+      "description": "Optimistic light pop instrumental with soft piano, bell accents, and a muted kick for upbeat course intros.",
+      "tags": [
+        "education",
+        "course",
+        "intro",
+        "piano",
+        "optimistic"
+      ],
+      "moods": [
+        "hopeful",
+        "upbeat"
+      ],
+      "energy": 3,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "slides-video",
+        "tutorial",
+        "podcast-intro"
+      ],
+      "style_tags": "light pop, bright piano, bells, muted kick, soft claps, 112 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, electric guitar, heavy drops, vocal chops",
+      "generation_prompt": "A 60-second light pop instrumental track. Open with a bright piano rhythm and bell accents. A muted kick and soft claps lift the energy slightly while staying friendly and uncluttered. End on a confident piano chord with a single bell ring. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-kids-012",
+      "title": "Crayon Box Counting",
+      "category": "education",
+      "description": "Playful xylophone and clarinet and flute melody suitable for children's learning content and simple counting lessons.",
+      "tags": [
+        "education",
+        "kids",
+        "xylophone",
+        "woodwind",
+        "children"
+      ],
+      "moods": [
+        "playful",
+        "warm"
+      ],
+      "energy": 3,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "explainer",
+        "short",
+        "slides-video"
+      ],
+      "style_tags": "children's music, xylophone, clarinet, flute, light percussion, 120 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, heavy drums, synth bass, dissonance",
+      "generation_prompt": "A 60-second children's music instrumental track. Start with a bouncy xylophone melody and light shaker. Clarinet and flute trade simple, singable phrases over a steady light percussion groove. Finish with the full ensemble on a cheerful final chord and a xylophone run. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-data-013",
+      "title": "Clean Graph Lines",
+      "category": "education",
+      "description": "Precise, minimal glitch-free electronic texture with soft ticks and pads for data, statistics, and chart walkthroughs.",
+      "tags": [
+        "education",
+        "data",
+        "minimal",
+        "analytics",
+        "clean"
+      ],
+      "moods": [
+        "focused",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "slides-video",
+        "explainer",
+        "product-demo"
+      ],
+      "style_tags": "minimal techno-lite, soft clicks, warm pads, gentle bass pulse, 98 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, aggressive glitch, distorted bass, loud percussion",
+      "generation_prompt": "A 60-second minimal techno-lite instrumental track. Fade in a soft pad with delicate click percussion. A gentle bass pulse and precise hi-hat ticks create order and clarity, with subtle filter movement. Strip back to the pad and click pattern and fade smoothly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-history-014",
+      "title": "Pages Of Old Maps",
+      "category": "education",
+      "description": "Warm string quartet with harp accents that suits history, geography, and storytelling lessons.",
+      "tags": [
+        "education",
+        "history",
+        "strings",
+        "harp",
+        "storytelling"
+      ],
+      "moods": [
+        "reflective",
+        "warm"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "style_tags": "chamber strings, string quartet, harp, soft timpani roll, 80 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, electronic drums, synths, brass fanfare",
+      "generation_prompt": "A 150-second chamber strings instrumental track. Open with a harp arpeggio and a sustained viola note. The quartet introduces a gentle, narrative melody in the second violin with cello movement below, rising modestly mid-track. Settle back to soft sustained strings and end on a quiet harp chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "education-lab-015",
+      "title": "Lab Bench Groove",
+      "category": "education",
+      "description": "Light funky bass and clavinet groove with soft drums that gives practical science demos a relaxed momentum.",
+      "tags": [
+        "education",
+        "groove",
+        "clavinet",
+        "demo",
+        "funky"
+      ],
+      "moods": [
+        "upbeat",
+        "curious"
+      ],
+      "energy": 3,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "tutorial",
+        "explainer",
+        "product-demo"
+      ],
+      "style_tags": "light funk, clavinet, round electric bass, soft drums, wah guitar accents, 100 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, horn section blasts, heavy distortion, vocal ad-libs",
+      "generation_prompt": "A 60-second light funk instrumental track. Start with a muted clavinet riff and a round bass line. Soft drums and occasional wah guitar accents join, keeping the groove relaxed and below conversation level. Close with a final clavinet stab and a short bass slide. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-innovation-001",
+      "title": "Thoughtful Circuitry",
+      "category": "technology",
+      "description": "Soft synth arpeggios and warm pads that express thoughtful innovation for AI, software, and tech explainers.",
+      "tags": [
+        "technology",
+        "ai",
+        "synth",
+        "innovation",
+        "arpeggio"
+      ],
+      "moods": [
+        "focused",
+        "hopeful"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "product-demo",
+        "tutorial"
+      ],
+      "style_tags": "modern synthwave-lite, soft analog arpeggio, warm pads, clean electronic drums, 100 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, aggressive drops, distorted leads, heavy bass",
+      "generation_prompt": "A 120-second modern synthwave-lite instrumental track. Open with a soft analog arpeggio and an airy pad. Clean electronic drums and a smooth bass build gentle momentum, with a subtle counter-melody arriving at the midpoint. Thin back to the arpeggio and pad and fade out smoothly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-digital-002",
+      "title": "Clean Signal",
+      "category": "technology",
+      "description": "Crisp, clean digital energy built on bright plucks, tight hi-hats, and sidechained pads for app and product videos.",
+      "tags": [
+        "technology",
+        "digital",
+        "plucks",
+        "app",
+        "modern"
+      ],
+      "moods": [
+        "energetic",
+        "confident"
+      ],
+      "energy": 4,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "product-demo",
+        "explainer",
+        "reel"
+      ],
+      "style_tags": "future pop instrumental, bright plucks, tight hi-hats, sidechained pads, punchy kick, 118 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocal chops, dubstep wobble, distorted bass",
+      "generation_prompt": "A 60-second future pop instrumental instrumental track. Start with a filtered pluck pattern rising quickly into the beat. A punchy kick, tight hats and sidechained pads drive a clean, modern groove with a small breakdown halfway. End on a final pluck chord with a short reverse swell and a clean stop. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-future-003",
+      "title": "Glass City Horizon",
+      "category": "technology",
+      "description": "Expansive futuristic pads and slow-motion synth bass suited to visions of the future and concept tech reveals.",
+      "tags": [
+        "technology",
+        "futuristic",
+        "pads",
+        "concept",
+        "wide"
+      ],
+      "moods": [
+        "hopeful",
+        "mysterious"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "documentary",
+        "trailer",
+        "explainer"
+      ],
+      "style_tags": "ambient synth, wide evolving pads, slow synth bass, distant pulses, 85 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, loud drums, distorted leads, vocal pads",
+      "generation_prompt": "A 150-second ambient synth instrumental track. Fade in a wide evolving pad with distant digital pulses. A slow synth bass and soft shimmering leads build an expansive sense of scale, peaking gently around two-thirds through. Release into the opening pad and fade smoothly into silence. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-code-004",
+      "title": "Compile Loop",
+      "category": "technology",
+      "description": "Subtle minimal techno-inspired groove with soft bleeps that stays out of the way during live coding sessions.",
+      "tags": [
+        "technology",
+        "coding",
+        "minimal",
+        "bleeps",
+        "livestream"
+      ],
+      "moods": [
+        "focused",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 180,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "livestream",
+        "tutorial"
+      ],
+      "style_tags": "minimal electronic, soft bleeps, muted kick, warm bass, deep pads, 110 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, loud drops, sampled voices, harsh noise",
+      "generation_prompt": "A 180-second minimal electronic instrumental track. Begin with soft bleeps and a muted kick. A warm bass and deep pad hold a hypnotic, unchanging groove with very gradual filter movement. Remove the kick and let the bleeps fade gently into a soft pad tail. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-startup-005",
+      "title": "Launch Window",
+      "category": "technology",
+      "description": "Upbeat electronic pop instrumental with bright synth chords and claps that sells startup energy in product launches.",
+      "tags": [
+        "technology",
+        "startup",
+        "launch",
+        "upbeat",
+        "synth"
+      ],
+      "moods": [
+        "upbeat",
+        "energetic",
+        "hopeful"
+      ],
+      "energy": 4,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "product-demo",
+        "reel",
+        "trailer"
+      ],
+      "style_tags": "electronic pop instrumental, bright synth chords, claps, driving bass, 122 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocal chops, aggressive distortion, dubstep",
+      "generation_prompt": "A 60-second electronic pop instrumental instrumental track. Open with a rising synth swell into bright chord stabs. Claps and a driving bass create a confident lift, with a short filtered breakdown before a final chorus-like section. Finish on a big chord hit with a short reverb tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-robotics-006",
+      "title": "Servo Garden",
+      "category": "technology",
+      "description": "Quirky mechanical percussion and soft FM synth tones for robotics, hardware, and maker content.",
+      "tags": [
+        "technology",
+        "robotics",
+        "fm-synth",
+        "mechanical",
+        "maker"
+      ],
+      "moods": [
+        "curious",
+        "playful"
+      ],
+      "energy": 3,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "tutorial",
+        "vlog"
+      ],
+      "style_tags": "quirky electronic, FM synth bells, mechanical clicks, soft bass, 104 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, harsh noise, sampled voices, heavy drops",
+      "generation_prompt": "A 60-second quirky electronic instrumental track. Start with mechanical click percussion and a bell-like FM synth motif. A soft bass line and playful counter-motifs join, staying light and precise. End with the motif slowing like a winding-down machine and a final soft click. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-data-stream-007",
+      "title": "Quiet Server Room",
+      "category": "technology",
+      "description": "Dark-but-calm electronic texture with soft granular glitches for cybersecurity, data, and cloud infrastructure explainers.",
+      "tags": [
+        "technology",
+        "cybersecurity",
+        "data",
+        "glitch",
+        "dark"
+      ],
+      "moods": [
+        "mysterious",
+        "focused"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "documentary"
+      ],
+      "style_tags": "dark ambient electronic, soft granular glitches, low hum, gentle pulse, 90 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, jump-scare hits, heavy distortion, loud percussion",
+      "generation_prompt": "A 120-second dark ambient electronic instrumental track. Fade in a low hum and soft granular textures. A gentle pulse and muted percussion add quiet tension and focus without becoming threatening. Let the pulse drop out and fade on the low hum. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-ui-008",
+      "title": "Pixel Perfect",
+      "category": "technology",
+      "description": "Short, polished electronic cue with crisp synth plucks for UI walkthroughs and app feature highlights.",
+      "tags": [
+        "technology",
+        "ui",
+        "app",
+        "plucks",
+        "short"
+      ],
+      "moods": [
+        "confident",
+        "upbeat"
+      ],
+      "energy": 3,
+      "length_class": "short",
+      "target_duration_seconds": 20,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "product-demo",
+        "short",
+        "slides-video"
+      ],
+      "style_tags": "clean electronic, crisp synth plucks, soft kick, airy pad, 115 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocal chops, distortion, long buildup",
+      "generation_prompt": "A 20-second clean electronic instrumental track. Start right away with a crisp pluck motif over an airy pad. A soft kick enters for a brief confident groove. Wrap up with a tidy final pluck and short tail. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-retro-009",
+      "title": "Neon Terminal",
+      "category": "technology",
+      "description": "Retro 80s-flavored synth instrumental with gated drums and analog bass for nostalgic tech history pieces.",
+      "tags": [
+        "technology",
+        "retro",
+        "80s",
+        "analog",
+        "synthwave"
+      ],
+      "moods": [
+        "energetic",
+        "reflective"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "documentary",
+        "vlog",
+        "explainer"
+      ],
+      "style_tags": "retro synthwave, analog bass, gated drums, warm poly synth chords, 96 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, modern trap hats, vocals samples, distorted guitar",
+      "generation_prompt": "A 120-second retro synthwave instrumental track. Open with warm analog poly synth chords and a soft arpeggio. Gated drums and a pulsing analog bass drive a nostalgic groove with a melodic synth lead that stays restrained. End with a slow filter sweep down and a lingering chord. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "technology-ai-calm-010",
+      "title": "Neural Drift",
+      "category": "technology",
+      "description": "Calm, flowing electronic bed with soft piano fragments and synthetic textures for gentle AI and machine learning explainers.",
+      "tags": [
+        "technology",
+        "ai",
+        "piano",
+        "flowing",
+        "calm"
+      ],
+      "moods": [
+        "calm",
+        "reflective",
+        "hopeful"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "slides-video",
+        "documentary"
+      ],
+      "style_tags": "electronica, soft piano fragments, synthetic textures, light glitch percussion, 88 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, heavy drums, aggressive bass, harsh noise",
+      "generation_prompt": "A 150-second electronica instrumental track. Begin with soft piano fragments floating over synthetic textures. Light glitch percussion and a warm bass create calm flow, with gentle harmonic movement in each section. Return to piano fragments alone and fade gracefully. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-pulse-001",
+      "title": "Restrained Pulse",
+      "category": "suspense",
+      "description": "Low restrained synth pulse with muted strings that builds quiet anticipation under investigative narration.",
+      "tags": [
+        "suspense",
+        "pulse",
+        "tension",
+        "investigation",
+        "strings"
+      ],
+      "moods": [
+        "tense",
+        "mysterious"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "explainer",
+        "trailer"
+      ],
+      "style_tags": "dark cinematic electronic, low synth pulse, muted strings, soft ticking, 90 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, jump scares, loud impacts, screaming strings",
+      "generation_prompt": "A 120-second dark cinematic electronic instrumental track. Open with a low, steady synth pulse and soft ticking. Muted strings enter with sustained minor intervals, the pulse gradually thickening without ever peaking loudly. Resolve the tension into a single low held note that fades smoothly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-investigation-002",
+      "title": "Case File Seventeen",
+      "category": "suspense",
+      "description": "Investigative tension with pizzicato bass, brushed snare, and piano stabs for mystery and true-story explainers.",
+      "tags": [
+        "suspense",
+        "investigation",
+        "mystery",
+        "pizzicato",
+        "noir"
+      ],
+      "moods": [
+        "mysterious",
+        "tense",
+        "focused"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "style_tags": "noir mystery, pizzicato double bass, brushed snare, sparse piano stabs, 95 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, jump scares, heavy distortion, loud brass",
+      "generation_prompt": "A 150-second noir mystery instrumental track. Begin with a walking pizzicato bass line and brushed snare. Sparse minor piano stabs and a low clarinet line add intrigue, keeping space for narration. End with the bass walking down to a low root note and a final piano stab. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-anticipation-003",
+      "title": "Before The Reveal",
+      "category": "suspense",
+      "description": "Short rising anticipation cue with swelling strings and ticking clock percussion for reveal setups.",
+      "tags": [
+        "suspense",
+        "anticipation",
+        "reveal",
+        "riser",
+        "short"
+      ],
+      "moods": [
+        "tense",
+        "excited"
+      ],
+      "energy": 3,
+      "length_class": "short",
+      "target_duration_seconds": 25,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "trailer"
+      ],
+      "style_tags": "cinematic tension, swelling strings, ticking percussion, low drone, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, jump scare stinger, vocals, distorted noise",
+      "generation_prompt": "A 25-second cinematic tension instrumental track. Start with a low drone and ticking percussion. Strings swell steadily in pitch and volume to build anticipation. Stop cleanly at the peak with a soft low impact and short tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-dark-ambient-004",
+      "title": "Under The Floorboards",
+      "category": "suspense",
+      "description": "Dark ambient drones and distant metallic textures for unsettling but non-scary mystery content.",
+      "tags": [
+        "suspense",
+        "dark-ambient",
+        "drone",
+        "mystery",
+        "atmosphere"
+      ],
+      "moods": [
+        "mysterious",
+        "tense"
+      ],
+      "energy": 1,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "style_tags": "dark ambient, low drones, distant metallic textures, subtle reverse sounds, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, jump scares, screams, loud hits",
+      "generation_prompt": "A 150-second dark ambient instrumental track. Fade in a deep drone with distant metallic resonances. Subtle reverse textures and slowly shifting harmonics create an uneasy atmosphere without sudden events. Fade the textures out, leaving the drone to taper into silence. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-heist-005",
+      "title": "Quiet Heist",
+      "category": "suspense",
+      "description": "Cool, sneaky groove with muted guitar, upright bass, and light percussion for clever plans and puzzle reveals.",
+      "tags": [
+        "suspense",
+        "sneaky",
+        "heist",
+        "groove",
+        "puzzle"
+      ],
+      "moods": [
+        "mysterious",
+        "playful"
+      ],
+      "energy": 3,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "vlog",
+        "reel"
+      ],
+      "style_tags": "spy jazz-lite, muted electric guitar, upright bass, light bongos, 100 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, loud brass, vocals, heavy drums",
+      "generation_prompt": "A 60-second spy jazz-lite instrumental track. Open with a sneaky upright bass riff. Muted guitar and light bongos join for a cool, tiptoeing groove with a small rise in the middle. Finish with the bass riff alone and a single muted guitar note. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-countdown-006",
+      "title": "Thirty Seconds Left",
+      "category": "suspense",
+      "description": "Driving ticking percussion and staccato strings that create urgent time-pressure for challenges and countdowns.",
+      "tags": [
+        "suspense",
+        "countdown",
+        "urgent",
+        "staccato",
+        "challenge"
+      ],
+      "moods": [
+        "tense",
+        "energetic"
+      ],
+      "energy": 4,
+      "length_class": "short",
+      "target_duration_seconds": 30,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "livestream"
+      ],
+      "style_tags": "cinematic tension, staccato strings, ticking percussion, pulsing bass, 130 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, dubstep, horror screams",
+      "generation_prompt": "A 30-second cinematic tension instrumental track. Start immediately with ticking percussion and pulsing bass. Staccato strings drive urgency, adding layers every few seconds. End on a sharp unified hit and a short decay. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-noir-007",
+      "title": "Rain On Neon Glass",
+      "category": "suspense",
+      "description": "Slow, smoky noir atmosphere with muted electric piano, rain-like textures, and brushed drums.",
+      "tags": [
+        "suspense",
+        "noir",
+        "night",
+        "atmospheric",
+        "keys"
+      ],
+      "moods": [
+        "mysterious",
+        "reflective"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "vlog",
+        "explainer"
+      ],
+      "style_tags": "neo-noir, muted electric piano, brushed drums, deep bass, rain texture, 72 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, saxophone lead, vocals, loud impacts",
+      "generation_prompt": "A 120-second neo-noir instrumental track. Begin with soft rain-like texture and a lone muted electric piano chord. Brushed drums and a deep bass enter for a slow, smoky atmosphere with sparse melodic fragments. Fade the drums out and end on the electric piano chord with rain texture fading. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-thriller-008",
+      "title": "Shadow Protocol",
+      "category": "suspense",
+      "description": "Tense modern thriller underscore with pulsing synths and low percussion for dramatic tech or crime trailers.",
+      "tags": [
+        "suspense",
+        "thriller",
+        "pulsing",
+        "trailer",
+        "dramatic"
+      ],
+      "moods": [
+        "tense",
+        "energetic"
+      ],
+      "energy": 4,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "trailer",
+        "reel",
+        "documentary"
+      ],
+      "style_tags": "modern thriller, pulsing synths, low taiko-style percussion, dark strings, 120 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, jump scare stingers, dubstep",
+      "generation_prompt": "A 60-second modern thriller instrumental track. Open with a pulsing synth ostinato and a low percussion hit. Dark strings and layered percussion build tension through two rising sections. Cut to a final low hit followed by a short synth decay. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-unease-009",
+      "title": "Something Is Missing",
+      "category": "suspense",
+      "description": "Sparse prepared-piano tones and soft bowed metal creating gentle unease for puzzles and unsolved questions.",
+      "tags": [
+        "suspense",
+        "unease",
+        "piano",
+        "puzzle",
+        "sparse"
+      ],
+      "moods": [
+        "mysterious",
+        "curious"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "documentary",
+        "slides-video"
+      ],
+      "style_tags": "experimental minimal, prepared piano, bowed metal, soft drone, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, jump scares, screams, loud drums",
+      "generation_prompt": "A 60-second experimental minimal instrumental track. Start with a single prepared-piano tone and soft drone. Bowed metal swells and irregular piano notes create an unresolved, curious tension. End on an unresolved but quiet note that fades gently. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "suspense-build-010",
+      "title": "Slow Burn Signal",
+      "category": "suspense",
+      "description": "Gradually building tension track with layered synths and strings that grows from near-silence to a controlled peak.",
+      "tags": [
+        "suspense",
+        "build",
+        "crescendo",
+        "tension",
+        "layers"
+      ],
+      "moods": [
+        "tense",
+        "excited",
+        "mysterious"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "trailer",
+        "documentary"
+      ],
+      "style_tags": "cinematic build, layered synths, strings ostinato, low percussion, 100 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, jump scares, harsh distortion",
+      "generation_prompt": "A 150-second cinematic build instrumental track. Begin almost silent with a faint high synth tone. Layers of strings ostinato, low percussion and synth bass enter one by one, rising steadily toward a controlled peak. After the peak, release into a soft low sustained chord and fade out cleanly. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-groove-001",
+      "title": "Sunday Errands",
+      "category": "vlog",
+      "description": "Relaxed groove with clean electric guitar, soft drums, and round bass for everyday lifestyle vlogs.",
+      "tags": [
+        "vlog",
+        "lifestyle",
+        "groove",
+        "guitar",
+        "relaxed"
+      ],
+      "moods": [
+        "relaxed",
+        "warm",
+        "upbeat"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "tutorial"
+      ],
+      "style_tags": "chill indie groove, clean electric guitar, soft drums, round bass, 96 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, heavy distortion, vocals, loud cymbals",
+      "generation_prompt": "A 120-second chill indie groove instrumental track. Open with a clean, slightly chorused guitar riff. Soft drums and a round bass settle into a relaxed head-nodding groove with small guitar variations. End with the guitar riff alone and a final ringing chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-acoustic-002",
+      "title": "Morning Porch",
+      "category": "vlog",
+      "description": "Warm acoustic guitar strumming with light percussion and gentle piano for cozy morning-routine vlogs.",
+      "tags": [
+        "vlog",
+        "acoustic",
+        "morning",
+        "cozy",
+        "guitar"
+      ],
+      "moods": [
+        "warm",
+        "hopeful",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "short"
+      ],
+      "style_tags": "acoustic folk pop, strummed acoustic guitar, light cajon, gentle piano, 92 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, electric guitar solo, heavy drums, whistling",
+      "generation_prompt": "A 60-second acoustic folk pop instrumental track. Start with warm strummed acoustic guitar. Light cajon and gentle piano accents join, keeping a cozy, sunlit feel. Slow the strum and end on a soft open chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-travel-003",
+      "title": "Window Seat Wanderer",
+      "category": "vlog",
+      "description": "Uplifting travel vlog track with bright acoustic guitar, airy synths, and driving soft percussion.",
+      "tags": [
+        "vlog",
+        "travel",
+        "uplifting",
+        "adventure",
+        "acoustic"
+      ],
+      "moods": [
+        "hopeful",
+        "energetic",
+        "upbeat"
+      ],
+      "energy": 4,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "vlog",
+        "reel",
+        "documentary"
+      ],
+      "style_tags": "indie folk pop, bright acoustic guitar, airy synth pads, driving soft percussion, 118 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy distortion, aggressive drops",
+      "generation_prompt": "A 150-second indie folk pop instrumental track. Open with a bright acoustic guitar pattern and an airy pad. Driving soft percussion and a melodic synth line build an uplifting sense of movement and adventure. Wind down with the guitar pattern and a final airy swell. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-coffee-shop-004",
+      "title": "Corner Café Notes",
+      "category": "vlog",
+      "description": "Soft jazzy coffee-shop mood with brushed drums, upright bass, and mellow piano for relaxed talking vlogs.",
+      "tags": [
+        "vlog",
+        "coffee-shop",
+        "jazz",
+        "piano",
+        "mellow"
+      ],
+      "moods": [
+        "relaxed",
+        "warm"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "podcast-intro",
+        "livestream"
+      ],
+      "style_tags": "cafe jazz, mellow piano trio, brushed drums, upright bass, 88 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, saxophone lead, vocals, loud drums",
+      "generation_prompt": "A 150-second cafe jazz instrumental track. Begin with mellow piano chords and a walking upright bass. Brushed drums swing lightly while the piano improvises sparse, gentle fills under conversation. Close with a soft piano turnaround and a final gentle chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-summer-005",
+      "title": "Golden Hour Bike Ride",
+      "category": "vlog",
+      "description": "Sunny tropical-lite groove with steel-drum-like synth, marimba, and light house beat for summer vlogs.",
+      "tags": [
+        "vlog",
+        "summer",
+        "sunny",
+        "marimba",
+        "tropical"
+      ],
+      "moods": [
+        "upbeat",
+        "playful",
+        "warm"
+      ],
+      "energy": 4,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "vlog",
+        "reel",
+        "short"
+      ],
+      "style_tags": "tropical house lite, marimba, steel drum synth, light house beat, warm bass, 110 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocal chops, heavy drops, distortion",
+      "generation_prompt": "A 60-second tropical house lite instrumental track. Open with a bright marimba riff. A light house beat, warm bass and steel-drum-like synth create a sunny, easygoing feel. End with the marimba riff and a short echo tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-city-006",
+      "title": "City Lights Walk",
+      "category": "vlog",
+      "description": "Smooth lo-fi city-night groove with jazzy chords and soft hip-hop drums for urban evening vlogs.",
+      "tags": [
+        "vlog",
+        "city",
+        "night",
+        "lofi",
+        "jazzy"
+      ],
+      "moods": [
+        "relaxed",
+        "reflective"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "livestream"
+      ],
+      "style_tags": "lo-fi jazz hop, jazzy electric piano chords, soft hip-hop drums, deep bass, 82 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, sampled voices, loud bass drops, harsh noise",
+      "generation_prompt": "A 120-second lo-fi jazz hop instrumental track. Start with jazzy electric piano chords and distant city-like ambience. Soft hip-hop drums and a deep bass create a smooth late-evening walk feel with light melodic touches. Drop the drums and end on a soft piano chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-home-007",
+      "title": "Slow Weekend Kitchen",
+      "category": "vlog",
+      "description": "Gentle indie pop instrumental with soft piano, light bells, and finger snaps for cooking and home vlogs.",
+      "tags": [
+        "vlog",
+        "cooking",
+        "home",
+        "piano",
+        "gentle"
+      ],
+      "moods": [
+        "warm",
+        "playful",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "tutorial"
+      ],
+      "style_tags": "indie pop, soft piano, light bells, finger snaps, soft bass, 98 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, heavy drums, distorted guitar, vocals",
+      "generation_prompt": "A 60-second indie pop instrumental track. Begin with soft piano and finger snaps. Light bells and a soft bass add homely charm while staying light and spacious. End with a simple piano phrase and a final bell. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-fitness-008",
+      "title": "Morning Run Momentum",
+      "category": "vlog",
+      "description": "Motivating mid-tempo electronic pop with steady kick and bright synths for fitness and active lifestyle vlogs.",
+      "tags": [
+        "vlog",
+        "fitness",
+        "workout",
+        "motivating",
+        "electronic"
+      ],
+      "moods": [
+        "energetic",
+        "confident"
+      ],
+      "energy": 4,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "vlog",
+        "reel"
+      ],
+      "style_tags": "electronic pop, steady kick, bright synth leads, pulsing bass, 124 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, dubstep wobble, harsh distortion",
+      "generation_prompt": "A 120-second electronic pop instrumental track. Open with a filtered synth that quickly opens into a steady kick. A pulsing bass and bright synth hooks provide motivating momentum across two sections. Close with a final energetic phrase and a clean stop. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-nature-009",
+      "title": "Trailhead Morning",
+      "category": "vlog",
+      "description": "Open, airy folk instrumental with mandolin, acoustic guitar, and soft strings for hiking and outdoor vlogs.",
+      "tags": [
+        "vlog",
+        "nature",
+        "outdoors",
+        "mandolin",
+        "folk"
+      ],
+      "moods": [
+        "hopeful",
+        "calm",
+        "warm"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "documentary"
+      ],
+      "style_tags": "folk instrumental, mandolin, acoustic guitar, soft strings, light hand percussion, 104 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, electric guitar, heavy drums, vocals",
+      "generation_prompt": "A 150-second folk instrumental instrumental track. Start with a gentle mandolin melody over acoustic guitar. Soft strings and light hand percussion open up the space, evoking fresh air and wide trails. End with the mandolin melody and a sustained string chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "vlog-diary-010",
+      "title": "Pages Of Today",
+      "category": "vlog",
+      "description": "Soft bedroom-pop instrumental with dreamy guitar, warm synth bass, and gentle drum machine for diary-style vlogs.",
+      "tags": [
+        "vlog",
+        "diary",
+        "bedroom-pop",
+        "dreamy",
+        "guitar"
+      ],
+      "moods": [
+        "reflective",
+        "warm"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "short"
+      ],
+      "style_tags": "bedroom pop, dreamy reverb guitar, warm synth bass, soft drum machine, 90 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy distortion, loud drums",
+      "generation_prompt": "A 60-second bedroom pop instrumental track. Begin with dreamy reverb-soaked guitar. A warm synth bass and soft drum machine add a hazy, personal mood. Fade with the guitar alone ringing out. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-hook-001",
+      "title": "Thumb Stopper",
+      "category": "reels",
+      "description": "Energetic rhythmic hook with punchy drums and a catchy synth riff that grabs attention in the first second.",
+      "tags": [
+        "reels",
+        "hook",
+        "punchy",
+        "catchy",
+        "opener"
+      ],
+      "moods": [
+        "energetic",
+        "upbeat",
+        "confident"
+      ],
+      "energy": 5,
+      "length_class": "short",
+      "target_duration_seconds": 20,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short"
+      ],
+      "style_tags": "modern electronic pop, punchy drums, catchy synth riff, sub bass, 128 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, long intro, harsh distortion",
+      "generation_prompt": "A 20-second modern electronic pop instrumental track. Start instantly with a punchy drum hit and a catchy synth riff, no fade-in. Sub bass and claps keep tight, high-energy momentum with a quick riff variation. End on a crisp final hit with a very short tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "pilot",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-upbeat-002",
+      "title": "Fresh Drop",
+      "category": "reels",
+      "description": "Modern upbeat pop-dance instrumental with bright chords and bouncy bass for trending-style short videos.",
+      "tags": [
+        "reels",
+        "upbeat",
+        "dance",
+        "bouncy",
+        "modern"
+      ],
+      "moods": [
+        "upbeat",
+        "playful",
+        "energetic"
+      ],
+      "energy": 4,
+      "length_class": "short",
+      "target_duration_seconds": 30,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short"
+      ],
+      "style_tags": "pop dance instrumental, bright chords, bouncy bass, crisp claps, 120 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, vocal chops, dubstep",
+      "generation_prompt": "A 30-second pop dance instrumental instrumental track. Open with bright chords over a quick riser. Bouncy bass and crisp claps drive a fun, modern groove with a small drop. Close on a bright chord stab and clean stop. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-opener-003",
+      "title": "Ten Second Spark",
+      "category": "reels",
+      "description": "Very short punchy opener with a riser into a big drum hit for intros and transitions in reels.",
+      "tags": [
+        "reels",
+        "opener",
+        "intro",
+        "riser",
+        "impact"
+      ],
+      "moods": [
+        "energetic",
+        "excited"
+      ],
+      "energy": 5,
+      "length_class": "short",
+      "target_duration_seconds": 15,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "podcast-intro"
+      ],
+      "style_tags": "electronic opener, riser, big drum hit, synth stab, 125 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, long tails, harsh noise",
+      "generation_prompt": "A 15-second electronic opener instrumental track. Begin with a quick rising synth sweep. Hit a big drum and synth stab followed by a two-bar punchy groove. End sharply on a final stab. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-trap-004",
+      "title": "Street Level",
+      "category": "reels",
+      "description": "Hard-hitting but clean trap instrumental with 808 bass and crisp hats for confident lifestyle reels.",
+      "tags": [
+        "reels",
+        "trap",
+        "808",
+        "confident",
+        "urban"
+      ],
+      "moods": [
+        "confident",
+        "energetic"
+      ],
+      "energy": 4,
+      "length_class": "short",
+      "target_duration_seconds": 30,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short"
+      ],
+      "style_tags": "clean trap instrumental, 808 bass, crisp hi-hat rolls, dark bell melody, 140 bpm half-time, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, vocal tags, distortion clipping",
+      "generation_prompt": "A 30-second clean trap instrumental instrumental track. Open with a dark bell melody for one bar. 808 bass and crisp hi-hat rolls drop in for a confident half-time groove. End with the bell melody alone and a final 808 tail cut short. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-funk-005",
+      "title": "Strut Mode",
+      "category": "reels",
+      "description": "Groovy disco-funk instrumental with slap bass and rhythm guitar for fashion, food, and fun reels.",
+      "tags": [
+        "reels",
+        "funk",
+        "disco",
+        "groove",
+        "fashion"
+      ],
+      "moods": [
+        "upbeat",
+        "playful",
+        "confident"
+      ],
+      "energy": 4,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "vlog",
+        "short"
+      ],
+      "style_tags": "nu-disco funk, slap bass, rhythm guitar, four-on-the-floor, strings stabs, 116 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy distortion, dubstep",
+      "generation_prompt": "A 60-second nu-disco funk instrumental track. Start with a funky rhythm guitar lick and slap bass. A four-on-the-floor beat and string stabs build a strutting groove with a short breakdown. End with the full band hit and a guitar flourish. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-before-after-006",
+      "title": "Glow Up Reveal",
+      "category": "reels",
+      "description": "Short build-and-drop instrumental designed for before-and-after transitions with a clear reveal moment.",
+      "tags": [
+        "reels",
+        "transition",
+        "reveal",
+        "drop",
+        "before-after"
+      ],
+      "moods": [
+        "excited",
+        "energetic"
+      ],
+      "energy": 5,
+      "length_class": "short",
+      "target_duration_seconds": 20,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short"
+      ],
+      "style_tags": "electronic pop, build-up, snare roll, big drop, bright synths, 126 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, harsh distortion, dubstep growl",
+      "generation_prompt": "A 20-second electronic pop instrumental track. Begin with a filtered beat and snare roll building quickly. Drop into bright synths and heavy but clean drums at the midpoint for the reveal. Finish with a final bright chord stab. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-chill-007",
+      "title": "Soft Scroll",
+      "category": "reels",
+      "description": "Chill, catchy lo-fi pop instrumental with mellow keys for aesthetic and calm short-form content.",
+      "tags": [
+        "reels",
+        "chill",
+        "aesthetic",
+        "lofi",
+        "mellow"
+      ],
+      "moods": [
+        "calm",
+        "relaxed"
+      ],
+      "energy": 2,
+      "length_class": "short",
+      "target_duration_seconds": 30,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "vlog"
+      ],
+      "style_tags": "chill pop lo-fi, mellow keys, soft snaps, warm bass, 85 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, loud drums, harsh noise",
+      "generation_prompt": "A 30-second chill pop lo-fi instrumental track. Start with mellow keys and soft snaps. A warm bass adds gentle bounce while the keys repeat a short catchy figure. End with a soft chord and short tail. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-hype-008",
+      "title": "Full Send",
+      "category": "reels",
+      "description": "High-energy rock-electronic hybrid with driving drums and gritty-but-clean guitar for sports and action reels.",
+      "tags": [
+        "reels",
+        "hype",
+        "sports",
+        "rock",
+        "action"
+      ],
+      "moods": [
+        "energetic",
+        "confident"
+      ],
+      "energy": 5,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "trailer",
+        "short"
+      ],
+      "style_tags": "electronic rock, driving drums, overdriven guitar riffs, synth bass, 135 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, screaming, excessive distortion",
+      "generation_prompt": "A 60-second electronic rock instrumental track. Open with a drum fill into a driving guitar riff. Synth bass and driving drums push high energy through two sections with a brief half-time break. End on a big sustained power chord that is cut cleanly. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-latin-009",
+      "title": "Plaza Rhythm",
+      "category": "reels",
+      "description": "Bright Latin-pop instrumental with percussion, nylon guitar, and bright synth hooks for travel and food reels.",
+      "tags": [
+        "reels",
+        "latin",
+        "percussion",
+        "nylon-guitar",
+        "travel"
+      ],
+      "moods": [
+        "upbeat",
+        "warm",
+        "playful"
+      ],
+      "energy": 4,
+      "length_class": "short",
+      "target_duration_seconds": 30,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "vlog",
+        "short"
+      ],
+      "style_tags": "latin pop instrumental, nylon guitar, congas, shakers, synth hook, 102 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy distortion, brass blasts",
+      "generation_prompt": "A 30-second latin pop instrumental instrumental track. Start with nylon guitar and congas. A shaker groove and a catchy synth hook lift the energy with a bright feel. End with a guitar flourish and a final conga hit. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "reels-tutorial-snap-010",
+      "title": "Quick Tip",
+      "category": "reels",
+      "description": "Snappy, light electronic beat with clean plucks for fast tutorial reels and tip videos with captions or voiceover.",
+      "tags": [
+        "reels",
+        "tips",
+        "tutorial",
+        "snappy",
+        "plucks"
+      ],
+      "moods": [
+        "upbeat",
+        "focused"
+      ],
+      "energy": 3,
+      "length_class": "short",
+      "target_duration_seconds": 30,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "tutorial"
+      ],
+      "style_tags": "light electronic, clean plucks, snappy snare, soft bass, 108 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, loud leads, heavy drops",
+      "generation_prompt": "A 30-second light electronic instrumental track. Open immediately with a clean pluck pattern and snappy snare. A soft bass keeps steady momentum while leaving space for quick narration. End with a final pluck and clean stop. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-inspiring-001",
+      "title": "Rise Of Small Things",
+      "category": "cinematic",
+      "description": "Inspiring orchestral-piano build with strings and soft percussion that grows toward an uplifting finale.",
+      "tags": [
+        "cinematic",
+        "inspiring",
+        "orchestral",
+        "piano",
+        "uplifting"
+      ],
+      "moods": [
+        "hopeful",
+        "inspiring"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "documentary",
+        "trailer",
+        "explainer"
+      ],
+      "style_tags": "cinematic orchestral, piano, strings, soft percussion, french horn swells, 90 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, choir, electronic drops",
+      "generation_prompt": "A 150-second cinematic orchestral instrumental track. Begin with a solo piano motif in a major key. Strings, soft percussion and warm horns build gradually through two sections into a heartfelt, uplifting climax. Settle after the climax into piano and strings, ending on a warm sustained chord. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-hopeful-002",
+      "title": "After The Storm",
+      "category": "cinematic",
+      "description": "Hopeful strings and piano with gentle swells for recovery, progress, and positive turning-point stories.",
+      "tags": [
+        "cinematic",
+        "hopeful",
+        "strings",
+        "piano",
+        "emotional"
+      ],
+      "moods": [
+        "hopeful",
+        "warm",
+        "reflective"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "explainer",
+        "vlog"
+      ],
+      "style_tags": "cinematic neo-classical, piano, string ensemble, gentle swells, 76 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, vocals, brass fanfare",
+      "generation_prompt": "A 120-second cinematic neo-classical instrumental track. Open with soft sustained strings and a gentle piano melody. The strings swell modestly as the harmony moves from minor to major, keeping room for narration. End on a warm major chord with strings fading slowly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-reflective-003",
+      "title": "Letters Never Sent",
+      "category": "cinematic",
+      "description": "Reflective solo cello with soft piano accompaniment for memories, tributes, and quiet emotional moments.",
+      "tags": [
+        "cinematic",
+        "reflective",
+        "cello",
+        "piano",
+        "tribute"
+      ],
+      "moods": [
+        "reflective",
+        "melancholic"
+      ],
+      "energy": 1,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "vlog"
+      ],
+      "style_tags": "neo-classical, solo cello, soft piano, room ambience, 66 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, synths, vocals",
+      "generation_prompt": "A 60-second neo-classical instrumental track. Begin with soft piano chords in a minor key. A solo cello enters with a slow, expressive melody, staying intimate. End with the cello holding a final note over a quiet piano chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-dramatic-build-004",
+      "title": "The Long Climb",
+      "category": "cinematic",
+      "description": "Gentle dramatic build with ostinato strings, timpani, and brass that rises to a powerful but controlled peak.",
+      "tags": [
+        "cinematic",
+        "dramatic",
+        "build",
+        "orchestral",
+        "epic"
+      ],
+      "moods": [
+        "inspiring",
+        "tense",
+        "energetic"
+      ],
+      "energy": 4,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "trailer",
+        "documentary"
+      ],
+      "style_tags": "epic orchestral, ostinato strings, timpani, brass, big drums, 110 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, choir, electronic drops",
+      "generation_prompt": "A 150-second epic orchestral instrumental track. Open with quiet ostinato strings and a soft timpani roll. Brass and big drums join section by section, rising to a powerful but controlled peak. Release into sustained strings and a final soft timpani note. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-wonder-005",
+      "title": "Sky Full Of Questions",
+      "category": "cinematic",
+      "description": "Wondrous ambient-orchestral blend with celesta, strings, and synth textures for awe-inspiring visuals.",
+      "tags": [
+        "cinematic",
+        "wonder",
+        "awe",
+        "celesta",
+        "ambient"
+      ],
+      "moods": [
+        "mysterious",
+        "hopeful"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "style_tags": "ambient orchestral, celesta, soft strings, synth textures, harp, 80 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, loud drums, vocals, choir",
+      "generation_prompt": "A 120-second ambient orchestral instrumental track. Begin with harp and celesta sparkling over a soft synth texture. Soft strings rise and fall with an awe-filled melody, staying gentle and expansive. Fade with celesta and harp alone. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-heartfelt-006",
+      "title": "Hands That Built It",
+      "category": "cinematic",
+      "description": "Heartfelt acoustic-cinematic piece with guitar, piano, and warm strings for human-interest stories.",
+      "tags": [
+        "cinematic",
+        "heartfelt",
+        "acoustic",
+        "strings",
+        "story"
+      ],
+      "moods": [
+        "warm",
+        "hopeful",
+        "reflective"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "vlog"
+      ],
+      "style_tags": "acoustic cinematic, fingerpicked guitar, piano, warm strings, soft kick, 84 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy drums, distortion",
+      "generation_prompt": "A 150-second acoustic cinematic instrumental track. Open with fingerpicked guitar and soft piano. Warm strings and a soft kick lift the emotion gently in the second half. Return to guitar and piano and end on a ringing chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-triumph-007",
+      "title": "Finish Line Light",
+      "category": "cinematic",
+      "description": "Triumphant short orchestral cue with brass and drums for achievements and celebration moments.",
+      "tags": [
+        "cinematic",
+        "triumph",
+        "celebration",
+        "brass",
+        "achievement"
+      ],
+      "moods": [
+        "energetic",
+        "inspiring",
+        "confident"
+      ],
+      "energy": 5,
+      "length_class": "short",
+      "target_duration_seconds": 30,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "trailer",
+        "reel",
+        "short"
+      ],
+      "style_tags": "triumphant orchestral, brass fanfare, big drums, strings, cymbal swells, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, choir, electronic drops",
+      "generation_prompt": "A 30-second triumphant orchestral instrumental track. Start with a cymbal swell into a bold brass phrase. Big drums and strings support a triumphant melody. End with a full-orchestra final chord and natural reverb tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-melancholy-008",
+      "title": "Empty Station",
+      "category": "cinematic",
+      "description": "Melancholic ambient piano with distant pads for loss, endings, and contemplative transitions.",
+      "tags": [
+        "cinematic",
+        "melancholy",
+        "piano",
+        "ambient",
+        "sad"
+      ],
+      "moods": [
+        "melancholic",
+        "reflective"
+      ],
+      "energy": 1,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "vlog"
+      ],
+      "style_tags": "ambient piano, distant pads, soft reverb, slow tempo, 60 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, vocals, bright synths",
+      "generation_prompt": "A 60-second ambient piano instrumental track. Begin with distant pads and a sparse minor piano motif. The motif repeats with subtle variation and soft low notes, keeping a contemplative stillness. End on a quiet unresolved piano note fading into the pads. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-adventure-009",
+      "title": "Beyond The Ridge",
+      "category": "cinematic",
+      "description": "Adventurous orchestral piece with galloping strings and horns for exploration and journey storytelling.",
+      "tags": [
+        "cinematic",
+        "adventure",
+        "journey",
+        "horns",
+        "orchestral"
+      ],
+      "moods": [
+        "energetic",
+        "hopeful"
+      ],
+      "energy": 4,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "trailer",
+        "documentary",
+        "vlog"
+      ],
+      "style_tags": "adventure orchestral, galloping strings, french horns, snare, woodwinds, 120 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, choir, electronic beats",
+      "generation_prompt": "A 120-second adventure orchestral instrumental track. Open with galloping strings and a horn call. Woodwinds and snare join for a sweeping journey theme across two rising sections. End with a final horn statement and a held chord. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "cinematic-minimal-emotional-010",
+      "title": "Single Thread",
+      "category": "cinematic",
+      "description": "Minimal emotional piece with repeating piano pattern and slowly entering strings for gentle storytelling.",
+      "tags": [
+        "cinematic",
+        "minimal",
+        "piano",
+        "strings",
+        "storytelling"
+      ],
+      "moods": [
+        "reflective",
+        "hopeful",
+        "calm"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 180,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "documentary",
+        "explainer",
+        "slides-video"
+      ],
+      "style_tags": "minimalist, repeating piano pattern, slow string entries, soft synth pad, 72 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, vocals, brass",
+      "generation_prompt": "A 180-second minimalist instrumental track. Begin with a repeating piano pattern in a gentle major-minor ambiguity. Strings enter one voice at a time, adding warmth without breaking the minimalist flow. Strings fade first, leaving the piano pattern to slow and end. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "corporate-polished-001",
+      "title": "Clear Quarterly",
+      "category": "corporate",
+      "description": "Polished, optimistic corporate instrumental with piano, light guitar, and clean drums for company presentations.",
+      "tags": [
+        "corporate",
+        "business",
+        "presentation",
+        "polished",
+        "optimistic"
+      ],
+      "moods": [
+        "confident",
+        "hopeful"
+      ],
+      "energy": 3,
+      "length_class": "long",
+      "target_duration_seconds": 120,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "slides-video",
+        "product-demo",
+        "explainer"
+      ],
+      "style_tags": "corporate pop, piano, clean electric guitar, light drums, soft synth pad, 108 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy distortion, aggressive drums",
+      "generation_prompt": "A 120-second corporate pop instrumental track. Open with a bright piano rhythm and soft pad. Clean guitar and light drums add a polished, optimistic lift with subtle build in the second half. End on a confident final chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "corporate-minimal-002",
+      "title": "White Space",
+      "category": "corporate",
+      "description": "Minimal corporate bed with soft mallets and gentle pulse that stays neutral under business narration.",
+      "tags": [
+        "corporate",
+        "minimal",
+        "neutral",
+        "mallets",
+        "narration"
+      ],
+      "moods": [
+        "calm",
+        "focused"
+      ],
+      "energy": 2,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "slides-video",
+        "explainer",
+        "podcast-intro"
+      ],
+      "style_tags": "minimal corporate, soft mallets, gentle pulse, warm pad, 96 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, loud drums, lead melody",
+      "generation_prompt": "A 150-second minimal corporate instrumental track. Begin with soft mallet patterns and warm pad. A gentle pulse and light bass keep neutral, steady motion without strong melody. Fade the pulse and end on the pad. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "corporate-success-003",
+      "title": "Growth Curve",
+      "category": "corporate",
+      "description": "Upbeat motivational corporate instrumental with claps, bright synths, and acoustic guitar for success stories.",
+      "tags": [
+        "corporate",
+        "success",
+        "motivational",
+        "upbeat",
+        "claps"
+      ],
+      "moods": [
+        "upbeat",
+        "confident",
+        "hopeful"
+      ],
+      "energy": 4,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "product-demo",
+        "explainer",
+        "reel"
+      ],
+      "style_tags": "motivational corporate pop, claps, bright synths, acoustic guitar, punchy kick, 118 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, distortion, dubstep",
+      "generation_prompt": "A 60-second motivational corporate pop instrumental track. Open with acoustic guitar strums and claps. Bright synths and a punchy kick lift into a motivating chorus-like section. Close on a bright chord hit. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "corporate-trust-004",
+      "title": "Steady Handshake",
+      "category": "corporate",
+      "description": "Warm, trustworthy instrumental with soft strings, piano, and gentle percussion for brand values and testimonials.",
+      "tags": [
+        "corporate",
+        "trust",
+        "warm",
+        "testimonial",
+        "strings"
+      ],
+      "moods": [
+        "warm",
+        "calm",
+        "confident"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "documentary",
+        "product-demo"
+      ],
+      "style_tags": "warm corporate, piano, soft strings, gentle percussion, 88 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy drums, harsh synths",
+      "generation_prompt": "A 60-second warm corporate instrumental track. Begin with warm piano and soft strings. Gentle percussion adds steady movement while the harmony stays reassuring. End on a sustained warm chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "corporate-keynote-005",
+      "title": "Opening Keynote",
+      "category": "corporate",
+      "description": "Short confident intro cue with modern synths and a clean beat for webinar and keynote openers.",
+      "tags": [
+        "corporate",
+        "keynote",
+        "intro",
+        "webinar",
+        "confident"
+      ],
+      "moods": [
+        "confident",
+        "energetic"
+      ],
+      "energy": 3,
+      "length_class": "short",
+      "target_duration_seconds": 20,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "podcast-intro",
+        "slides-video",
+        "livestream"
+      ],
+      "style_tags": "modern corporate electronic, clean beat, synth stabs, riser, 115 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, long intro, harsh distortion",
+      "generation_prompt": "A 20-second modern corporate electronic instrumental track. Start with a short riser into confident synth stabs. A clean beat establishes a brief professional groove. End on a final stab and short tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "playful-quirky-001",
+      "title": "Pocket Full Of Buttons",
+      "category": "playful",
+      "description": "Quirky pizzicato and bassoon tune with woodblock hits for light comedic moments and funny fails.",
+      "tags": [
+        "playful",
+        "quirky",
+        "comedy",
+        "pizzicato",
+        "bassoon"
+      ],
+      "moods": [
+        "playful",
+        "curious"
+      ],
+      "energy": 3,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "reel",
+        "explainer"
+      ],
+      "style_tags": "quirky comedy, pizzicato strings, bassoon, woodblocks, tuba-light bass, 110 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy drums, distortion",
+      "generation_prompt": "A 60-second quirky comedy instrumental track. Open with tiptoeing pizzicato and a woodblock tick. A bassoon carries a mischievous melody with playful pauses and accents. End with a comedic bassoon note and final pizzicato pluck. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "playful-whimsical-002",
+      "title": "Teacup Parade",
+      "category": "playful",
+      "description": "Whimsical toy piano, music box, and glockenspiel waltz for lighthearted storytelling and kids' content.",
+      "tags": [
+        "playful",
+        "whimsical",
+        "toy-piano",
+        "waltz",
+        "kids"
+      ],
+      "moods": [
+        "playful",
+        "warm"
+      ],
+      "energy": 2,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "explainer",
+        "vlog",
+        "short"
+      ],
+      "style_tags": "whimsical waltz, toy piano, music box, glockenspiel, soft accordion, 3/4 time, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, heavy drums, synth bass",
+      "generation_prompt": "A 60-second whimsical waltz instrumental track. Begin with a music-box melody in waltz time. Toy piano, glockenspiel and soft accordion join for a charming, twirling dance. Slow down like a winding-down music box and end on a single chime. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "playful-bouncy-003",
+      "title": "Rubber Band Shuffle",
+      "category": "playful",
+      "description": "Bouncy swing-feel instrumental with ukulele, cheeky clarinet, and claps for comedy sketches.",
+      "tags": [
+        "playful",
+        "bouncy",
+        "swing",
+        "clarinet",
+        "comedy"
+      ],
+      "moods": [
+        "playful",
+        "upbeat"
+      ],
+      "energy": 4,
+      "length_class": "short",
+      "target_duration_seconds": 30,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "vlog"
+      ],
+      "style_tags": "playful swing, ukulele, clarinet, handclaps, upright bass, 130 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, whistling, distortion",
+      "generation_prompt": "A 30-second playful swing instrumental track. Start with a bouncy ukulele and upright bass shuffle. A cheeky clarinet melody and handclaps add comic energy. End with a playful clarinet trill and a final hit. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "playful-cartoon-004",
+      "title": "Sneaky Snack Mission",
+      "category": "playful",
+      "description": "Cartoonish sneaky tiptoe music with soft mallets and plucks for silly mischief scenes.",
+      "tags": [
+        "playful",
+        "cartoon",
+        "sneaky",
+        "mallets",
+        "mischief"
+      ],
+      "moods": [
+        "playful",
+        "mysterious"
+      ],
+      "energy": 2,
+      "length_class": "short",
+      "target_duration_seconds": 25,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "vlog"
+      ],
+      "style_tags": "cartoon sneaky, marimba, pizzicato, muted plucks, light percussion, 96 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, loud brass, heavy drums",
+      "generation_prompt": "A 25-second cartoon sneaky instrumental track. Open with tiptoeing marimba and pizzicato notes. Muted plucks and light percussion build a silly, sneaky feel with exaggerated pauses. End with a sudden playful pluck and silence. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "playful-retro-game-005",
+      "title": "Pixel Picnic",
+      "category": "playful",
+      "description": "Light chiptune-flavored instrumental with soft square leads and bouncy bass for gaming and fun tech content.",
+      "tags": [
+        "playful",
+        "chiptune",
+        "8-bit",
+        "gaming",
+        "fun"
+      ],
+      "moods": [
+        "playful",
+        "energetic"
+      ],
+      "energy": 3,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "vlog",
+        "reel",
+        "livestream"
+      ],
+      "style_tags": "chiptune, soft square wave lead, bouncy bass, light noise drums, 128 bpm, instrumental",
+      "negative_tags": "vocals, singing, choir, spoken word, vocals, harsh distortion, loud kick",
+      "generation_prompt": "A 60-second chiptune instrumental track. Start with a cheerful square-wave melody. A bouncy bass and light noise drums keep a fun, retro groove with a short variation. End with a quick melodic flourish and stop. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ambient-focus-deep-work-001",
+      "title": "Deep Work Hours",
+      "category": "ambient-focus",
+      "description": "Minimal, steady ambient drone with soft sine tones for deep work, study, and focus sessions.",
+      "tags": [
+        "ambient",
+        "focus",
+        "deep-work",
+        "drone",
+        "study"
+      ],
+      "moods": [
+        "calm",
+        "focused"
+      ],
+      "energy": 1,
+      "length_class": "long",
+      "target_duration_seconds": 180,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "livestream",
+        "tutorial",
+        "slides-video"
+      ],
+      "style_tags": "minimal ambient, soft drone, sine tones, subtle texture, no percussion, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, vocals, melodies that grab attention",
+      "generation_prompt": "A 180-second minimal ambient instrumental track. Fade in a soft, warm drone with gentle sine tones. Textures shift very slowly over minutes with no rhythm and no sudden changes. Let the drone thin gradually and fade into silence. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ambient-focus-warm-texture-002",
+      "title": "Wool And Lamplight",
+      "category": "ambient-focus",
+      "description": "Warm textured ambient with tape-saturated pads and soft piano echoes for cozy reading and journaling.",
+      "tags": [
+        "ambient",
+        "warm",
+        "texture",
+        "tape",
+        "cozy"
+      ],
+      "moods": [
+        "warm",
+        "calm",
+        "reflective"
+      ],
+      "energy": 1,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "vlog",
+        "livestream",
+        "podcast-intro"
+      ],
+      "style_tags": "warm ambient, tape-saturated pads, soft piano echoes, gentle hiss, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, vocals, bright synths",
+      "generation_prompt": "A 150-second warm ambient instrumental track. Begin with warm tape-saturated pads and gentle hiss. Soft piano echoes appear sporadically, blending into the texture. Fade out slowly as the pads dissolve. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ambient-focus-nature-003",
+      "title": "Mossy Stones",
+      "category": "ambient-focus",
+      "description": "Nature-inspired ambient with soft flowing textures and wooden chimes-like tones for meditation and calm visuals.",
+      "tags": [
+        "ambient",
+        "nature",
+        "meditation",
+        "chimes",
+        "flowing"
+      ],
+      "moods": [
+        "calm",
+        "peaceful"
+      ],
+      "energy": 1,
+      "length_class": "long",
+      "target_duration_seconds": 150,
+      "voiceover_target": false,
+      "preferred_content_types": [
+        "documentary",
+        "vlog",
+        "livestream"
+      ],
+      "style_tags": "nature ambient, flowing textures, wooden chime tones, soft pad, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, vocals, loud bird calls",
+      "generation_prompt": "A 150-second nature ambient instrumental track. Open with soft flowing textures like distant water. Wooden chime-like tones ring gently over a soft pad without rhythm. Taper to the flowing texture and fade. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ambient-focus-night-004",
+      "title": "After Midnight Study",
+      "category": "ambient-focus",
+      "description": "Dark-warm ambient with soft electric piano and slow bass swells for late-night focus streams.",
+      "tags": [
+        "ambient",
+        "night",
+        "electric-piano",
+        "study",
+        "stream"
+      ],
+      "moods": [
+        "calm",
+        "reflective",
+        "focused"
+      ],
+      "energy": 1,
+      "length_class": "long",
+      "target_duration_seconds": 180,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "livestream",
+        "tutorial"
+      ],
+      "style_tags": "night ambient, soft electric piano, slow bass swells, gentle reverb, 60 bpm, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, vocals, bright leads",
+      "generation_prompt": "A 180-second night ambient instrumental track. Begin with soft electric piano chords in a deep reverb. Slow bass swells and gentle textures sustain a quiet, nocturnal focus. End with a final electric piano chord dissolving into reverb. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    },
+    {
+      "id": "ambient-focus-airy-005",
+      "title": "Clear Head Space",
+      "category": "ambient-focus",
+      "description": "Light, airy ambient with high shimmering pads and gentle guitar swells for mindful breaks and calm transitions.",
+      "tags": [
+        "ambient",
+        "airy",
+        "shimmer",
+        "guitar-swells",
+        "mindful"
+      ],
+      "moods": [
+        "calm",
+        "hopeful"
+      ],
+      "energy": 1,
+      "length_class": "medium",
+      "target_duration_seconds": 60,
+      "voiceover_target": true,
+      "preferred_content_types": [
+        "slides-video",
+        "vlog",
+        "explainer"
+      ],
+      "style_tags": "airy ambient, shimmering pads, volume-swelled guitar, soft sub, instrumental, background",
+      "negative_tags": "vocals, singing, choir, spoken word, drums, vocals, heavy bass",
+      "generation_prompt": "A 60-second airy ambient instrumental track. Fade in high shimmering pads. Volume-swelled guitar notes bloom gently over a soft sub foundation. Fade softly into silence. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "priority": "standard",
+      "status": "cataloged"
+    }
+  ]
+}

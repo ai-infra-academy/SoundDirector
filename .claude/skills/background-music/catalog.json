@@ -1,0 +1,4328 @@
+{
+  "schema_version": "1.0",
+  "skill": "background-music",
+  "assets": [
+    {
+      "id": "ambient-focus-airy-005",
+      "title": "Clear Head Space",
+      "description": "Light, airy ambient with high shimmering pads and gentle guitar swells for mindful breaks and calm transitions.",
+      "category": "ambient-focus",
+      "tags": [
+        "ambient",
+        "airy",
+        "shimmer",
+        "guitar-swells",
+        "mindful"
+      ],
+      "file": "assets/ambient-focus/ambient-focus-airy-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "cea9fc0e2dab8ba027a967132eafba3a8f5d407ac302459e23c6075f3bf23a8c",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second airy ambient instrumental track. Fade in high shimmering pads. Volume-swelled guitar notes bloom gently over a soft sub foundation. Fade softly into silence. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "calm",
+        "hopeful"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "slides-video",
+        "vlog",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 3.44,
+        "peak_seconds": 48.195,
+        "end_seconds": 57.81,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:41:43Z",
+        "output_id": "music__20261008_074132.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "ambient-focus-deep-work-001",
+      "title": "Deep Work Hours",
+      "description": "Minimal, steady ambient drone with soft sine tones for deep work, study, and focus sessions.",
+      "category": "ambient-focus",
+      "tags": [
+        "ambient",
+        "focus",
+        "deep-work",
+        "drone",
+        "study"
+      ],
+      "file": "assets/ambient-focus/ambient-focus-deep-work-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 180.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "fb958efb443bda0f9c6d47ce0cb558f084f97c478ae3d2f96509249a31c61ce0",
+      "source": "elevenlabs",
+      "generation_prompt": "A 180-second minimal ambient instrumental track. Fade in a soft, warm drone with gentle sine tones. Textures shift very slowly over minutes with no rhythm and no sudden changes. Let the drone thin gradually and fade into silence. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "calm",
+        "focused"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "livestream",
+        "tutorial",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.8,
+        "peak_seconds": 110.755,
+        "end_seconds": 178.11,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:38:35Z",
+        "output_id": "music__20261008_073812.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "ambient-focus-nature-003",
+      "title": "Mossy Stones",
+      "description": "Nature-inspired ambient with soft flowing textures and wooden chimes-like tones for meditation and calm visuals.",
+      "category": "ambient-focus",
+      "tags": [
+        "ambient",
+        "nature",
+        "meditation",
+        "chimes",
+        "flowing"
+      ],
+      "file": "assets/ambient-focus/ambient-focus-nature-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "e26d95279b7a4b38a7c73b47b0efdb45d82efc831b1f12115a67aef29080bf07",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second nature ambient instrumental track. Open with soft flowing textures like distant water. Wooden chime-like tones ring gently over a soft pad without rhythm. Taper to the flowing texture and fade. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "calm",
+        "peaceful"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "documentary",
+        "vlog",
+        "livestream"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.61,
+        "peak_seconds": 46.215,
+        "end_seconds": 147.74,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:40:01Z",
+        "output_id": "music__20261008_073936.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "ambient-focus-night-004",
+      "title": "After Midnight Study",
+      "description": "Dark-warm ambient with soft electric piano and slow bass swells for late-night focus streams.",
+      "category": "ambient-focus",
+      "tags": [
+        "ambient",
+        "night",
+        "electric-piano",
+        "study",
+        "stream"
+      ],
+      "file": "assets/ambient-focus/ambient-focus-night-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 180.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "e466371f0cc33d6ab0a2220d7a01cbf8797d0d6e15618ea5a3cb523ef96998bc",
+      "source": "elevenlabs",
+      "generation_prompt": "A 180-second night ambient instrumental track. Begin with soft electric piano chords in a deep reverb. Slow bass swells and gentle textures sustain a quiet, nocturnal focus. End with a final electric piano chord dissolving into reverb. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "calm",
+        "reflective",
+        "focused"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "livestream",
+        "tutorial"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 80.275,
+        "end_seconds": 176.47,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:41:09Z",
+        "output_id": "music__20261008_074038.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "ambient-focus-warm-texture-002",
+      "title": "Wool And Lamplight",
+      "description": "Warm textured ambient with tape-saturated pads and soft piano echoes for cozy reading and journaling.",
+      "category": "ambient-focus",
+      "tags": [
+        "ambient",
+        "warm",
+        "texture",
+        "tape",
+        "cozy"
+      ],
+      "file": "assets/ambient-focus/ambient-focus-warm-texture-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "eecdba3c96b4137fe0d2d4b9864ed7d56eb69bf65ae96cb72b5d5efac4aab276",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second warm ambient instrumental track. Begin with warm tape-saturated pads and gentle hiss. Soft piano echoes appear sporadically, blending into the texture. Fade out slowly as the pads dissolve. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "warm",
+        "calm",
+        "reflective"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "vlog",
+        "livestream",
+        "podcast-intro"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.27,
+        "peak_seconds": 105.885,
+        "end_seconds": 148.14,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:39:23Z",
+        "output_id": "music__20261008_073904.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-adventure-009",
+      "title": "Beyond The Ridge",
+      "description": "Adventurous orchestral piece with galloping strings and horns for exploration and journey storytelling.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "adventure",
+        "journey",
+        "horns",
+        "orchestral"
+      ],
+      "file": "assets/cinematic/cinematic-adventure-009.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "1e4f86f2d697d045934a4427bdc85a5351cbbb93e23c4fc4d46aa525ed4987dd",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second adventure orchestral instrumental track. Open with galloping strings and a horn call. Woodwinds and snare join for a sweeping journey theme across two rising sections. End with a final horn statement and a held chord. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "energetic",
+        "hopeful"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "trailer",
+        "documentary",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 1.52,
+        "peak_seconds": 101.315,
+        "end_seconds": 118.9,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:28:30Z",
+        "output_id": "music__20261008_072807.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-dramatic-build-004",
+      "title": "The Long Climb",
+      "description": "Gentle dramatic build with ostinato strings, timpani, and brass that rises to a powerful but controlled peak.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "dramatic",
+        "build",
+        "orchestral",
+        "epic"
+      ],
+      "file": "assets/cinematic/cinematic-dramatic-build-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "3b64477a99b87a5c0176f7348144688531790f107efeeb93e67e0b87596352e2",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second epic orchestral instrumental track. Open with quiet ostinato strings and a soft timpani roll. Brass and big drums join section by section, rising to a powerful but controlled peak. Release into sustained strings and a final soft timpani note. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "inspiring",
+        "tense",
+        "energetic"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "trailer",
+        "documentary"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 3.11,
+        "peak_seconds": 98.565,
+        "end_seconds": 146.67,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:24:18Z",
+        "output_id": "music__20261008_072400.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-heartfelt-006",
+      "title": "Hands That Built It",
+      "description": "Heartfelt acoustic-cinematic piece with guitar, piano, and warm strings for human-interest stories.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "heartfelt",
+        "acoustic",
+        "strings",
+        "story"
+      ],
+      "file": "assets/cinematic/cinematic-heartfelt-006.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "6d37c324432772559c40016cd4d2c58b1e6cccb20903784fa3f3bf03b99965f3",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second acoustic cinematic instrumental track. Open with fingerpicked guitar and soft piano. Warm strings and a soft kick lift the emotion gently in the second half. Return to guitar and piano and end on a ringing chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "warm",
+        "hopeful",
+        "reflective"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 47.295,
+        "end_seconds": 147.68,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:25:31Z",
+        "output_id": "music__20261008_072512.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-hopeful-002",
+      "title": "After The Storm",
+      "description": "Hopeful strings and piano with gentle swells for recovery, progress, and positive turning-point stories.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "hopeful",
+        "strings",
+        "piano",
+        "emotional"
+      ],
+      "file": "assets/cinematic/cinematic-hopeful-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "beed7c1b8746d2fc5462426b4d571cc0c0521cc11dd4221615fafa63f2354236",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second cinematic neo-classical instrumental track. Open with soft sustained strings and a gentle piano melody. The strings swell modestly as the harmony moves from minor to major, keeping room for narration. End on a warm major chord with strings fading slowly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: cinematic neo-classical, piano, string ensemble, gentle swells, 76 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, drums, vocals, brass fanfare. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "hopeful",
+        "warm",
+        "reflective"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "explainer",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.17,
+        "peak_seconds": 2.585,
+        "end_seconds": 118.47,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:42:40Z",
+        "output_id": "music__20261008_074227.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-inspiring-001",
+      "title": "Rise Of Small Things",
+      "description": "Inspiring orchestral-piano build with strings and soft percussion that grows toward an uplifting finale.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "inspiring",
+        "orchestral",
+        "piano",
+        "uplifting"
+      ],
+      "file": "assets/cinematic/cinematic-inspiring-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 174.8,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "a3f8f846e0ce03d9031cf1c589f3b0a1e2bc2ac7818510b1c8361da37ce3b219",
+      "source": "suno",
+      "generation_prompt": "A 150-second cinematic orchestral instrumental track. Begin with a solo piano motif in a major key. Strings, soft percussion and warm horns build gradually through two sections into a heartfelt, uplifting climax. Settle after the climax into piano and strings, ending on a warm sustained chord. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "hopeful",
+        "inspiring"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "documentary",
+        "trailer",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.11,
+        "peak_seconds": 50.785,
+        "end_seconds": 174.26,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T14:16:39.110Z",
+        "output_id": "13fb43a3-5887-41cb-882c-966f7adf6240"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-melancholy-008",
+      "title": "Empty Station",
+      "description": "Melancholic ambient piano with distant pads for loss, endings, and contemplative transitions.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "melancholy",
+        "piano",
+        "ambient",
+        "sad"
+      ],
+      "file": "assets/cinematic/cinematic-melancholy-008.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "851bbd40497c3b249eb9a6b50c7ed8946f79f752bf10403b29ac1d85f6f12da3",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second ambient piano instrumental track. Begin with distant pads and a sparse minor piano motif. The motif repeats with subtle variation and soft low notes, keeping a contemplative stillness. End on a quiet unresolved piano note fading into the pads. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "melancholic",
+        "reflective"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "documentary",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 1.03,
+        "peak_seconds": 49.225,
+        "end_seconds": 57.64,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:28:01Z",
+        "output_id": "music__20261008_072753.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-minimal-emotional-010",
+      "title": "Single Thread",
+      "description": "Minimal emotional piece with repeating piano pattern and slowly entering strings for gentle storytelling.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "minimal",
+        "piano",
+        "strings",
+        "storytelling"
+      ],
+      "file": "assets/cinematic/cinematic-minimal-emotional-010.mp3",
+      "format": "mp3",
+      "duration_seconds": 180.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "c54811d55dbc772c135de88d96dc58a166f5894b5bd71e9abcfaf892a4c5b2b7",
+      "source": "elevenlabs",
+      "generation_prompt": "A 180-second minimalist instrumental track. Begin with a repeating piano pattern in a gentle major-minor ambiguity. Strings enter one voice at a time, adding warmth without breaking the minimalist flow. Strings fade first, leaving the piano pattern to slow and end. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "reflective",
+        "hopeful",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "explainer",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.86,
+        "peak_seconds": 143.705,
+        "end_seconds": 177.19,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:29:50Z",
+        "output_id": "music__20261008_072901.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-reflective-003",
+      "title": "Letters Never Sent",
+      "description": "Reflective solo cello with soft piano accompaniment for memories, tributes, and quiet emotional moments.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "reflective",
+        "cello",
+        "piano",
+        "tribute"
+      ],
+      "file": "assets/cinematic/cinematic-reflective-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "43016317145bce1bf3af8e2be13ee92094c1671c2917b397a80397b310bf9933",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second neo-classical instrumental track. Begin with soft piano chords in a minor key. A solo cello enters with a slow, expressive melody, staying intimate. End with the cello holding a final note over a quiet piano chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "reflective",
+        "melancholic"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "documentary",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 1.87,
+        "peak_seconds": 35.195,
+        "end_seconds": 55.16,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:23:00Z",
+        "output_id": "music__20261008_072253.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-triumph-007",
+      "title": "Finish Line Light",
+      "description": "Triumphant short orchestral cue with brass and drums for achievements and celebration moments.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "triumph",
+        "celebration",
+        "brass",
+        "achievement"
+      ],
+      "file": "assets/cinematic/cinematic-triumph-007.mp3",
+      "format": "mp3",
+      "duration_seconds": 30.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "65683f8d9b225609b7d2b571cb3fd417f8bcc4bf9a9a7ca581d6f0c7d754b19f",
+      "source": "elevenlabs",
+      "generation_prompt": "A 30-second triumphant orchestral instrumental track. Start with a cymbal swell into a bold brass phrase. Big drums and strings support a triumphant melody. End with a full-orchestra final chord and natural reverb tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "energetic",
+        "inspiring",
+        "confident"
+      ],
+      "energy": 5,
+      "preferred_content_types": [
+        "trailer",
+        "reel",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.9,
+        "peak_seconds": 23.125,
+        "end_seconds": 29.07,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:27:06Z",
+        "output_id": "music__20261008_072654.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "cinematic-wonder-005",
+      "title": "Sky Full Of Questions",
+      "description": "Wondrous ambient-orchestral blend with celesta, strings, and synth textures for awe-inspiring visuals.",
+      "category": "cinematic",
+      "tags": [
+        "cinematic",
+        "wonder",
+        "awe",
+        "celesta",
+        "ambient"
+      ],
+      "file": "assets/cinematic/cinematic-wonder-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "04aeea3f854287dac50439ba70e7b9886ba63c31c384813a590b0cb213e7b06a",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second ambient orchestral instrumental track. Begin with harp and celesta sparkling over a soft synth texture. Soft strings rise and fall with an awe-filled melody, staying gentle and expansive. Fade with celesta and harp alone. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "mysterious",
+        "hopeful"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 57.935,
+        "end_seconds": 116.68,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:24:38Z",
+        "output_id": "music__20261008_072425.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "corporate-keynote-005",
+      "title": "Opening Keynote",
+      "description": "Short confident intro cue with modern synths and a clean beat for webinar and keynote openers.",
+      "category": "corporate",
+      "tags": [
+        "corporate",
+        "keynote",
+        "intro",
+        "webinar",
+        "confident"
+      ],
+      "file": "assets/corporate/corporate-keynote-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 20.04,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "0cde3411eea081b095ea26dd924217c9bab6c5b2fee0e2f65c9b042ea6747443",
+      "source": "elevenlabs",
+      "generation_prompt": "A 20-second modern corporate electronic instrumental track. Start with a short riser into confident synth stabs. A clean beat establishes a brief professional groove. End on a final stab and short tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "confident",
+        "energetic"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "podcast-intro",
+        "slides-video",
+        "livestream"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 4.08,
+        "peak_seconds": 14.735,
+        "end_seconds": 17.8,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:33:50Z",
+        "output_id": "music__20261008_073343.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "corporate-minimal-002",
+      "title": "White Space",
+      "description": "Minimal corporate bed with soft mallets and gentle pulse that stays neutral under business narration.",
+      "category": "corporate",
+      "tags": [
+        "corporate",
+        "minimal",
+        "neutral",
+        "mallets",
+        "narration"
+      ],
+      "file": "assets/corporate/corporate-minimal-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "9d88d562ab4c4c4b922bcde67bef9758f81c7b1e0c39ad5dae4e85c0e1a6a523",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second minimal corporate instrumental track. Begin with soft mallet patterns and warm pad. A gentle pulse and light bass keep neutral, steady motion without strong melody. Fade the pulse and end on the pad. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "calm",
+        "focused"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "slides-video",
+        "explainer",
+        "podcast-intro"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 105.585,
+        "end_seconds": 147.92,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:32:18Z",
+        "output_id": "music__20261008_073204.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "corporate-polished-001",
+      "title": "Clear Quarterly",
+      "description": "Polished, optimistic corporate instrumental with piano, light guitar, and clean drums for company presentations.",
+      "category": "corporate",
+      "tags": [
+        "corporate",
+        "business",
+        "presentation",
+        "polished",
+        "optimistic"
+      ],
+      "file": "assets/corporate/corporate-polished-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "02fa50948dab6702be58b5906a8488ba1322d11cc0975a1be3526b1d4d358f4e",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second corporate pop instrumental track. Open with a bright piano rhythm and soft pad. Clean guitar and light drums add a polished, optimistic lift with subtle build in the second half. End on a confident final chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "confident",
+        "hopeful"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "slides-video",
+        "product-demo",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 23.455,
+        "end_seconds": 119.03,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:31:01Z",
+        "output_id": "music__20261008_073044.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "corporate-success-003",
+      "title": "Growth Curve",
+      "description": "Upbeat motivational corporate instrumental with claps, bright synths, and acoustic guitar for success stories.",
+      "category": "corporate",
+      "tags": [
+        "corporate",
+        "success",
+        "motivational",
+        "upbeat",
+        "claps"
+      ],
+      "file": "assets/corporate/corporate-success-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "d2a0341508b031fea4a36ea47ca6e03b55a88b7d78b9042578332aa3098dbc49",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second motivational corporate pop instrumental track. Open with acoustic guitar strums and claps. Bright synths and a punchy kick lift into a motivating chorus-like section. Close on a bright chord hit. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "confident",
+        "hopeful"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "product-demo",
+        "explainer",
+        "reel"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 45.385,
+        "end_seconds": 56.57,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:32:33Z",
+        "output_id": "music__20261008_073226.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "corporate-trust-004",
+      "title": "Steady Handshake",
+      "description": "Warm, trustworthy instrumental with soft strings, piano, and gentle percussion for brand values and testimonials.",
+      "category": "corporate",
+      "tags": [
+        "corporate",
+        "trust",
+        "warm",
+        "testimonial",
+        "strings"
+      ],
+      "file": "assets/corporate/corporate-trust-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "c3be3f0661d9ee29daef9cccc7e174e1c6ab36ca88e8bc2eabf0c18236eb47a7",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second warm corporate instrumental track. Begin with warm piano and soft strings. Gentle percussion adds steady movement while the harmony stays reassuring. End on a sustained warm chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "warm",
+        "calm",
+        "confident"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "explainer",
+        "documentary",
+        "product-demo"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 2.48,
+        "peak_seconds": 54.045,
+        "end_seconds": 59.58,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:33:03Z",
+        "output_id": "music__20261008_073255.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-bright-004",
+      "title": "Lightbulb Moment",
+      "description": "Bright ukulele and glockenspiel arrangement with handclaps that keeps beginner lessons cheerful without stealing attention.",
+      "category": "education",
+      "tags": [
+        "education",
+        "ukulele",
+        "bright",
+        "beginner",
+        "cheerful"
+      ],
+      "file": "assets/education/education-bright-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "a0c62ea797da020de8ae696530fa0b0a48b798fa06e4a71e531d8454e220e855",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second acoustic pop instrumental track. Open with strummed ukulele and a short glockenspiel phrase. Light handclaps and a round bass line join, keeping the arrangement airy with simple chord changes. Close with a final ukulele strum and a glockenspiel sparkle that rings out cleanly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "warm",
+        "playful"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "explainer",
+        "tutorial",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 43.245,
+        "end_seconds": 55.45,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:25:00Z",
+        "output_id": "music__20261008_072500.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-calm-001",
+      "title": "Quiet Chalkboard",
+      "description": "Unobtrusive minimal electronic bed of warm pads and soft plucks that sits gently under narrated lessons and slide walkthroughs.",
+      "category": "education",
+      "tags": [
+        "education",
+        "minimal",
+        "electronic",
+        "lesson",
+        "explainer"
+      ],
+      "file": "assets/education/education-calm-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 152.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "37bfb8b91d543b2ba805acb68807c2ad1a8ed5713ada8a755464626c59508684",
+      "source": "suno",
+      "generation_prompt": "A 150-second minimal electronic instrumental track. Open with a soft warm pad chord and a gentle plucked motif fading in over four bars. The body adds a light brushed shuffle and a muted sub bass, with the pluck pattern evolving slowly and no sudden changes in dynamics. End by thinning back to the pad and letting the last chord ring out naturally over a smooth fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "calm",
+        "focused"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "slides-video",
+        "tutorial",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.0,
+        "peak_seconds": 24.065,
+        "end_seconds": 150.95,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T13:40:14.500Z",
+        "output_id": "3bcd49e0-76d3-470b-93e1-e40d59d63cf3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "Auditioned by maintainer; take1 approved. Voiceover fit and loop not yet tested."
+      }
+    },
+    {
+      "id": "education-data-013",
+      "title": "Clean Graph Lines",
+      "description": "Precise, minimal glitch-free electronic texture with soft ticks and pads for data, statistics, and chart walkthroughs.",
+      "category": "education",
+      "tags": [
+        "education",
+        "data",
+        "minimal",
+        "analytics",
+        "clean"
+      ],
+      "file": "assets/education/education-data-013.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "06338ba56bf178faa547ab61f07389d273810f6061e2dc3f8c445b5cc1fed523",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second minimal techno-lite instrumental track. Fade in a soft pad with delicate click percussion. A gentle bass pulse and precise hi-hat ticks create order and clarity, with subtle filter movement. Strip back to the pad and click pattern and fade smoothly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "focused",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "slides-video",
+        "explainer",
+        "product-demo"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 2.03,
+        "peak_seconds": 50.695,
+        "end_seconds": 59.52,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:35:43Z",
+        "output_id": "music__20261008_073543.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-discovery-002",
+      "title": "First Light Of Curiosity",
+      "description": "Gentle marimba and celesta motif with a light pulse that conveys calm discovery for science and how-it-works explainers.",
+      "category": "education",
+      "tags": [
+        "education",
+        "discovery",
+        "marimba",
+        "science",
+        "curious"
+      ],
+      "file": "assets/education/education-discovery-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 43.28,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ccb89c9d005ad04ff6ebb422cd297e8d7cdb56fbe4ad09d15e466314ebfb5357",
+      "source": "suno",
+      "generation_prompt": "A 60-second light orchestral electronic instrumental track. Begin with a solo marimba figure answered by a sparkling celesta. Soft strings enter beneath a gentle eighth-note pulse, building a sense of wonder while staying low in volume. Resolve on a bright major chord with the marimba playing the opening figure once more before a clean fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "curious",
+        "hopeful",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "explainer",
+        "tutorial",
+        "documentary"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.0,
+        "peak_seconds": 35.785,
+        "end_seconds": 40.41,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T14:19:54.073Z",
+        "output_id": "75784838-c056-4939-a9d0-55d42893240b"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-focus-003",
+      "title": "Sustained Attention",
+      "description": "Steady, low-key lo-fi piano loop with warm vinyl texture designed for sustained focus during long coding or study tutorials.",
+      "category": "education",
+      "tags": [
+        "education",
+        "focus",
+        "lofi",
+        "piano",
+        "study"
+      ],
+      "file": "assets/education/education-focus-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 180.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ff64b108cdd1c205c283e50d11b7d31f96381ad5c284d59f048b1c49ade8127b",
+      "source": "elevenlabs",
+      "generation_prompt": "A 180-second lo-fi hip hop instrumental track. Start with a mellow electric piano chord progression and faint vinyl texture. A relaxed boom-bap beat with soft kick and snare joins, the progression repeating with subtle variations every eight bars. Drop the drums for the final phrase and let the piano finish on a sustained chord with a gentle fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "focused",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "tutorial",
+        "livestream",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 101.485,
+        "end_seconds": 177.27,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:23:20Z",
+        "output_id": "music__20261008_072320.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-gentle-pulse-010",
+      "title": "Patient Teacher",
+      "description": "Gentle synth pulse with soft Rhodes chords that stays evenly balanced for long narrated explainer videos.",
+      "category": "education",
+      "tags": [
+        "education",
+        "rhodes",
+        "pulse",
+        "explainer",
+        "balanced"
+      ],
+      "file": "assets/education/education-gentle-pulse-010.mp3",
+      "format": "mp3",
+      "duration_seconds": 180.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "712d99d36b2bee44d8e963a20f5390bdbecf68342bec8776551cf3f823295e1b",
+      "source": "elevenlabs",
+      "generation_prompt": "A 180-second chill electronic instrumental track. Begin with warm Rhodes chords and a quiet synth pulse. Light rimshots and a muted bass enter, keeping a gentle, unchanging energy across sections with minor chord-voicing changes. Remove the percussion and close on a soft Rhodes chord with a natural fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "calm",
+        "focused",
+        "warm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "explainer",
+        "slides-video",
+        "podcast-intro"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 70.995,
+        "end_seconds": 178.55,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:33:03Z",
+        "output_id": "music__20261008_073303.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-history-014",
+      "title": "Pages Of Old Maps",
+      "description": "Warm string quartet with harp accents that suits history, geography, and storytelling lessons.",
+      "category": "education",
+      "tags": [
+        "education",
+        "history",
+        "strings",
+        "harp",
+        "storytelling"
+      ],
+      "file": "assets/education/education-history-014.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "697f7909003e1f3c46068c2e4ca763125ca054bebfd3f11f84fddc9ae35208fb",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second chamber strings instrumental track. Open with a harp arpeggio and a sustained viola note. The quartet introduces a gentle, narrative melody in the second violin with cello movement below, rising modestly mid-track. Settle back to soft sustained strings and end on a quiet harp chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "reflective",
+        "warm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.05,
+        "peak_seconds": 92.575,
+        "end_seconds": 147.27,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:36:32Z",
+        "output_id": "music__20261008_073632.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-kids-012",
+      "title": "Crayon Box Counting",
+      "description": "Playful xylophone and clarinet and flute melody suitable for children's learning content and simple counting lessons.",
+      "category": "education",
+      "tags": [
+        "education",
+        "kids",
+        "xylophone",
+        "woodwind",
+        "children"
+      ],
+      "file": "assets/education/education-kids-012.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "950e8875788b63bd432afb769fd4e6b0f5ad3e5665073c4b7d2a67bcf521f19f",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second children's music instrumental track. Start with a bouncy xylophone melody and light shaker. Clarinet and flute trade simple, singable phrases over a steady light percussion groove. Finish with the full ensemble on a cheerful final chord and a xylophone run. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "playful",
+        "warm"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "explainer",
+        "short",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 47.415,
+        "end_seconds": 58.34,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:34:42Z",
+        "output_id": "music__20261008_073442.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-lab-015",
+      "title": "Lab Bench Groove",
+      "description": "Light funky bass and clavinet groove with soft drums that gives practical science demos a relaxed momentum.",
+      "category": "education",
+      "tags": [
+        "education",
+        "groove",
+        "clavinet",
+        "demo",
+        "funky"
+      ],
+      "file": "assets/education/education-lab-015.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "7becccaf08f47abbf0342af4557628ecf631e52e3edbd5f690a494b16bb8532e",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second light funk instrumental track. Start with a muted clavinet riff and a round bass line. Soft drums and occasional wah guitar accents join, keeping the groove relaxed and below conversation level. Close with a final clavinet stab and a short bass slide. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "curious"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "tutorial",
+        "explainer",
+        "product-demo"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.03,
+        "peak_seconds": 57.175,
+        "end_seconds": 58.68,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:37:08Z",
+        "output_id": "music__20261008_073708.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-optimistic-011",
+      "title": "Open Notebook",
+      "description": "Optimistic light pop instrumental with soft piano, bell accents, and a muted kick for upbeat course intros.",
+      "category": "education",
+      "tags": [
+        "education",
+        "course",
+        "intro",
+        "piano",
+        "optimistic"
+      ],
+      "file": "assets/education/education-optimistic-011.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "270ce516c6551265b3418a2ba4f9b81bae6dd00c7a163005e53ade5f648aa8ce",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second light pop instrumental track. Open with a bright piano rhythm and bell accents. A muted kick and soft claps lift the energy slightly while staying friendly and uncluttered. End on a confident piano chord with a single bell ring. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "hopeful",
+        "upbeat"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "slides-video",
+        "tutorial",
+        "podcast-intro"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 50.535,
+        "end_seconds": 57.54,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:34:08Z",
+        "output_id": "music__20261008_073408.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-recap-009",
+      "title": "Quick Recap",
+      "description": "Short, tidy pizzicato strings and light woodblock cue for chapter recaps and end-of-lesson summaries.",
+      "category": "education",
+      "tags": [
+        "education",
+        "recap",
+        "pizzicato",
+        "summary",
+        "short"
+      ],
+      "file": "assets/education/education-recap-009.mp3",
+      "format": "mp3",
+      "duration_seconds": 25.032,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "61eb888b369768ecd9bcd26a0f4e3f13ad6ab16b3d2ea3f904ca388c9bae89ac",
+      "source": "elevenlabs",
+      "generation_prompt": "A 25-second light chamber instrumental track. Open immediately with a crisp pizzicato figure and a woodblock tick. A soft bassoon line adds warmth while the pizzicato keeps a tidy forward motion. Finish with a neat cadence on a plucked chord, no lingering tail. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "focused"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "slides-video",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 23.055,
+        "end_seconds": 24.14,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:32:33Z",
+        "output_id": "music__20261008_073233.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-steady-006",
+      "title": "Step By Step",
+      "description": "Clean mid-tempo electronic pulse with rounded synth bass and soft arpeggios that frames step-by-step software tutorials.",
+      "category": "education",
+      "tags": [
+        "education",
+        "tutorial",
+        "arpeggio",
+        "synth",
+        "steady"
+      ],
+      "file": "assets/education/education-steady-006.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "90c2f35b3f1e77f3ced14c54092ac0229289363847f6a265dc46941e8d193865",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second clean electronic instrumental track. Fade in a filtered arpeggio over a soft kick. The filter opens gradually as a rounded bass and closed hi-hats lock into a steady groove, with small textural changes every section. Filter the arpeggio back down and finish on a held bass note with a smooth fade. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "focused",
+        "confident"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "tutorial",
+        "product-demo",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.76,
+        "peak_seconds": 58.455,
+        "end_seconds": 115.59,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:27:06Z",
+        "output_id": "music__20261008_072706.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-thoughtful-005",
+      "title": "Margin Notes",
+      "description": "Thoughtful solo felt piano with sparse phrasing, ideal under reflective lectures, history lessons, and concept summaries.",
+      "category": "education",
+      "tags": [
+        "education",
+        "piano",
+        "felt-piano",
+        "lecture",
+        "reflective"
+      ],
+      "file": "assets/education/education-thoughtful-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "9076ce8be2205ccbd7c394eb0cb1680bc29e0208586fe282eecf09ebbbe4d98e",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second modern classical instrumental track. Begin with a single sustained felt piano note leading into a slow, open-voiced progression. Phrases stay sparse with plenty of space between notes, slowly introducing a soft left-hand ostinato. End with a quiet descending phrase and a final chord that decays naturally into silence. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "reflective",
+        "calm"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "explainer",
+        "documentary",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 1.29,
+        "peak_seconds": 43.605,
+        "end_seconds": 141.4,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:25:52Z",
+        "output_id": "music__20261008_072552.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-warm-007",
+      "title": "Kitchen Table Classroom",
+      "description": "Warm acoustic guitar fingerpicking with soft cello that feels friendly and human for narrated how-to lessons.",
+      "category": "education",
+      "tags": [
+        "education",
+        "acoustic",
+        "guitar",
+        "cello",
+        "friendly"
+      ],
+      "file": "assets/education/education-warm-007.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "d4677eea1a8a05cb78a23b09de3f5521e86c8f1644899df61c4a3a4cd590cd0f",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second acoustic folk instrumental track. Start with gentle fingerpicked acoustic guitar in a major key. A soft cello line enters underneath with a light shaker, keeping the arrangement intimate and uncluttered. Slow slightly in the last bars and end on a ringing open guitar chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "warm",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "tutorial",
+        "explainer",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.05,
+        "peak_seconds": 22.695,
+        "end_seconds": 57.6,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:28:48Z",
+        "output_id": "music__20261008_072848.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "education-wonder-008",
+      "title": "Map Of Small Stars",
+      "description": "Glassy vibraphone and soft synth shimmer evoking quiet wonder for astronomy, nature, and big-picture explainers.",
+      "category": "education",
+      "tags": [
+        "education",
+        "wonder",
+        "vibraphone",
+        "space",
+        "science"
+      ],
+      "file": "assets/education/education-wonder-008.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "b771714118e5bad8238f6a61fe7e48ec501d315c4aa2f1d5716837d85f5e9d79",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second ambient electronic instrumental track. Open with a shimmering synth pad and a slow vibraphone motif with a touch of reverb. A soft sub bass pulse and gentle granular textures enter, the motif repeating with small harmonic shifts. Let the textures recede, leaving the vibraphone motif to finish alone with a long natural decay. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "mysterious",
+        "hopeful",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.03,
+        "peak_seconds": 48.165,
+        "end_seconds": 144.64,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:31:01Z",
+        "output_id": "music__20261008_073101.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "playful-bouncy-003",
+      "title": "Rubber Band Shuffle",
+      "description": "Bouncy swing-feel instrumental with ukulele, cheeky clarinet, and claps for comedy sketches.",
+      "category": "playful",
+      "tags": [
+        "playful",
+        "bouncy",
+        "swing",
+        "clarinet",
+        "comedy"
+      ],
+      "file": "assets/playful/playful-bouncy-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 30.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "1e4034367ba6fca362c212c8ea780d109e08953f7a16f6416fae6192b6a6979e",
+      "source": "elevenlabs",
+      "generation_prompt": "A 30-second playful swing instrumental track. Start with a bouncy ukulele and upright bass shuffle. A cheeky clarinet melody and handclaps add comic energy. End with a playful clarinet trill and a final hit. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "playful",
+        "upbeat"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 13.045,
+        "end_seconds": 29.44,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:36:19Z",
+        "output_id": "music__20261008_073614.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "playful-cartoon-004",
+      "title": "Sneaky Snack Mission",
+      "description": "Cartoonish sneaky tiptoe music with soft mallets and plucks for silly mischief scenes.",
+      "category": "playful",
+      "tags": [
+        "playful",
+        "cartoon",
+        "sneaky",
+        "mallets",
+        "mischief"
+      ],
+      "file": "assets/playful/playful-cartoon-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 25.032,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ba0a2b71acb5c4d3228c6aa73130027578803840bcaae00fb8d7166bd10eee52",
+      "source": "elevenlabs",
+      "generation_prompt": "A 25-second cartoon sneaky instrumental track. Open with tiptoeing marimba and pizzicato notes. Muted plucks and light percussion build a silly, sneaky feel with exaggerated pauses. End with a sudden playful pluck and silence. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "playful",
+        "mysterious"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 10.105,
+        "end_seconds": 21.43,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:36:32Z",
+        "output_id": "music__20261008_073625.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "playful-quirky-001",
+      "title": "Pocket Full Of Buttons",
+      "description": "Quirky pizzicato and bassoon tune with woodblock hits for light comedic moments and funny fails.",
+      "category": "playful",
+      "tags": [
+        "playful",
+        "quirky",
+        "comedy",
+        "pizzicato",
+        "bassoon"
+      ],
+      "file": "assets/playful/playful-quirky-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "315a9946994907bdb3e52471f80a5ccbda93919005bedd1a94c9a716e6a2b49b",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second quirky comedy instrumental track. Open with tiptoeing pizzicato and a woodblock tick. A bassoon carries a mischievous melody with playful pauses and accents. End with a comedic bassoon note and final pizzicato pluck. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "playful",
+        "curious"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "vlog",
+        "reel",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 52.235,
+        "end_seconds": 55.16,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:34:31Z",
+        "output_id": "music__20261008_073421.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "playful-retro-game-005",
+      "title": "Pixel Picnic",
+      "description": "Light chiptune-flavored instrumental with soft square leads and bouncy bass for gaming and fun tech content.",
+      "category": "playful",
+      "tags": [
+        "playful",
+        "chiptune",
+        "8-bit",
+        "gaming",
+        "fun"
+      ],
+      "file": "assets/playful/playful-retro-game-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "559e9b7120a23bcd116f5880c5fc00fb8fa938578d140e9d3e30a4dcb7cb50af",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second chiptune instrumental track. Start with a cheerful square-wave melody. A bouncy bass and light noise drums keep a fun, retro groove with a short variation. End with a quick melodic flourish and stop. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "playful",
+        "energetic"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "vlog",
+        "reel",
+        "livestream"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 36.205,
+        "end_seconds": 59.63,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:37:08Z",
+        "output_id": "music__20261008_073700.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "playful-whimsical-002",
+      "title": "Teacup Parade",
+      "description": "Whimsical toy piano, music box, and glockenspiel waltz for lighthearted storytelling and kids' content.",
+      "category": "playful",
+      "tags": [
+        "playful",
+        "whimsical",
+        "toy-piano",
+        "waltz",
+        "kids"
+      ],
+      "file": "assets/playful/playful-whimsical-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "7a270eada7502639f476d8589d5608df97ee6f269488967b8408973aaaaf75bc",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second whimsical waltz instrumental track. Begin with a music-box melody in waltz time. Toy piano, glockenspiel and soft accordion join for a charming, twirling dance. Slow down like a winding-down music box and end on a single chime. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "playful",
+        "warm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "explainer",
+        "vlog",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.59,
+        "peak_seconds": 46.615,
+        "end_seconds": 56.64,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:35:43Z",
+        "output_id": "music__20261008_073530.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-before-after-006",
+      "title": "Glow Up Reveal",
+      "description": "Short build-and-drop instrumental designed for before-and-after transitions with a clear reveal moment.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "transition",
+        "reveal",
+        "drop",
+        "before-after"
+      ],
+      "file": "assets/reels/reels-before-after-006.mp3",
+      "format": "mp3",
+      "duration_seconds": 38.04,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "f03507271419431ba7b4aeafa42b9e2ef545759cff6b18eff60d70c7a63db206",
+      "source": "elevenlabs",
+      "generation_prompt": "A 20-second electronic pop instrumental track. Begin with a filtered beat and snare roll building quickly. Drop into bright synths and heavy but clean drums at the midpoint for the reveal. Finish with a final bright chord stab. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: electronic pop, build-up, snare roll, big drop, bright synths, 126 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, harsh distortion, dubstep growl. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "excited",
+        "energetic"
+      ],
+      "energy": 5,
+      "preferred_content_types": [
+        "reel",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 17.255,
+        "end_seconds": 34.9,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:39:36Z",
+        "output_id": "music__20261008_073930.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-chill-007",
+      "title": "Soft Scroll",
+      "description": "Chill, catchy lo-fi pop instrumental with mellow keys for aesthetic and calm short-form content.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "chill",
+        "aesthetic",
+        "lofi",
+        "mellow"
+      ],
+      "file": "assets/reels/reels-chill-007.mp3",
+      "format": "mp3",
+      "duration_seconds": 30.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "eeb8e717619027377e85d8b512526709b11f71730ea088896523251a6d3ac8c5",
+      "source": "elevenlabs",
+      "generation_prompt": "A 30-second chill pop lo-fi instrumental track. Start with mellow keys and soft snaps. A warm bass adds gentle bounce while the keys repeat a short catchy figure. End with a soft chord and short tail. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: chill pop lo-fi, mellow keys, soft snaps, warm bass, 85 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, vocals, loud drums, harsh noise. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "calm",
+        "relaxed"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.04,
+        "peak_seconds": 11.375,
+        "end_seconds": 29.6,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:40:38Z",
+        "output_id": "music__20261008_074025.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-funk-005",
+      "title": "Strut Mode",
+      "description": "Groovy disco-funk instrumental with slap bass and rhythm guitar for fashion, food, and fun reels.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "funk",
+        "disco",
+        "groove",
+        "fashion"
+      ],
+      "file": "assets/reels/reels-funk-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "8c99bab21a337e77469b0b850fecc0b7d5ee84a0c5b024b636dd766b6fb8bf15",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second nu-disco funk instrumental track. Start with a funky rhythm guitar lick and slap bass. A four-on-the-floor beat and string stabs build a strutting groove with a short breakdown. End with the full band hit and a guitar flourish. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: nu-disco funk, slap bass, rhythm guitar, four-on-the-floor, strings stabs, 116 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, heavy distortion, dubstep. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "playful",
+        "confident"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "reel",
+        "vlog",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 2.12,
+        "peak_seconds": 26.195,
+        "end_seconds": 55.2,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:39:04Z",
+        "output_id": "music__20261008_073856.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-hook-001",
+      "title": "Thumb Stopper",
+      "description": "Energetic rhythmic hook with punchy drums and a catchy synth riff that grabs attention in the first second.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "hook",
+        "punchy",
+        "catchy",
+        "opener"
+      ],
+      "file": "assets/reels/reels-hook-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 112.8,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "beb2dd812aaae17f6fe4b91f2e4422b3023189b6d433fd8b1790a1abd9d5c5ef",
+      "source": "suno",
+      "generation_prompt": "A 20-second modern electronic pop instrumental track. Start instantly with a punchy drum hit and a catchy synth riff, no fade-in. Sub bass and claps keep tight, high-energy momentum with a quick riff variation. End on a crisp final hit with a very short tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "energetic",
+        "upbeat",
+        "confident"
+      ],
+      "energy": 5,
+      "preferred_content_types": [
+        "reel",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.2,
+        "peak_seconds": 89.545,
+        "end_seconds": 112.8,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T13:54:09.933Z",
+        "output_id": "7ef49895-e69a-441b-a9e1-48ed5cc50796"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "Auditioned by maintainer; take1 approved. Voiceover fit and loop not yet tested."
+      }
+    },
+    {
+      "id": "reels-hype-008",
+      "title": "Full Send",
+      "description": "High-energy rock-electronic hybrid with driving drums and gritty-but-clean guitar for sports and action reels.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "hype",
+        "sports",
+        "rock",
+        "action"
+      ],
+      "file": "assets/reels/reels-hype-008.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "4444a67bcac88907828ee888523faea0ee024fb6a5f6d89bd14a73af935bfad2",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second electronic rock instrumental track. Open with a drum fill into a driving guitar riff. Synth bass and driving drums push high energy through two sections with a brief half-time break. End on a big sustained power chord that is cut cleanly. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: electronic rock, driving drums, overdriven guitar riffs, synth bass, 135 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, screaming, excessive distortion. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "energetic",
+        "confident"
+      ],
+      "energy": 5,
+      "preferred_content_types": [
+        "reel",
+        "trailer",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 28.145,
+        "end_seconds": 56.15,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:41:23Z",
+        "output_id": "music__20261008_074115.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-latin-009",
+      "title": "Plaza Rhythm",
+      "description": "Bright Latin-pop instrumental with percussion, nylon guitar, and bright synth hooks for travel and food reels.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "latin",
+        "percussion",
+        "nylon-guitar",
+        "travel"
+      ],
+      "file": "assets/reels/reels-latin-009.mp3",
+      "format": "mp3",
+      "duration_seconds": 30.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "8b3593af4d6d5351b41f9fc04d13e540d239693666e5e2dfe27f6b54e93e5503",
+      "source": "elevenlabs",
+      "generation_prompt": "A 30-second latin pop instrumental track. Start with nylon guitar and congas. A shaker groove and a catchy synth hook lift the energy with a bright feel. End with a guitar flourish and a final conga hit. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: latin pop instrumental, nylon guitar, congas, shakers, synth hook, 102 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, heavy distortion, brass blasts. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "warm",
+        "playful"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "reel",
+        "vlog",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 20.965,
+        "end_seconds": 28.53,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:41:47Z",
+        "output_id": "music__20261008_074143.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-opener-003",
+      "title": "Ten Second Spark",
+      "description": "Very short punchy opener with a riser into a big drum hit for intros and transitions in reels.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "opener",
+        "intro",
+        "riser",
+        "impact"
+      ],
+      "file": "assets/reels/reels-opener-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 15.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "fb797323205ab7eb69927428093b0ddb971b6427759c26d7735872521da1986d",
+      "source": "elevenlabs",
+      "generation_prompt": "A 15-second electronic opener instrumental track. Begin with a quick rising synth sweep. Hit a big drum and synth stab followed by a two-bar punchy groove. End sharply on a final stab. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: electronic opener, riser, big drum hit, synth stab, 125 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, long tails, harsh noise. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "energetic",
+        "excited"
+      ],
+      "energy": 5,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "podcast-intro"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 1.39,
+        "peak_seconds": 8.665,
+        "end_seconds": 13.38,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:37:26Z",
+        "output_id": "music__20261008_073720.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-trap-004",
+      "title": "Street Level",
+      "description": "Hard-hitting but clean trap instrumental with 808 bass and crisp hats for confident lifestyle reels.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "trap",
+        "808",
+        "confident",
+        "urban"
+      ],
+      "file": "assets/reels/reels-trap-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 30.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ef4efe2caba3ee0f065c9ba113dfebab9bad4aca9288d4b22869f257c0e128c6",
+      "source": "elevenlabs",
+      "generation_prompt": "A 30-second clean trap instrumental track. Open with a dark bell melody for one bar. 808 bass and crisp hi-hat rolls drop in for a confident half-time groove. End with the bell melody alone and a final 808 tail cut short. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: clean trap instrumental, 808 bass, crisp hi-hat rolls, dark bell melody, 140 bpm half-time, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, vocal tags, distortion clipping. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "confident",
+        "energetic"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "reel",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 20.105,
+        "end_seconds": 29.02,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:38:12Z",
+        "output_id": "music__20261008_073807.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-tutorial-snap-010",
+      "title": "Quick Tip",
+      "description": "Snappy, light electronic beat with clean plucks for fast tutorial reels and tip videos with captions or voiceover.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "tips",
+        "tutorial",
+        "snappy",
+        "plucks"
+      ],
+      "file": "assets/reels/reels-tutorial-snap-010.mp3",
+      "format": "mp3",
+      "duration_seconds": 30.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "52afef6cf06c07b19151bc9d0dc853824f74266252f7aee8c5205732c6fbde00",
+      "source": "elevenlabs",
+      "generation_prompt": "A 30-second light electronic instrumental track. Open immediately with a clean pluck pattern and snappy snare. A soft bass keeps steady momentum while leaving space for quick narration. End with a final pluck and clean stop. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: light electronic, clean plucks, snappy snare, soft bass, 108 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, vocals, loud leads, heavy drops. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "focused"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "tutorial"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 8.965,
+        "end_seconds": 28.87,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:42:08Z",
+        "output_id": "music__20261008_074157.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "reels-upbeat-002",
+      "title": "Fresh Drop",
+      "description": "Modern upbeat pop-dance instrumental with bright chords and bouncy bass for trending-style short videos.",
+      "category": "reels",
+      "tags": [
+        "reels",
+        "upbeat",
+        "dance",
+        "bouncy",
+        "modern"
+      ],
+      "file": "assets/reels/reels-upbeat-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 30.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ffd1b66cac4ab7544d82612ffdeaf58dcbf0e60a7e9c86537be9e677d3fc49e6",
+      "source": "elevenlabs",
+      "generation_prompt": "A 30-second pop dance instrumental track. Open with bright chords over a quick riser. Bouncy bass and crisp claps drive a fun, modern groove with a small drop. Close on a bright chord stab and clean stop. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: pop dance instrumental, bright chords, bouncy bass, crisp claps, 120 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, vocal chops, dubstep. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "playful",
+        "energetic"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "reel",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 8.115,
+        "end_seconds": 27.29,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:21:26Z",
+        "output_id": "music__20261008_072117.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-anticipation-003",
+      "title": "Before The Reveal",
+      "description": "Short rising anticipation cue with swelling strings and ticking clock percussion for reveal setups.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "anticipation",
+        "reveal",
+        "riser",
+        "short"
+      ],
+      "file": "assets/suspense/suspense-anticipation-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 37.16,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "1923a98cc9f7d186333d32d4b09bd72144adbf26417635da4dae9aef902c86db",
+      "source": "suno",
+      "generation_prompt": "A 25-second cinematic tension instrumental track. Start with a low drone and ticking percussion. Strings swell steadily in pitch and volume to build anticipation. Stop cleanly at the peak with a soft low impact and short tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "tense",
+        "excited"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "trailer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.0,
+        "peak_seconds": 7.235,
+        "end_seconds": 37.16,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T14:58:44.458Z",
+        "output_id": "6e19b77d-e8a3-4a92-b196-a55e10850ab7"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-build-010",
+      "title": "Slow Burn Signal",
+      "description": "Gradually building tension track with layered synths and strings that grows from near-silence to a controlled peak.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "build",
+        "crescendo",
+        "tension",
+        "layers"
+      ],
+      "file": "assets/suspense/suspense-build-010.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "038f1152b76e331f965314790c82c0fcdf4a8baa24134deeb32bb07bbae73c91",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second cinematic build instrumental track. Begin almost silent with a faint high synth tone. Layers of strings ostinato, low percussion and synth bass enter one by one, rising steadily toward a controlled peak. After the peak, release into a soft low sustained chord and fade out cleanly. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: cinematic build, layered synths, strings ostinato, low percussion, 100 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, jump scares, harsh distortion. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "tense",
+        "excited",
+        "mysterious"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "trailer",
+        "documentary"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 29.74,
+        "peak_seconds": 123.695,
+        "end_seconds": 142.35,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:28:48Z",
+        "output_id": "music__20261008_072830.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-countdown-006",
+      "title": "Thirty Seconds Left",
+      "description": "Driving ticking percussion and staccato strings that create urgent time-pressure for challenges and countdowns.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "countdown",
+        "urgent",
+        "staccato",
+        "challenge"
+      ],
+      "file": "assets/suspense/suspense-countdown-006.mp3",
+      "format": "mp3",
+      "duration_seconds": 30.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "803ff8cd3235619b0dd0ca48d95c5697dca57b575d0df290f2d0851097b00889",
+      "source": "elevenlabs",
+      "generation_prompt": "A 30-second cinematic tension instrumental track. Start immediately with ticking percussion and pulsing bass. Staccato strings drive urgency, adding layers every few seconds. End on a sharp unified hit and a short decay. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: cinematic tension, staccato strings, ticking percussion, pulsing bass, 130 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, dubstep, horror screams. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "tense",
+        "energetic"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "reel",
+        "short",
+        "livestream"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 26.925,
+        "end_seconds": 29.43,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:25:00Z",
+        "output_id": "music__20261008_072438.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-dark-ambient-004",
+      "title": "Under The Floorboards",
+      "description": "Dark ambient drones and distant metallic textures for unsettling but non-scary mystery content.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "dark-ambient",
+        "drone",
+        "mystery",
+        "atmosphere"
+      ],
+      "file": "assets/suspense/suspense-dark-ambient-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 183.6,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "5c59526371418d0445b575eefdd02147609850a4976b0ecd0df3fe292a57031a",
+      "source": "suno",
+      "generation_prompt": "A 150-second dark ambient instrumental track. Fade in a deep drone with distant metallic resonances. Subtle reverse textures and slowly shifting harmonics create an uneasy atmosphere without sudden events. Fade the textures out, leaving the drone to taper into silence. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "mysterious",
+        "tense"
+      ],
+      "energy": 1,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.0,
+        "peak_seconds": 10.205,
+        "end_seconds": 183.03,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T15:01:29.619Z",
+        "output_id": "dd2acc5b-49c3-450f-b293-7bfc1d7622fe"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-heist-005",
+      "title": "Quiet Heist",
+      "description": "Cool, sneaky groove with muted guitar, upright bass, and light percussion for clever plans and puzzle reveals.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "sneaky",
+        "heist",
+        "groove",
+        "puzzle"
+      ],
+      "file": "assets/suspense/suspense-heist-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "479b62a0a13a74efa7a629f5927f479878121a3c782d48f8ce5bae5866bfbf2e",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second spy jazz-lite instrumental track. Open with a sneaky upright bass riff. Muted guitar and light bongos join for a cool, tiptoeing groove with a small rise in the middle. Finish with the bass riff alone and a single muted guitar note. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: spy jazz-lite, muted electric guitar, upright bass, light bongos, 100 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, loud brass, vocals, heavy drums. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "mysterious",
+        "playful"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "explainer",
+        "vlog",
+        "reel"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.03,
+        "peak_seconds": 1.565,
+        "end_seconds": 58.36,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:23:20Z",
+        "output_id": "music__20261008_072312.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-investigation-002",
+      "title": "Case File Seventeen",
+      "description": "Investigative tension with pizzicato bass, brushed snare, and piano stabs for mystery and true-story explainers.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "investigation",
+        "mystery",
+        "pizzicato",
+        "noir"
+      ],
+      "file": "assets/suspense/suspense-investigation-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 149.96,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "f2d5aef77102c2a5e537717ff6c8c5d1bf1a06c7e0b72119c23bad70710c6d56",
+      "source": "suno",
+      "generation_prompt": "A 150-second noir mystery instrumental track. Begin with a walking pizzicato bass line and brushed snare. Sparse minor piano stabs and a low clarinet line add intrigue, keeping space for narration. End with the bass walking down to a low root note and a final piano stab. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "mysterious",
+        "tense",
+        "focused"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "documentary",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.16,
+        "peak_seconds": 22.745,
+        "end_seconds": 149.96,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T14:55:23.165Z",
+        "output_id": "ab7e98f1-faae-4319-8101-55dcde7ec576"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-noir-007",
+      "title": "Rain On Neon Glass",
+      "description": "Slow, smoky noir atmosphere with muted electric piano, rain-like textures, and brushed drums.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "noir",
+        "night",
+        "atmospheric",
+        "keys"
+      ],
+      "file": "assets/suspense/suspense-noir-007.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "c7a1f4c045ceba38ea8b94cb420fd14c13d53c8f7b65fd10f9956468e580705c",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second neo-noir instrumental track. Begin with soft rain-like texture and a lone muted electric piano chord. Brushed drums and a deep bass enter for a slow, smoky atmosphere with sparse melodic fragments. Fade the drums out and end on the electric piano chord with rain texture fading. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: neo-noir, muted electric piano, brushed drums, deep bass, rain texture, 72 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, saxophone lead, vocals, loud impacts. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "mysterious",
+        "reflective"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "vlog",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 6.73,
+        "peak_seconds": 28.855,
+        "end_seconds": 113.35,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:25:52Z",
+        "output_id": "music__20261008_072531.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-pulse-001",
+      "title": "Restrained Pulse",
+      "description": "Low restrained synth pulse with muted strings that builds quiet anticipation under investigative narration.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "pulse",
+        "tension",
+        "investigation",
+        "strings"
+      ],
+      "file": "assets/suspense/suspense-pulse-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 124.36,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "c2909dfc4a12ae03443cf38dc6861efd05f77e561ede0ae8009083cc4ccf9a6c",
+      "source": "suno",
+      "generation_prompt": "A 120-second dark cinematic electronic instrumental track. Open with a low, steady synth pulse and soft ticking. Muted strings enter with sustained minor intervals, the pulse gradually thickening without ever peaking loudly. Resolve the tension into a single low held note that fades smoothly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "tense",
+        "mysterious"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "explainer",
+        "trailer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.73,
+        "peak_seconds": 45.575,
+        "end_seconds": 124.16,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T13:47:44.180Z",
+        "output_id": "3d5123a8-77e7-4f3d-b532-2b8e5d6353c3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "Auditioned by maintainer; take1 approved. Voiceover fit and loop not yet tested."
+      }
+    },
+    {
+      "id": "suspense-thriller-008",
+      "title": "Shadow Protocol",
+      "description": "Tense modern thriller underscore with pulsing synths and low percussion for dramatic tech or crime trailers.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "thriller",
+        "pulsing",
+        "trailer",
+        "dramatic"
+      ],
+      "file": "assets/suspense/suspense-thriller-008.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "06f8040f9fb0bce7cb0f4424f2bdc805c8b99b4416ca633cd6b5b4b48bcd5587",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second modern thriller instrumental track. Open with a pulsing synth ostinato and a low percussion hit. Dark strings and layered percussion build tension through two rising sections. Cut to a final low hit followed by a short synth decay. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: modern thriller, pulsing synths, low taiko-style percussion, dark strings, 120 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, jump scare stingers, dubstep. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "tense",
+        "energetic"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "trailer",
+        "reel",
+        "documentary"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 54.215,
+        "end_seconds": 58.36,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:26:54Z",
+        "output_id": "music__20261008_072616.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "suspense-unease-009",
+      "title": "Something Is Missing",
+      "description": "Sparse prepared-piano tones and soft bowed metal creating gentle unease for puzzles and unsolved questions.",
+      "category": "suspense",
+      "tags": [
+        "suspense",
+        "unease",
+        "piano",
+        "puzzle",
+        "sparse"
+      ],
+      "file": "assets/suspense/suspense-unease-009.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "0194868b6a44b17603a6d77f8533b3a43f134e8fcff184722cfd3795d83a0696",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second experimental minimal instrumental track. Start with a single prepared-piano tone and soft drone. Bowed metal swells and irregular piano notes create an unresolved, curious tension. End on an unresolved but quiet note that fades gently. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: experimental minimal, prepared piano, bowed metal, soft drone, instrumental, background. Avoid: vocals, singing, choir, spoken word, jump scares, screams, loud drums. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "mysterious",
+        "curious"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "explainer",
+        "documentary",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 3.48,
+        "peak_seconds": 41.305,
+        "end_seconds": 58.52,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:27:52Z",
+        "output_id": "music__20261008_072718.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-ai-calm-010",
+      "title": "Neural Drift",
+      "description": "Calm, flowing electronic bed with soft piano fragments and synthetic textures for gentle AI and machine learning explainers.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "ai",
+        "piano",
+        "flowing",
+        "calm"
+      ],
+      "file": "assets/technology/technology-ai-calm-010.mp3",
+      "format": "mp3",
+      "duration_seconds": 172.36,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "01647e4e30513b94a23eab1f853f0edf3604e1e38ccc4c195904296737837f92",
+      "source": "suno",
+      "generation_prompt": "A 150-second electronica instrumental track. Begin with soft piano fragments floating over synthetic textures. Light glitch percussion and a warm bass create calm flow, with gentle harmonic movement in each section. Return to piano fragments alone and fade gracefully. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "calm",
+        "reflective",
+        "hopeful"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "explainer",
+        "slides-video",
+        "documentary"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.13,
+        "peak_seconds": 8.185,
+        "end_seconds": 172.36,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T14:52:00.142Z",
+        "output_id": "d76cde87-403f-4c60-8cd6-8057258c3e65"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-code-004",
+      "title": "Compile Loop",
+      "description": "Subtle minimal techno-inspired groove with soft bleeps that stays out of the way during live coding sessions.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "coding",
+        "minimal",
+        "bleeps",
+        "livestream"
+      ],
+      "file": "assets/technology/technology-code-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 180.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "4daaeb76128eed3e3d28876ed895cc1bda7fbd5d9a7d7ef389b318ec795011f5",
+      "source": "elevenlabs",
+      "generation_prompt": "A 180-second minimal electronic instrumental track. Begin with soft bleeps and a muted kick. A warm bass and deep pad hold a hypnotic, unchanging groove with very gradual filter movement. Remove the kick and let the bleeps fade gently into a soft pad tail. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "focused",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "livestream",
+        "tutorial"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 83.145,
+        "end_seconds": 176.58,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:40:01Z",
+        "output_id": "music__20261008_074001.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-data-stream-007",
+      "title": "Quiet Server Room",
+      "description": "Dark-but-calm electronic texture with soft granular glitches for cybersecurity, data, and cloud infrastructure explainers.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "cybersecurity",
+        "data",
+        "glitch",
+        "dark"
+      ],
+      "file": "assets/technology/technology-data-stream-007.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "03857c136602a42c590e5bae6d171d66aba4ffa1da8e0656e6a5a9454b8f3f23",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second dark ambient electronic instrumental track. Fade in a low hum and soft granular textures. A gentle pulse and muted percussion add quiet tension and focus without becoming threatening. Let the pulse drop out and fade on the low hum. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "mysterious",
+        "focused"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "explainer",
+        "documentary"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 15.77,
+        "peak_seconds": 77.515,
+        "end_seconds": 116.33,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:42:15Z",
+        "output_id": "music__20261008_074215.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-digital-002",
+      "title": "Clean Signal",
+      "description": "Crisp, clean digital energy built on bright plucks, tight hi-hats, and sidechained pads for app and product videos.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "digital",
+        "plucks",
+        "app",
+        "modern"
+      ],
+      "file": "assets/technology/technology-digital-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ca4aa843b3673193427840a79bb74b2d0e9318bfb7e8cd075aa0b7dd8a8f9833",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second future pop instrumental instrumental track. Start with a filtered pluck pattern rising quickly into the beat. A punchy kick, tight hats and sidechained pads drive a clean, modern groove with a small breakdown halfway. End on a final pluck chord with a short reverse swell and a clean stop. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "energetic",
+        "confident"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "product-demo",
+        "explainer",
+        "reel"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.1,
+        "peak_seconds": 57.125,
+        "end_seconds": 58.55,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:37:33Z",
+        "output_id": "music__20261008_073733.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-future-003",
+      "title": "Glass City Horizon",
+      "description": "Expansive futuristic pads and slow-motion synth bass suited to visions of the future and concept tech reveals.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "futuristic",
+        "pads",
+        "concept",
+        "wide"
+      ],
+      "file": "assets/technology/technology-future-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "71ce3ac3e30710dc6ac4abf97fb761ca0cf5e244efb49a4808e6d63a756645fb",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second ambient synth instrumental track. Fade in a wide evolving pad with distant digital pulses. A slow synth bass and soft shimmering leads build an expansive sense of scale, peaking gently around two-thirds through. Release into the opening pad and fade smoothly into silence. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "hopeful",
+        "mysterious"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "documentary",
+        "trailer",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 1.13,
+        "peak_seconds": 22.685,
+        "end_seconds": 147.19,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:38:35Z",
+        "output_id": "music__20261008_073835.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-innovation-001",
+      "title": "Thoughtful Circuitry",
+      "description": "Soft synth arpeggios and warm pads that express thoughtful innovation for AI, software, and tech explainers.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "ai",
+        "synth",
+        "innovation",
+        "arpeggio"
+      ],
+      "file": "assets/technology/technology-innovation-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 152.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "73ae17c017cf3b04f148034b7f3b9a81662e52b8e8baf14dc91d98b5f547adf1",
+      "source": "suno",
+      "generation_prompt": "A 120-second modern synthwave-lite instrumental track. Open with a soft analog arpeggio and an airy pad. Clean electronic drums and a smooth bass build gentle momentum, with a subtle counter-melody arriving at the midpoint. Thin back to the arpeggio and pad and fade out smoothly. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "focused",
+        "hopeful"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "explainer",
+        "product-demo",
+        "tutorial"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.13,
+        "peak_seconds": 116.795,
+        "end_seconds": 152.0,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T13:44:16.472Z",
+        "output_id": "bc358054-1aad-430f-b8ea-be132452f907"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "Auditioned by maintainer; take1 approved. Voiceover fit and loop not yet tested."
+      }
+    },
+    {
+      "id": "technology-retro-009",
+      "title": "Neon Terminal",
+      "description": "Retro 80s-flavored synth instrumental with gated drums and analog bass for nostalgic tech history pieces.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "retro",
+        "80s",
+        "analog",
+        "synthwave"
+      ],
+      "file": "assets/technology/technology-retro-009.mp3",
+      "format": "mp3",
+      "duration_seconds": 169.44,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "67c36ba2b334e26851182aaa91557d8c291fd23a74064e1fc39087280429ba81",
+      "source": "suno",
+      "generation_prompt": "A 120-second retro synthwave instrumental track. Open with warm analog poly synth chords and a soft arpeggio. Gated drums and a pulsing analog bass drive a nostalgic groove with a melodic synth lead that stays restrained. End with a slow filter sweep down and a lingering chord. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "energetic",
+        "reflective"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "documentary",
+        "vlog",
+        "explainer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.14,
+        "peak_seconds": 166.065,
+        "end_seconds": 169.41,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T14:48:40.738Z",
+        "output_id": "adbd0572-b5df-45de-bb11-158de1ea9377"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-robotics-006",
+      "title": "Servo Garden",
+      "description": "Quirky mechanical percussion and soft FM synth tones for robotics, hardware, and maker content.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "robotics",
+        "fm-synth",
+        "mechanical",
+        "maker"
+      ],
+      "file": "assets/technology/technology-robotics-006.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "9f3c0e54dd3db8bde89d9f1faae4f8968a3290ecf36d45e3a3808d7acf50874e",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second quirky electronic instrumental track. Start with mechanical click percussion and a bell-like FM synth motif. A soft bass line and playful counter-motifs join, staying light and precise. End with the motif slowing like a winding-down machine and a final soft click. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "curious",
+        "playful"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "explainer",
+        "tutorial",
+        "vlog"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 9.295,
+        "end_seconds": 56.78,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:41:49Z",
+        "output_id": "music__20261008_074149.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-startup-005",
+      "title": "Launch Window",
+      "description": "Upbeat electronic pop instrumental with bright synth chords and claps that sells startup energy in product launches.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "startup",
+        "launch",
+        "upbeat",
+        "synth"
+      ],
+      "file": "assets/technology/technology-startup-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ed51b727242493af597c8caef7b67b11871cd6a1472a257c7ea87ec4abb1c64c",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second electronic pop instrumental instrumental track. Open with a rising synth swell into bright chord stabs. Claps and a driving bass create a confident lift, with a short filtered breakdown before a final chorus-like section. Finish on a big chord hit with a short reverb tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "energetic",
+        "hopeful"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "product-demo",
+        "reel",
+        "trailer"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 13.875,
+        "end_seconds": 58.02,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:41:23Z",
+        "output_id": "music__20261008_074123.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "technology-ui-008",
+      "title": "Pixel Perfect",
+      "description": "Short, polished electronic cue with crisp synth plucks for UI walkthroughs and app feature highlights.",
+      "category": "technology",
+      "tags": [
+        "technology",
+        "ui",
+        "app",
+        "plucks",
+        "short"
+      ],
+      "file": "assets/technology/technology-ui-008.mp3",
+      "format": "mp3",
+      "duration_seconds": 48.8,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "a3057cc3d98d676e8d2f01ff09dd040d74bfdcc786c0f2adb98f895870062fad",
+      "source": "suno",
+      "generation_prompt": "A 20-second clean electronic instrumental track. Start right away with a crisp pluck motif over an airy pad. A soft kick enters for a brief confident groove. Wrap up with a tidy final pluck and short tail. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "confident",
+        "upbeat"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "product-demo",
+        "short",
+        "slides-video"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.0,
+        "peak_seconds": 39.675,
+        "end_seconds": 48.8,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T14:46:01.539Z",
+        "output_id": "c8ac50ce-e68a-4634-95b7-5cf527ae7ff9"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-acoustic-002",
+      "title": "Morning Porch",
+      "description": "Warm acoustic guitar strumming with light percussion and gentle piano for cozy morning-routine vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "acoustic",
+        "morning",
+        "cozy",
+        "guitar"
+      ],
+      "file": "assets/vlog/vlog-acoustic-002.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "9bf5ef41c19d0c317a13f71b9f79d8bb15eb8eba213c3e2a67ba27c3d56c14c7",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second acoustic folk pop instrumental track. Start with warm strummed acoustic guitar. Light cajon and gentle piano accents join, keeping a cozy, sunlit feel. Slow the strum and end on a soft open chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: acoustic folk pop, strummed acoustic guitar, light cajon, gentle piano, 92 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, electric guitar solo, heavy drums, whistling. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "warm",
+        "hopeful",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "vlog",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 39.315,
+        "end_seconds": 58.11,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:30:13Z",
+        "output_id": "music__20261008_072950.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-city-006",
+      "title": "City Lights Walk",
+      "description": "Smooth lo-fi city-night groove with jazzy chords and soft hip-hop drums for urban evening vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "city",
+        "night",
+        "lofi",
+        "jazzy"
+      ],
+      "file": "assets/vlog/vlog-city-006.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "5b7bf1b5d48a5b3ca13e5c58a32763d26a217498096df5d5d820793fded5afc3",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second lo-fi jazz hop instrumental track. Start with jazzy electric piano chords and distant city-like ambience. Soft hip-hop drums and a deep bass create a smooth late-evening walk feel with light melodic touches. Drop the drums and end on a soft piano chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: lo-fi jazz hop, jazzy electric piano chords, soft hip-hop drums, deep bass, 82 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, sampled voices, loud bass drops, harsh noise. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "relaxed",
+        "reflective"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "vlog",
+        "livestream"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 5.92,
+        "peak_seconds": 67.515,
+        "end_seconds": 117.36,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:34:08Z",
+        "output_id": "music__20261008_073350.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-coffee-shop-004",
+      "title": "Corner Café Notes",
+      "description": "Soft jazzy coffee-shop mood with brushed drums, upright bass, and mellow piano for relaxed talking vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "coffee-shop",
+        "jazz",
+        "piano",
+        "mellow"
+      ],
+      "file": "assets/vlog/vlog-coffee-shop-004.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "dc2e14594c9ea66bbf9a8722622bc2aa022a54db52a6201f1bab2272b606c14f",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second cafe jazz instrumental track. Begin with mellow piano chords and a walking upright bass. Brushed drums swing lightly while the piano improvises sparse, gentle fills under conversation. Close with a soft piano turnaround and a final gentle chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: cafe jazz, mellow piano trio, brushed drums, upright bass, 88 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, saxophone lead, vocals, loud drums. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "relaxed",
+        "warm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "vlog",
+        "podcast-intro",
+        "livestream"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.04,
+        "peak_seconds": 135.865,
+        "end_seconds": 148.51,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:32:04Z",
+        "output_id": "music__20261008_073117.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-diary-010",
+      "title": "Pages Of Today",
+      "description": "Soft bedroom-pop instrumental with dreamy guitar, warm synth bass, and gentle drum machine for diary-style vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "diary",
+        "bedroom-pop",
+        "dreamy",
+        "guitar"
+      ],
+      "file": "assets/vlog/vlog-diary-010.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ad03cb13ae783506b5950386be131dd22db316c25a51fe04f60e8d9ec98a7f22",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second bedroom pop instrumental track. Begin with dreamy reverb-soaked guitar. A warm synth bass and soft drum machine add a hazy, personal mood. Fade with the guitar alone ringing out. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: bedroom pop, dreamy reverb guitar, warm synth bass, soft drum machine, 90 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, vocals, heavy distortion, loud drums. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "reflective",
+        "warm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "vlog",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.04,
+        "peak_seconds": 36.495,
+        "end_seconds": 58.33,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:37:00Z",
+        "output_id": "music__20261008_073648.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-fitness-008",
+      "title": "Morning Run Momentum",
+      "description": "Motivating mid-tempo electronic pop with steady kick and bright synths for fitness and active lifestyle vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "fitness",
+        "workout",
+        "motivating",
+        "electronic"
+      ],
+      "file": "assets/vlog/vlog-fitness-008.mp3",
+      "format": "mp3",
+      "duration_seconds": 120.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "ee82e7a2ddd67700c5a1a2ee3053647dc9e85e016027714c5efbb4fda6f18ed2",
+      "source": "elevenlabs",
+      "generation_prompt": "A 120-second electronic pop instrumental track. Open with a filtered synth that quickly opens into a steady kick. A pulsing bass and bright synth hooks provide motivating momentum across two sections. Close with a final energetic phrase and a clean stop. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: electronic pop, steady kick, bright synth leads, pulsing bass, 124 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, dubstep wobble, harsh distortion. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "energetic",
+        "confident"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "vlog",
+        "reel"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.25,
+        "peak_seconds": 24.775,
+        "end_seconds": 112.45,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:35:30Z",
+        "output_id": "music__20261008_073500.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-groove-001",
+      "title": "Sunday Errands",
+      "description": "Relaxed groove with clean electric guitar, soft drums, and round bass for everyday lifestyle vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "lifestyle",
+        "groove",
+        "guitar",
+        "relaxed"
+      ],
+      "file": "assets/vlog/vlog-groove-001.mp3",
+      "format": "mp3",
+      "duration_seconds": 144.0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "7645917175ad4ce6b739f17862978d4429ab435dd82b0563515948744a390526",
+      "source": "suno",
+      "generation_prompt": "A 120-second chill indie groove instrumental track. Open with a clean, slightly chorused guitar riff. Soft drums and a round bass settle into a relaxed head-nodding groove with small guitar variations. End with the guitar riff alone and a final ringing chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals",
+      "version": 1,
+      "moods": [
+        "relaxed",
+        "warm",
+        "upbeat"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "vlog",
+        "tutorial"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.13,
+        "peak_seconds": 81.855,
+        "end_seconds": 144.0,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "suno",
+        "tool": "suno CLI 0.10.1",
+        "model": "v6 (chirp-hawk)",
+        "generated_at": "2026-10-08T13:50:51.167Z",
+        "output_id": "da956d0f-0840-4b62-9c5a-7f24f008b0c6"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "Auditioned by maintainer; take2 approved. Voiceover fit and loop not yet tested."
+      }
+    },
+    {
+      "id": "vlog-home-007",
+      "title": "Slow Weekend Kitchen",
+      "description": "Gentle indie pop instrumental with soft piano, light bells, and finger snaps for cooking and home vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "cooking",
+        "home",
+        "piano",
+        "gentle"
+      ],
+      "file": "assets/vlog/vlog-home-007.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "3a2d16afde5d8ce0b1cc31187528f79cfa0500d51b194d784bd02827fa0f01a8",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second indie pop instrumental track. Begin with soft piano and finger snaps. Light bells and a soft bass add homely charm while staying light and spacious. End with a simple piano phrase and a final bell. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: indie pop, soft piano, light bells, finger snaps, soft bass, 98 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, heavy drums, distorted guitar, vocals. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "warm",
+        "playful",
+        "calm"
+      ],
+      "energy": 2,
+      "preferred_content_types": [
+        "vlog",
+        "tutorial"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 41.795,
+        "end_seconds": 57.02,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:34:42Z",
+        "output_id": "music__20261008_073431.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-nature-009",
+      "title": "Trailhead Morning",
+      "description": "Open, airy folk instrumental with mandolin, acoustic guitar, and soft strings for hiking and outdoor vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "nature",
+        "outdoors",
+        "mandolin",
+        "folk"
+      ],
+      "file": "assets/vlog/vlog-nature-009.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "09df42aeb32cbf89cb2b86619204fd58c2bbaa316db1dee8a4ec12a82d64c009",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second folk instrumental track. Start with a gentle mandolin melody over acoustic guitar. Soft strings and light hand percussion open up the space, evoking fresh air and wide trails. End with the mandolin melody and a sustained string chord. Keep the mix soft and uncluttered with a low-key lead, leaving the midrange open for voiceover narration. instrumental, no vocals Style: folk instrumental, mandolin, acoustic guitar, soft strings, light hand percussion, 104 bpm, instrumental, background. Avoid: vocals, singing, choir, spoken word, electric guitar, heavy drums, vocals. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "hopeful",
+        "calm",
+        "warm"
+      ],
+      "energy": 3,
+      "preferred_content_types": [
+        "vlog",
+        "documentary"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.03,
+        "peak_seconds": 122.655,
+        "end_seconds": 146.5,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:36:14Z",
+        "output_id": "music__20261008_073557.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-summer-005",
+      "title": "Golden Hour Bike Ride",
+      "description": "Sunny tropical-lite groove with steel-drum-like synth, marimba, and light house beat for summer vlogs.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "summer",
+        "sunny",
+        "marimba",
+        "tropical"
+      ],
+      "file": "assets/vlog/vlog-summer-005.mp3",
+      "format": "mp3",
+      "duration_seconds": 60.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "2eaf9773289433e402679d920420c87c81e30bc99492b6a59338bffd46fd7f78",
+      "source": "elevenlabs",
+      "generation_prompt": "A 60-second tropical house lite instrumental track. Open with a bright marimba riff. A light house beat, warm bass and steel-drum-like synth create a sunny, easygoing feel. End with the marimba riff and a short echo tail. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: tropical house lite, marimba, steel drum synth, light house beat, warm bass, 110 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocal chops, heavy drops, distortion. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "upbeat",
+        "playful",
+        "warm"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "vlog",
+        "reel",
+        "short"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 37.245,
+        "end_seconds": 58.08,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:32:55Z",
+        "output_id": "music__20261008_073241.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    },
+    {
+      "id": "vlog-travel-003",
+      "title": "Window Seat Wanderer",
+      "description": "Uplifting travel vlog track with bright acoustic guitar, airy synths, and driving soft percussion.",
+      "category": "vlog",
+      "tags": [
+        "vlog",
+        "travel",
+        "uplifting",
+        "adventure",
+        "acoustic"
+      ],
+      "file": "assets/vlog/vlog-travel-003.mp3",
+      "format": "mp3",
+      "duration_seconds": 150.024,
+      "sample_rate": 48000,
+      "channels": 2,
+      "sha256": "6a2187f9542c26c0dd6f9910e974da36f8d682cb873d621cc33ae32d9e40f9b0",
+      "source": "elevenlabs",
+      "generation_prompt": "A 150-second indie folk pop instrumental track. Open with a bright acoustic guitar pattern and an airy pad. Driving soft percussion and a melodic synth line build an uplifting sense of movement and adventure. Wind down with the guitar pattern and a final airy swell. Keep the mix polished and balanced with controlled low end and no clipping. instrumental, no vocals Style: indie folk pop, bright acoustic guitar, airy synth pads, driving soft percussion, 118 bpm, instrumental. Avoid: vocals, singing, choir, spoken word, vocals, heavy distortion, aggressive drops. Instrumental, no vocals.",
+      "version": 1,
+      "moods": [
+        "hopeful",
+        "energetic",
+        "upbeat"
+      ],
+      "energy": 4,
+      "preferred_content_types": [
+        "vlog",
+        "reel",
+        "documentary"
+      ],
+      "instrumental": true,
+      "loopable": false,
+      "voiceover_friendly": false,
+      "timing": {
+        "onset_seconds": 0.02,
+        "peak_seconds": 58.145,
+        "end_seconds": 148.08,
+        "method": "auto-envelope"
+      },
+      "provenance": {
+        "provider": "elevenlabs",
+        "tool": "elevenlabs MCP compose_music",
+        "model": "music_v2",
+        "generated_at": "2026-10-08T14:30:44Z",
+        "output_id": "music__20261008_073020.mp3"
+      },
+      "review": {
+        "status": "approved",
+        "reviewer": "maintainer",
+        "reviewed_at": "2026-10-08",
+        "notes": "approved by maintainer (ship current set, 2026-10-08)"
+      }
+    }
+  ]
+}
